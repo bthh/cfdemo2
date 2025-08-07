@@ -7,7 +7,7 @@ redirects = []
 [functions."*"]
 
 [build]
-publish = "/home/bth/ntb/account-setup-v3/cfdemo2/dist/account-setup-v3"
+publish = "/home/bth/ntb/account-setup-v3/cfdemo2/dist/account-setup-v3/browser"
 publishOrigin = "config"
 commandOrigin = "config"
 command = "npm run build"
