@@ -1,0 +1,3932 @@
+
+> account-setup-v3@0.0.0 ng
+> ng serve
+
+Component HMR has been enabled, see https://angular.dev/hmr for more info.
+❯ Building...
+✔ Building...
+Initial chunk files | Names         |  Raw size
+main.js             | main          | 995.16 kB | 
+styles.css          | styles        | 709.98 kB | 
+polyfills.js        | polyfills     |  89.77 kB | 
+
+                    | Initial total |   1.79 MB
+
+Application bundle generation complete. [7.913 seconds]
+
+Watch mode enabled. Watching for file changes...
+NOTE: Raw file sizes do not reflect development server per-request transformations.
+11:27:32 AM [vite] (ssr) Re-optimizing dependencies because vite config has changed
+  ➜  Local:   http://localhost:4200/
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names |  Raw size
+main.js             | main  | 995.12 kB | 
+
+Application bundle generation complete. [5.219 seconds]
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names |  Raw size
+main.js             | main  | 995.12 kB | 
+
+Application bundle generation complete. [1.466 seconds]
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names |  Raw size
+main.js             | main  | 995.15 kB | 
+
+Application bundle generation complete. [1.229 seconds]
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names |  Raw size
+main.js             | main  | 995.16 kB | 
+
+Application bundle generation complete. [1.230 seconds]
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names |  Raw size
+main.js             | main  | 995.25 kB | 
+
+Application bundle generation complete. [1.371 seconds]
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names |  Raw size
+main.js             | main  | 995.05 kB | 
+
+Application bundle generation complete. [1.482 seconds]
+
+Component update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names |  Raw size
+main.js             | main  | 995.11 kB | 
+
+Application bundle generation complete. [1.183 seconds]
+
+Component update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names |  Raw size
+main.js             | main  | 995.11 kB | 
+
+Application bundle generation complete. [1.180 seconds]
+
+Component update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names |  Raw size
+main.js             | main  | 995.13 kB | 
+
+Application bundle generation complete. [1.037 seconds]
+
+Component update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names |  Raw size
+main.js             | main  | 995.34 kB | 
+
+Application bundle generation complete. [0.998 seconds]
+
+Component update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names |  Raw size
+main.js             | main  | 995.27 kB | 
+
+Application bundle generation complete. [0.916 seconds]
+
+Component update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names |  Raw size
+main.js             | main  | 995.27 kB | 
+
+Application bundle generation complete. [1.036 seconds]
+
+Component update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names |  Raw size
+main.js             | main  | 995.25 kB | 
+
+Application bundle generation complete. [0.990 seconds]
+
+Component update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names |  Raw size
+main.js             | main  | 995.26 kB | 
+
+Application bundle generation complete. [1.413 seconds]
+
+Component update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names |  Raw size
+main.js             | main  | 995.25 kB | 
+
+Application bundle generation complete. [1.329 seconds]
+
+Component update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names |  Raw size
+main.js             | main  | 995.25 kB | 
+
+Application bundle generation complete. [1.266 seconds]
+
+Component update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names |  Raw size
+main.js             | main  | 995.26 kB | 
+
+Application bundle generation complete. [1.186 seconds]
+
+Component update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names |  Raw size
+main.js             | main  | 996.77 kB | 
+
+Application bundle generation complete. [1.172 seconds]
+
+Component update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names |  Raw size
+main.js             | main  | 997.05 kB | 
+
+Application bundle generation complete. [1.061 seconds]
+
+Component update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names |  Raw size
+main.js             | main  | 997.03 kB | 
+
+Application bundle generation complete. [1.123 seconds]
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names |  Raw size
+main.js             | main  | 997.05 kB | 
+
+Application bundle generation complete. [0.991 seconds]
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names |  Raw size
+main.js             | main  | 997.12 kB | 
+
+Application bundle generation complete. [1.061 seconds]
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names |  Raw size
+main.js             | main  | 997.13 kB | 
+
+Application bundle generation complete. [1.131 seconds]
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names |  Raw size
+main.js             | main  | 997.17 kB | 
+
+Application bundle generation complete. [1.061 seconds]
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names |  Raw size
+main.js             | main  | 998.66 kB | 
+
+Application bundle generation complete. [1.008 seconds]
+
+Component update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names |  Raw size
+main.js             | main  | 999.46 kB | 
+
+Application bundle generation complete. [0.980 seconds]
+
+Component update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names |  Raw size
+main.js             | main  | 999.52 kB | 
+
+Application bundle generation complete. [1.106 seconds]
+
+Component update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names |  Raw size
+main.js             | main  | 999.59 kB | 
+
+Application bundle generation complete. [0.995 seconds]
+
+Component update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names |  Raw size
+main.js             | main  | 999.58 kB | 
+
+Application bundle generation complete. [0.976 seconds]
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names |  Raw size
+main.js             | main  | 999.64 kB | 
+
+Application bundle generation complete. [1.128 seconds]
+
+Component update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names |  Raw size
+main.js             | main  | 999.57 kB | 
+
+Application bundle generation complete. [0.983 seconds]
+
+Component update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names |  Raw size
+main.js             | main  | 999.51 kB | 
+
+Application bundle generation complete. [0.943 seconds]
+
+Component update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+
+No output file changes.
+
+Application bundle generation complete. [1.457 seconds]
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names |  Raw size
+main.js             | main  | 999.41 kB | 
+
+Application bundle generation complete. [1.205 seconds]
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names |  Raw size
+main.js             | main  | 999.54 kB | 
+
+Application bundle generation complete. [1.469 seconds]
+
+Component update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.00 MB | 
+
+Application bundle generation complete. [1.196 seconds]
+
+Component update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.00 MB | 
+
+Application bundle generation complete. [1.329 seconds]
+
+Component update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.00 MB | 
+
+Application bundle generation complete. [1.108 seconds]
+
+Component update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.00 MB | 
+
+Application bundle generation complete. [1.011 seconds]
+
+Component update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.00 MB | 
+
+Application bundle generation complete. [1.415 seconds]
+
+Component update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.00 MB | 
+
+Application bundle generation complete. [1.213 seconds]
+
+Component update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.00 MB | 
+
+Application bundle generation complete. [1.130 seconds]
+
+Component update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.00 MB | 
+
+Application bundle generation complete. [1.179 seconds]
+
+Component update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.00 MB | 
+
+Application bundle generation complete. [1.268 seconds]
+
+Component update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.00 MB | 
+
+Application bundle generation complete. [1.073 seconds]
+
+Component update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.00 MB | 
+
+Application bundle generation complete. [1.375 seconds]
+
+Component update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.00 MB | 
+
+Application bundle generation complete. [1.318 seconds]
+
+Component update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.00 MB | 
+
+Application bundle generation complete. [1.151 seconds]
+
+Component update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.00 MB | 
+
+Application bundle generation complete. [0.982 seconds]
+
+Component update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.00 MB | 
+
+Application bundle generation complete. [1.521 seconds]
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.01 MB | 
+
+Application bundle generation complete. [1.892 seconds]
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.00 MB | 
+
+Application bundle generation complete. [1.521 seconds]
+
+Component update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.00 MB | 
+
+Application bundle generation complete. [1.366 seconds]
+
+Component update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.00 MB | 
+
+Application bundle generation complete. [1.260 seconds]
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.00 MB | 
+
+Application bundle generation complete. [1.005 seconds]
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.00 MB | 
+
+Application bundle generation complete. [1.207 seconds]
+
+Component update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.00 MB | 
+
+Application bundle generation complete. [1.133 seconds]
+
+Component update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.00 MB | 
+
+Application bundle generation complete. [1.230 seconds]
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.00 MB | 
+
+Application bundle generation complete. [1.240 seconds]
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.00 MB | 
+
+Application bundle generation complete. [1.040 seconds]
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.00 MB | 
+
+Application bundle generation complete. [1.465 seconds]
+
+Component update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.00 MB | 
+
+Application bundle generation complete. [1.269 seconds]
+
+Component update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.00 MB | 
+
+Application bundle generation complete. [1.239 seconds]
+
+Component update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.00 MB | 
+
+Application bundle generation complete. [1.154 seconds]
+
+Component update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.00 MB | 
+
+Application bundle generation complete. [0.965 seconds]
+
+Component update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.00 MB | 
+
+Application bundle generation complete. [1.047 seconds]
+
+Component update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.00 MB | 
+
+Application bundle generation complete. [1.385 seconds]
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.01 MB | 
+
+Application bundle generation complete. [0.928 seconds]
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.01 MB | 
+
+Application bundle generation complete. [1.010 seconds]
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.00 MB | 
+
+Application bundle generation complete. [1.109 seconds]
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.00 MB | 
+
+Application bundle generation complete. [0.843 seconds]
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.00 MB | 
+
+Application bundle generation complete. [0.915 seconds]
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.00 MB | 
+
+Application bundle generation complete. [0.791 seconds]
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.00 MB | 
+
+Application bundle generation complete. [0.819 seconds]
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [1.413 seconds]
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG9: Property 'brinkerFundingMode' does not exist on type 'AppComponent'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.component.html:121:29:
+[37m      121 │                 [(ngModel)]="[32mbrinkerFundingMode[37m"
+          ╵                              [32m~~~~~~~~~~~~~~~~~~[0m
+
+  Error occurs in the template of component AppComponent.
+
+    src/app/app.component.ts:40:15:
+[37m      40 │   templateUrl: [32m'./app.component.html'[37m,
+         ╵                [32m~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG9: Property 'brinkerFundingMode' does not exist on type 'AppComponent'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.component.html:121:29:
+[37m      121 │                 [(ngModel)]="[32mbrinkerFundingMode[37m"
+          ╵                              [32m~~~~~~~~~~~~~~~~~~[0m
+
+  Error occurs in the template of component AppComponent.
+
+    src/app/app.component.ts:40:15:
+[37m      40 │   templateUrl: [32m'./app.component.html'[37m,
+         ╵                [32m~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names         |  Raw size
+main.js             | main          |   1.00 MB | 
+styles.css          | styles        | 709.98 kB | 
+polyfills.js        | polyfills     |  89.77 kB | 
+
+                    | Initial total |   1.80 MB
+
+Application bundle generation complete. [1.253 seconds]
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.00 MB | 
+
+Application bundle generation complete. [0.929 seconds]
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [1.072 seconds]
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG3: Element implicitly has an 'any' type because expression of type '"third-party-check"' can't be used to index type 'FundingInstances'.
+  Property 'third-party-check' does not exist on type 'FundingInstances'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/funding/funding.component.ts:102:34:
+[37m      102 │ ...s.disabled]="[32mfundingInstances['third-party-check'][37m && fundingI...
+          ╵                 [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG3: Element implicitly has an 'any' type because expression of type '"third-party-check"' can't be used to index type 'FundingInstances'.
+  Property 'third-party-check' does not exist on type 'FundingInstances'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/funding/funding.component.ts:102:75:
+[37m      102 │ ...rty-check'] && [32mfundingInstances['third-party-check'][37m.length >= 4"
+          ╵                   [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [1.079 seconds]
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2741: Property ''third-party-check'' is missing in type '{ acat: never[]; ach: never[]; 'initial-ach': never[]; withdrawal: never[]; contribution: never[]; }' but required in type 'FundingInstances'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/funding/funding.component.ts:940:2:
+[37m      940 │   [32mfundingInstances[37m: FundingInstances = {
+          ╵   [32m~~~~~~~~~~~~~~~~[0m
+
+  ''third-party-check'' is declared here.
+
+    src/app/features/account-setup/components/funding/funding.component.ts:31:2:
+[37m      31 │   [32m'third-party-check'[37m: SharedFundingInstance[];
+         ╵   [32m~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2741: Property ''third-party-check'' is missing in type '{ acat: SharedFundingInstance[]; ach: SharedFundingInstance[]; 'initial-ach': SharedFundingInstance[]; withdrawal: SharedFundingInstance[]; contribution: SharedFundingInstance[]; }' but required in type 'FundingInstances'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/funding/funding.component.ts:1038:6:
+[37m      1038 │       [32mthis.fundingInstances[37m = {
+           ╵       [32m~~~~~~~~~~~~~~~~~~~~~[0m
+
+  ''third-party-check'' is declared here.
+
+    src/app/features/account-setup/components/funding/funding.component.ts:31:2:
+[37m      31 │   [32m'third-party-check'[37m: SharedFundingInstance[];
+         ╵   [32m~~~~~~~~~~~~~~~~~~~[0m
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [1.084 seconds]
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2741: Property ''third-party-check'' is missing in type '{ acat: never[]; ach: never[]; 'initial-ach': never[]; withdrawal: never[]; contribution: never[]; }' but required in type 'FundingInstances'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/funding/funding.component.ts:936:2:
+[37m      936 │   [32mfundingInstances[37m: FundingInstances = {
+          ╵   [32m~~~~~~~~~~~~~~~~[0m
+
+  ''third-party-check'' is declared here.
+
+    src/app/features/account-setup/components/funding/funding.component.ts:31:2:
+[37m      31 │   [32m'third-party-check'[37m: SharedFundingInstance[];
+         ╵   [32m~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2741: Property ''third-party-check'' is missing in type '{ acat: SharedFundingInstance[]; ach: SharedFundingInstance[]; 'initial-ach': SharedFundingInstance[]; withdrawal: SharedFundingInstance[]; contribution: SharedFundingInstance[]; }' but required in type 'FundingInstances'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/funding/funding.component.ts:1034:6:
+[37m      1034 │       [32mthis.fundingInstances[37m = {
+           ╵       [32m~~~~~~~~~~~~~~~~~~~~~[0m
+
+  ''third-party-check'' is declared here.
+
+    src/app/features/account-setup/components/funding/funding.component.ts:31:2:
+[37m      31 │   [32m'third-party-check'[37m: SharedFundingInstance[];
+         ╵   [32m~~~~~~~~~~~~~~~~~~~[0m
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [1.059 seconds]
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2741: Property ''third-party-check'' is missing in type '{ acat: SharedFundingInstance[]; ach: SharedFundingInstance[]; 'initial-ach': SharedFundingInstance[]; withdrawal: SharedFundingInstance[]; contribution: SharedFundingInstance[]; }' but required in type 'FundingInstances'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/funding/funding.component.ts:1035:6:
+[37m      1035 │       [32mthis.fundingInstances[37m = {
+           ╵       [32m~~~~~~~~~~~~~~~~~~~~~[0m
+
+  ''third-party-check'' is declared here.
+
+    src/app/features/account-setup/components/funding/funding.component.ts:31:2:
+[37m      31 │   [32m'third-party-check'[37m: SharedFundingInstance[];
+         ╵   [32m~~~~~~~~~~~~~~~~~~~[0m
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [1.102 seconds]
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2741: Property ''third-party-check'' is missing in type '{ acat: SharedFundingInstance[]; ach: SharedFundingInstance[]; 'initial-ach': SharedFundingInstance[]; withdrawal: SharedFundingInstance[]; contribution: SharedFundingInstance[]; }' but required in type 'FundingInstances'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/funding/funding.component.ts:1084:6:
+[37m      1084 │       [32mthis.fundingInstances[37m = {
+           ╵       [32m~~~~~~~~~~~~~~~~~~~~~[0m
+
+  ''third-party-check'' is declared here.
+
+    src/app/features/account-setup/components/funding/funding.component.ts:31:2:
+[37m      31 │   [32m'third-party-check'[37m: SharedFundingInstance[];
+         ╵   [32m~~~~~~~~~~~~~~~~~~~[0m
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [1.124 seconds]
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2741: Property ''third-party-check'' is missing in type '{ acat: SharedFundingInstance[]; ach: SharedFundingInstance[]; 'initial-ach': SharedFundingInstance[]; withdrawal: SharedFundingInstance[]; contribution: SharedFundingInstance[]; }' but required in type 'FundingInstances'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/funding/funding.component.ts:1086:6:
+[37m      1086 │       [32mthis.fundingInstances[37m = {
+           ╵       [32m~~~~~~~~~~~~~~~~~~~~~[0m
+
+  ''third-party-check'' is declared here.
+
+    src/app/features/account-setup/components/funding/funding.component.ts:31:2:
+[37m      31 │   [32m'third-party-check'[37m: SharedFundingInstance[];
+         ╵   [32m~~~~~~~~~~~~~~~~~~~[0m
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names         |  Raw size
+main.js             | main          |   1.01 MB | 
+styles.css          | styles        | 709.98 kB | 
+polyfills.js        | polyfills     |  89.77 kB | 
+
+                    | Initial total |   1.81 MB
+
+Application bundle generation complete. [0.933 seconds]
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.01 MB | 
+
+Application bundle generation complete. [0.999 seconds]
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.01 MB | 
+
+Application bundle generation complete. [0.710 seconds]
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.01 MB | 
+
+Application bundle generation complete. [0.706 seconds]
+
+Component update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.01 MB | 
+
+Application bundle generation complete. [1.310 seconds]
+
+Component update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.01 MB | 
+
+Application bundle generation complete. [1.900 seconds]
+
+Component update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.01 MB | 
+
+Application bundle generation complete. [0.952 seconds]
+
+Component update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.01 MB | 
+
+Application bundle generation complete. [1.566 seconds]
+
+Component update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [1.238 seconds]
+
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mTS-998113: ExistingInstanceModalComponent is not used within the template of FundingComponent[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/funding/funding.component.ts:48:4:
+[37m      48 │     [32mExistingInstanceModalComponent[37m
+         ╵     [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG5002: Unexpected closing tag "p-card". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/funding/funding.component.ts:543:6:
+[37m      543 │       [32m</p-card>[37m
+          ╵       [32m~~~~~~~~~[0m
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.532 seconds]
+
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mTS-998113: ExistingInstanceModalComponent is not used within the template of FundingComponent[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/funding/funding.component.ts:48:4:
+[37m      48 │     [32mExistingInstanceModalComponent[37m
+         ╵     [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG5002: Unexpected closing tag "p-card". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/funding/funding.component.ts:543:6:
+[37m      543 │       [32m</p-card>[37m
+          ╵       [32m~~~~~~~~~[0m
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names         |  Raw size
+main.js             | main          |   1.02 MB | 
+styles.css          | styles        | 709.98 kB | 
+polyfills.js        | polyfills     |  89.77 kB | 
+
+                    | Initial total |   1.81 MB
+
+Application bundle generation complete. [1.060 seconds]
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.02 MB | 
+
+Application bundle generation complete. [1.438 seconds]
+
+Component update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.02 MB | 
+
+Application bundle generation complete. [0.900 seconds]
+
+Component update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.02 MB | 
+
+Application bundle generation complete. [1.384 seconds]
+
+Component update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.02 MB | 
+
+Application bundle generation complete. [1.812 seconds]
+
+Component update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.02 MB | 
+
+Application bundle generation complete. [1.156 seconds]
+
+Component update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.02 MB | 
+
+Application bundle generation complete. [1.154 seconds]
+
+Component update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.02 MB | 
+
+Application bundle generation complete. [1.111 seconds]
+
+Component update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.02 MB | 
+
+Application bundle generation complete. [0.942 seconds]
+
+Component update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.02 MB | 
+
+Application bundle generation complete. [0.897 seconds]
+
+Component update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.02 MB | 
+
+Application bundle generation complete. [0.890 seconds]
+
+Component update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.02 MB | 
+
+Application bundle generation complete. [1.266 seconds]
+
+Component update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.02 MB | 
+
+Application bundle generation complete. [1.865 seconds]
+
+Component update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.02 MB | 
+
+Application bundle generation complete. [1.057 seconds]
+
+Component update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.02 MB | 
+
+Application bundle generation complete. [1.312 seconds]
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.02 MB | 
+
+Application bundle generation complete. [0.649 seconds]
+
+Component update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.02 MB | 
+
+Application bundle generation complete. [1.428 seconds]
+
+Component update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.02 MB | 
+
+Application bundle generation complete. [1.911 seconds]
+
+Component update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.02 MB | 
+
+Application bundle generation complete. [0.997 seconds]
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.02 MB | 
+
+Application bundle generation complete. [0.764 seconds]
+
+Component update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.02 MB | 
+
+Application bundle generation complete. [1.509 seconds]
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.964 seconds]
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG8002: Can't bind to 'registrationName' since it isn't a known property of 'app-scrollable-view'.
+1. If 'app-scrollable-view' is an Angular component and it has 'registrationName' input, then verify that it is included in the '@Component.imports' of this component.
+2. If 'app-scrollable-view' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.
+3. To allow any property add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.component.html:565:10:
+[37m      565 │           [32m[registrationName]="getCurrentRegistrationName()"[37m
+          ╵           [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+  Error occurs in the template of component AppComponent.
+
+    src/app/app.component.ts:40:15:
+[37m      40 │   templateUrl: [32m'./app.component.html'[37m,
+         ╵                [32m~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [1.535 seconds]
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG8002: Can't bind to 'registrationName' since it isn't a known property of 'app-scrollable-view'.
+1. If 'app-scrollable-view' is an Angular component and it has 'registrationName' input, then verify that it is included in the '@Component.imports' of this component.
+2. If 'app-scrollable-view' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.
+3. To allow any property add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.component.html:565:10:
+[37m      565 │           [32m[registrationName]="getCurrentRegistrationName()"[37m
+          ╵           [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+  Error occurs in the template of component AppComponent.
+
+    src/app/app.component.ts:40:15:
+[37m      40 │   templateUrl: [32m'./app.component.html'[37m,
+         ╵                [32m~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [1.306 seconds]
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG8002: Can't bind to 'registrationName' since it isn't a known property of 'app-scrollable-view'.
+1. If 'app-scrollable-view' is an Angular component and it has 'registrationName' input, then verify that it is included in the '@Component.imports' of this component.
+2. If 'app-scrollable-view' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.
+3. To allow any property add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.component.html:565:10:
+[37m      565 │           [32m[registrationName]="getCurrentRegistrationName()"[37m
+          ╵           [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+  Error occurs in the template of component AppComponent.
+
+    src/app/app.component.ts:40:15:
+[37m      40 │   templateUrl: [32m'./app.component.html'[37m,
+         ╵                [32m~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [1.039 seconds]
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG8002: Can't bind to 'registrationName' since it isn't a known property of 'app-scrollable-view'.
+1. If 'app-scrollable-view' is an Angular component and it has 'registrationName' input, then verify that it is included in the '@Component.imports' of this component.
+2. If 'app-scrollable-view' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.
+3. To allow any property add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.component.html:565:10:
+[37m      565 │           [32m[registrationName]="getCurrentRegistrationName()"[37m
+          ╵           [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+  Error occurs in the template of component AppComponent.
+
+    src/app/app.component.ts:40:15:
+[37m      40 │   templateUrl: [32m'./app.component.html'[37m,
+         ╵                [32m~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [1.342 seconds]
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG8002: Can't bind to 'registrationName' since it isn't a known property of 'app-scrollable-view'.
+1. If 'app-scrollable-view' is an Angular component and it has 'registrationName' input, then verify that it is included in the '@Component.imports' of this component.
+2. If 'app-scrollable-view' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.
+3. To allow any property add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.component.html:565:10:
+[37m      565 │           [32m[registrationName]="getCurrentRegistrationName()"[37m
+          ╵           [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+  Error occurs in the template of component AppComponent.
+
+    src/app/app.component.ts:40:15:
+[37m      40 │   templateUrl: [32m'./app.component.html'[37m,
+         ╵                [32m~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [1.213 seconds]
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG8002: Can't bind to 'registrationName' since it isn't a known property of 'app-scrollable-view'.
+1. If 'app-scrollable-view' is an Angular component and it has 'registrationName' input, then verify that it is included in the '@Component.imports' of this component.
+2. If 'app-scrollable-view' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.
+3. To allow any property add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.component.html:565:10:
+[37m      565 │           [32m[registrationName]="getCurrentRegistrationName()"[37m
+          ╵           [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+  Error occurs in the template of component AppComponent.
+
+    src/app/app.component.ts:40:15:
+[37m      40 │   templateUrl: [32m'./app.component.html'[37m,
+         ╵                [32m~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.535 seconds]
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG8002: Can't bind to 'registrationName' since it isn't a known property of 'app-scrollable-view'.
+1. If 'app-scrollable-view' is an Angular component and it has 'registrationName' input, then verify that it is included in the '@Component.imports' of this component.
+2. If 'app-scrollable-view' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.
+3. To allow any property add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.component.html:565:10:
+[37m      565 │           [32m[registrationName]="getCurrentRegistrationName()"[37m
+          ╵           [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+  Error occurs in the template of component AppComponent.
+
+    src/app/app.component.ts:40:15:
+[37m      40 │   templateUrl: [32m'./app.component.html'[37m,
+         ╵                [32m~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [1.110 seconds]
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG8002: Can't bind to 'registrationName' since it isn't a known property of 'app-scrollable-view'.
+1. If 'app-scrollable-view' is an Angular component and it has 'registrationName' input, then verify that it is included in the '@Component.imports' of this component.
+2. If 'app-scrollable-view' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.
+3. To allow any property add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.component.html:565:10:
+[37m      565 │           [32m[registrationName]="getCurrentRegistrationName()"[37m
+          ╵           [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+  Error occurs in the template of component AppComponent.
+
+    src/app/app.component.ts:40:15:
+[37m      40 │   templateUrl: [32m'./app.component.html'[37m,
+         ╵                [32m~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names         |  Raw size
+main.js             | main          |   1.02 MB | 
+styles.css          | styles        | 709.98 kB | 
+polyfills.js        | polyfills     |  89.77 kB | 
+
+                    | Initial total |   1.82 MB
+
+Application bundle generation complete. [1.098 seconds]
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.02 MB | 
+
+Application bundle generation complete. [1.046 seconds]
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.02 MB | 
+
+Application bundle generation complete. [0.901 seconds]
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.02 MB | 
+
+Application bundle generation complete. [1.094 seconds]
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.02 MB | 
+
+Application bundle generation complete. [0.991 seconds]
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.02 MB | 
+
+Application bundle generation complete. [1.132 seconds]
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.02 MB | 
+
+Application bundle generation complete. [0.529 seconds]
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.02 MB | 
+
+Application bundle generation complete. [0.601 seconds]
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.02 MB | 
+
+Application bundle generation complete. [0.537 seconds]
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.02 MB | 
+
+Application bundle generation complete. [0.669 seconds]
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.02 MB | 
+
+Application bundle generation complete. [0.482 seconds]
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.02 MB | 
+
+Application bundle generation complete. [0.915 seconds]
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.02 MB | 
+
+Application bundle generation complete. [0.891 seconds]
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.02 MB | 
+
+Application bundle generation complete. [1.311 seconds]
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.02 MB | 
+
+Application bundle generation complete. [1.223 seconds]
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.02 MB | 
+
+Application bundle generation complete. [1.251 seconds]
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.02 MB | 
+
+Application bundle generation complete. [1.592 seconds]
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.02 MB | 
+
+Application bundle generation complete. [1.167 seconds]
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.02 MB | 
+
+Application bundle generation complete. [1.091 seconds]
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.02 MB | 
+
+Application bundle generation complete. [0.915 seconds]
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.02 MB | 
+
+Application bundle generation complete. [0.813 seconds]
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.02 MB | 
+
+Application bundle generation complete. [0.493 seconds]
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.651 seconds]
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG1: Property 'onDisableQuickReview' does not exist on type 'AccountFormComponent'. Did you mean 'disableQuickReview'?[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/account-form/account-form.component.ts:54:32:
+[37m      54 │           (disableQuickReview)="[32monDisableQuickReview[37m()">
+         ╵                                 [32m~~~~~~~~~~~~~~~~~~~~[0m
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.600 seconds]
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG1: Property 'onDisableQuickReview' does not exist on type 'AccountFormComponent'. Did you mean 'disableQuickReview'?[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/account-form/account-form.component.ts:54:32:
+[37m      54 │           (disableQuickReview)="[32monDisableQuickReview[37m()">
+         ╵                                 [32m~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG1: Property 'onDisableQuickReview' does not exist on type 'AccountFormComponent'. Did you mean 'disableQuickReview'?[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/account-form/account-form.component.ts:65:32:
+[37m      65 │           (disableQuickReview)="[32monDisableQuickReview[37m()">
+         ╵                                 [32m~~~~~~~~~~~~~~~~~~~~[0m
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.559 seconds]
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG1: Property 'onDisableQuickReview' does not exist on type 'AccountFormComponent'. Did you mean 'disableQuickReview'?[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/account-form/account-form.component.ts:54:32:
+[37m      54 │           (disableQuickReview)="[32monDisableQuickReview[37m()">
+         ╵                                 [32m~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG1: Property 'onDisableQuickReview' does not exist on type 'AccountFormComponent'. Did you mean 'disableQuickReview'?[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/account-form/account-form.component.ts:65:32:
+[37m      65 │           (disableQuickReview)="[32monDisableQuickReview[37m()">
+         ╵                                 [32m~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG1: Property 'onDisableQuickReview' does not exist on type 'AccountFormComponent'. Did you mean 'disableQuickReview'?[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/account-form/account-form.component.ts:75:32:
+[37m      75 │           (disableQuickReview)="[32monDisableQuickReview[37m()">
+         ╵                                 [32m~~~~~~~~~~~~~~~~~~~~[0m
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.604 seconds]
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG1: Property 'onDisableQuickReview' does not exist on type 'AccountFormComponent'. Did you mean 'disableQuickReview'?[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/account-form/account-form.component.ts:54:32:
+[37m      54 │           (disableQuickReview)="[32monDisableQuickReview[37m()">
+         ╵                                 [32m~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG1: Property 'onDisableQuickReview' does not exist on type 'AccountFormComponent'. Did you mean 'disableQuickReview'?[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/account-form/account-form.component.ts:65:32:
+[37m      65 │           (disableQuickReview)="[32monDisableQuickReview[37m()">
+         ╵                                 [32m~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG1: Property 'onDisableQuickReview' does not exist on type 'AccountFormComponent'. Did you mean 'disableQuickReview'?[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/account-form/account-form.component.ts:75:32:
+[37m      75 │           (disableQuickReview)="[32monDisableQuickReview[37m()">
+         ╵                                 [32m~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG1: Property 'onDisableQuickReview' does not exist on type 'AccountFormComponent'. Did you mean 'disableQuickReview'?[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/account-form/account-form.component.ts:87:32:
+[37m      87 │           (disableQuickReview)="[32monDisableQuickReview[37m()">
+         ╵                                 [32m~~~~~~~~~~~~~~~~~~~~[0m
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names         |  Raw size
+main.js             | main          |   1.02 MB | 
+styles.css          | styles        | 709.98 kB | 
+polyfills.js        | polyfills     |  89.77 kB | 
+
+                    | Initial total |   1.82 MB
+
+Application bundle generation complete. [0.596 seconds]
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [1.078 seconds]
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG9: Property 'onDisableQuickReview' does not exist on type 'AppComponent'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.component.html:585:32:
+[37m      585 │           (disableQuickReview)="[32monDisableQuickReview[37m()"
+          ╵                                 [32m~~~~~~~~~~~~~~~~~~~~[0m
+
+  Error occurs in the template of component AppComponent.
+
+    src/app/app.component.ts:40:15:
+[37m      40 │   templateUrl: [32m'./app.component.html'[37m,
+         ╵                [32m~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names         |  Raw size
+main.js             | main          |   1.02 MB | 
+styles.css          | styles        | 709.98 kB | 
+polyfills.js        | polyfills     |  89.77 kB | 
+
+                    | Initial total |   1.82 MB
+
+Application bundle generation complete. [1.028 seconds]
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.883 seconds]
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2339: Property 'highlightMissingFields' does not exist on type 'AppComponent'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.component.ts:1461:11:
+[37m      1461 │       this.[32mhighlightMissingFields[37m = true;
+           ╵            [32m~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names         |  Raw size
+main.js             | main          |   1.02 MB | 
+styles.css          | styles        | 709.98 kB | 
+polyfills.js        | polyfills     |  89.77 kB | 
+
+                    | Initial total |   1.82 MB
+
+Application bundle generation complete. [0.874 seconds]
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.02 MB | 
+
+Application bundle generation complete. [0.886 seconds]
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [1.044 seconds]
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG8002: Can't bind to 'highlightMissingFields' since it isn't a known property of 'app-account-form'.
+1. If 'app-account-form' is an Angular component and it has 'highlightMissingFields' input, then verify that it is included in the '@Component.imports' of this component.
+2. If 'app-account-form' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.
+3. To allow any property add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.component.html:581:10:
+[37m      581 │           [32m[highlightMissingFields]="highlightMissingFields"[37m
+          ╵           [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+  Error occurs in the template of component AppComponent.
+
+    src/app/app.component.ts:40:15:
+[37m      40 │   templateUrl: [32m'./app.component.html'[37m,
+         ╵                [32m~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names         |  Raw size
+main.js             | main          |   1.02 MB | 
+styles.css          | styles        | 709.98 kB | 
+polyfills.js        | polyfills     |  89.77 kB | 
+
+                    | Initial total |   1.82 MB
+
+Application bundle generation complete. [1.038 seconds]
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [1.626 seconds]
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG8002: Can't bind to 'highlightMissingFields' since it isn't a known property of 'app-owner-details'.
+1. If 'app-owner-details' is an Angular component and it has 'highlightMissingFields' input, then verify that it is included in the '@Component.imports' of this component.
+2. If 'app-owner-details' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.
+3. To allow any property add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/account-form/account-form.component.ts:53:10:
+[37m      53 │           [32m[highlightMissingFields]="highlightMissingFields"[37m
+         ╵           [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.638 seconds]
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG8002: Can't bind to 'highlightMissingFields' since it isn't a known property of 'app-owner-details'.
+1. If 'app-owner-details' is an Angular component and it has 'highlightMissingFields' input, then verify that it is included in the '@Component.imports' of this component.
+2. If 'app-owner-details' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.
+3. To allow any property add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/account-form/account-form.component.ts:53:10:
+[37m      53 │           [32m[highlightMissingFields]="highlightMissingFields"[37m
+         ╵           [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG8002: Can't bind to 'highlightMissingFields' since it isn't a known property of 'app-account-setup'.
+1. If 'app-account-setup' is an Angular component and it has 'highlightMissingFields' input, then verify that it is included in the '@Component.imports' of this component.
+2. If 'app-account-setup' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.
+3. To allow any property add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/account-form/account-form.component.ts:75:10:
+[37m      75 │           [32m[highlightMissingFields]="highlightMissingFields"[37m
+         ╵           [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [1.217 seconds]
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG8002: Can't bind to 'highlightMissingFields' since it isn't a known property of 'app-owner-details'.
+1. If 'app-owner-details' is an Angular component and it has 'highlightMissingFields' input, then verify that it is included in the '@Component.imports' of this component.
+2. If 'app-owner-details' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.
+3. To allow any property add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/account-form/account-form.component.ts:53:10:
+[37m      53 │           [32m[highlightMissingFields]="highlightMissingFields"[37m
+         ╵           [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [1.572 seconds]
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG8002: Can't bind to 'highlightMissingFields' since it isn't a known property of 'app-owner-details'.
+1. If 'app-owner-details' is an Angular component and it has 'highlightMissingFields' input, then verify that it is included in the '@Component.imports' of this component.
+2. If 'app-owner-details' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.
+3. To allow any property add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/account-form/account-form.component.ts:53:10:
+[37m      53 │           [32m[highlightMissingFields]="highlightMissingFields"[37m
+         ╵           [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [1.268 seconds]
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG8002: Can't bind to 'highlightMissingFields' since it isn't a known property of 'app-owner-details'.
+1. If 'app-owner-details' is an Angular component and it has 'highlightMissingFields' input, then verify that it is included in the '@Component.imports' of this component.
+2. If 'app-owner-details' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.
+3. To allow any property add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/account-form/account-form.component.ts:53:10:
+[37m      53 │           [32m[highlightMissingFields]="highlightMissingFields"[37m
+         ╵           [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [1.226 seconds]
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG8002: Can't bind to 'highlightMissingFields' since it isn't a known property of 'app-owner-details'.
+1. If 'app-owner-details' is an Angular component and it has 'highlightMissingFields' input, then verify that it is included in the '@Component.imports' of this component.
+2. If 'app-owner-details' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.
+3. To allow any property add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/account-form/account-form.component.ts:53:10:
+[37m      53 │           [32m[highlightMissingFields]="highlightMissingFields"[37m
+         ╵           [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [1.411 seconds]
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG8002: Can't bind to 'highlightMissingFields' since it isn't a known property of 'app-owner-details'.
+1. If 'app-owner-details' is an Angular component and it has 'highlightMissingFields' input, then verify that it is included in the '@Component.imports' of this component.
+2. If 'app-owner-details' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.
+3. To allow any property add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/account-form/account-form.component.ts:53:10:
+[37m      53 │           [32m[highlightMissingFields]="highlightMissingFields"[37m
+         ╵           [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [1.271 seconds]
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG8002: Can't bind to 'highlightMissingFields' since it isn't a known property of 'app-owner-details'.
+1. If 'app-owner-details' is an Angular component and it has 'highlightMissingFields' input, then verify that it is included in the '@Component.imports' of this component.
+2. If 'app-owner-details' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.
+3. To allow any property add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/account-form/account-form.component.ts:53:10:
+[37m      53 │           [32m[highlightMissingFields]="highlightMissingFields"[37m
+         ╵           [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [1.869 seconds]
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG8002: Can't bind to 'highlightMissingFields' since it isn't a known property of 'app-owner-details'.
+1. If 'app-owner-details' is an Angular component and it has 'highlightMissingFields' input, then verify that it is included in the '@Component.imports' of this component.
+2. If 'app-owner-details' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.
+3. To allow any property add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/account-form/account-form.component.ts:53:10:
+[37m      53 │           [32m[highlightMissingFields]="highlightMissingFields"[37m
+         ╵           [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names         |  Raw size
+main.js             | main          |   1.02 MB | 
+styles.css          | styles        | 709.98 kB | 
+polyfills.js        | polyfills     |  89.77 kB | 
+
+                    | Initial total |   1.82 MB
+
+Application bundle generation complete. [1.458 seconds]
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [1.192 seconds]
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG8002: Can't bind to 'highlightMissingFields' since it isn't a known property of 'app-scrollable-view'.
+1. If 'app-scrollable-view' is an Angular component and it has 'highlightMissingFields' input, then verify that it is included in the '@Component.imports' of this component.
+2. If 'app-scrollable-view' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.
+3. To allow any property add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.component.html:566:10:
+[37m      566 │           [32m[highlightMissingFields]="highlightMissingFields"[37m
+          ╵           [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+  Error occurs in the template of component AppComponent.
+
+    src/app/app.component.ts:40:15:
+[37m      40 │   templateUrl: [32m'./app.component.html'[37m,
+         ╵                [32m~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names         |  Raw size
+main.js             | main          |   1.03 MB | 
+styles.css          | styles        | 709.98 kB | 
+polyfills.js        | polyfills     |  89.77 kB | 
+
+                    | Initial total |   1.82 MB
+
+Application bundle generation complete. [1.235 seconds]
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.03 MB | 
+
+Application bundle generation complete. [2.111 seconds]
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.03 MB | 
+
+Application bundle generation complete. [0.553 seconds]
+
+Component update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.585 seconds]
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG8002: Can't bind to 'highlightMissingFields' since it isn't a known property of 'app-firm-details'.
+1. If 'app-firm-details' is an Angular component and it has 'highlightMissingFields' input, then verify that it is included in the '@Component.imports' of this component.
+2. If 'app-firm-details' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.
+3. To allow any property add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/scrollable-view/scrollable-view.component.ts:67:12:
+[37m      67 │             [32m[highlightMissingFields]="highlightMissingFields"[37m
+         ╵             [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.745 seconds]
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG8002: Can't bind to 'highlightMissingFields' since it isn't a known property of 'app-firm-details'.
+1. If 'app-firm-details' is an Angular component and it has 'highlightMissingFields' input, then verify that it is included in the '@Component.imports' of this component.
+2. If 'app-firm-details' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.
+3. To allow any property add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/scrollable-view/scrollable-view.component.ts:67:12:
+[37m      67 │             [32m[highlightMissingFields]="highlightMissingFields"[37m
+         ╵             [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.841 seconds]
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG8002: Can't bind to 'highlightMissingFields' since it isn't a known property of 'app-firm-details'.
+1. If 'app-firm-details' is an Angular component and it has 'highlightMissingFields' input, then verify that it is included in the '@Component.imports' of this component.
+2. If 'app-firm-details' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.
+3. To allow any property add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/scrollable-view/scrollable-view.component.ts:67:12:
+[37m      67 │             [32m[highlightMissingFields]="highlightMissingFields"[37m
+         ╵             [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG8002: Can't bind to 'highlightMissingFields' since it isn't a known property of 'app-funding'.
+1. If 'app-funding' is an Angular component and it has 'highlightMissingFields' input, then verify that it is included in the '@Component.imports' of this component.
+2. If 'app-funding' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.
+3. To allow any property add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/scrollable-view/scrollable-view.component.ts:92:12:
+[37m      92 │             [32m[highlightMissingFields]="highlightMissingFields"[37m
+         ╵             [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [1.246 seconds]
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG8002: Can't bind to 'highlightMissingFields' since it isn't a known property of 'app-funding'.
+1. If 'app-funding' is an Angular component and it has 'highlightMissingFields' input, then verify that it is included in the '@Component.imports' of this component.
+2. If 'app-funding' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.
+3. To allow any property add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/scrollable-view/scrollable-view.component.ts:92:12:
+[37m      92 │             [32m[highlightMissingFields]="highlightMissingFields"[37m
+         ╵             [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names         |  Raw size
+main.js             | main          |   1.03 MB | 
+styles.css          | styles        | 709.98 kB | 
+polyfills.js        | polyfills     |  89.77 kB | 
+
+                    | Initial total |   1.83 MB
+
+Application bundle generation complete. [1.224 seconds]
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.03 MB | 
+
+Application bundle generation complete. [1.675 seconds]
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.03 MB | 
+
+Application bundle generation complete. [1.144 seconds]
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.03 MB | 
+
+Application bundle generation complete. [1.749 seconds]
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.651 seconds]
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG9: Property 'onViewAttachments' does not exist on type 'ReviewSummaryComponent'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/review-summary/review-summary.component.ts:51:23:
+[37m      51 │               (click)="[32monViewAttachments[37m(account.id)">
+         ╵                        [32m~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG9: Property 'onPaperworkPreview' does not exist on type 'ReviewSummaryComponent'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/review-summary/review-summary.component.ts:57:23:
+[37m      57 │               (click)="[32monPaperworkPreview[37m(account.id)">
+         ╵                        [32m~~~~~~~~~~~~~~~~~~[0m
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.600 seconds]
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG9: Property 'onViewAttachments' does not exist on type 'ReviewSummaryComponent'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/review-summary/review-summary.component.ts:51:23:
+[37m      51 │               (click)="[32monViewAttachments[37m(account.id)">
+         ╵                        [32m~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG9: Property 'onPaperworkPreview' does not exist on type 'ReviewSummaryComponent'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/review-summary/review-summary.component.ts:57:23:
+[37m      57 │               (click)="[32monPaperworkPreview[37m(account.id)">
+         ╵                        [32m~~~~~~~~~~~~~~~~~~[0m
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.575 seconds]
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG9: Property 'onViewAttachments' does not exist on type 'ReviewSummaryComponent'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/review-summary/review-summary.component.ts:51:23:
+[37m      51 │               (click)="[32monViewAttachments[37m(account.id)">
+         ╵                        [32m~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG9: Property 'onPaperworkPreview' does not exist on type 'ReviewSummaryComponent'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/review-summary/review-summary.component.ts:57:23:
+[37m      57 │               (click)="[32monPaperworkPreview[37m(account.id)">
+         ╵                        [32m~~~~~~~~~~~~~~~~~~[0m
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.639 seconds]
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG9: Property 'onViewAttachments' does not exist on type 'ReviewSummaryComponent'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/review-summary/review-summary.component.ts:51:23:
+[37m      51 │               (click)="[32monViewAttachments[37m(account.id)">
+         ╵                        [32m~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG9: Property 'onPaperworkPreview' does not exist on type 'ReviewSummaryComponent'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/review-summary/review-summary.component.ts:57:23:
+[37m      57 │               (click)="[32monPaperworkPreview[37m(account.id)">
+         ╵                        [32m~~~~~~~~~~~~~~~~~~[0m
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.641 seconds]
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG9: Property 'onViewAttachments' does not exist on type 'ReviewSummaryComponent'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/review-summary/review-summary.component.ts:51:23:
+[37m      51 │               (click)="[32monViewAttachments[37m(account.id)">
+         ╵                        [32m~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG9: Property 'onPaperworkPreview' does not exist on type 'ReviewSummaryComponent'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/review-summary/review-summary.component.ts:57:23:
+[37m      57 │               (click)="[32monPaperworkPreview[37m(account.id)">
+         ╵                        [32m~~~~~~~~~~~~~~~~~~[0m
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.581 seconds]
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG9: Property 'onViewAttachments' does not exist on type 'ReviewSummaryComponent'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/review-summary/review-summary.component.ts:51:23:
+[37m      51 │               (click)="[32monViewAttachments[37m(account.id)">
+         ╵                        [32m~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG9: Property 'onPaperworkPreview' does not exist on type 'ReviewSummaryComponent'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/review-summary/review-summary.component.ts:57:23:
+[37m      57 │               (click)="[32monPaperworkPreview[37m(account.id)">
+         ╵                        [32m~~~~~~~~~~~~~~~~~~[0m
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names         |  Raw size
+main.js             | main          |   1.03 MB | 
+styles.css          | styles        | 709.98 kB | 
+polyfills.js        | polyfills     |  89.77 kB | 
+
+                    | Initial total |   1.83 MB
+
+Application bundle generation complete. [0.535 seconds]
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.03 MB | 
+
+Application bundle generation complete. [0.656 seconds]
+
+Component update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.03 MB | 
+
+Application bundle generation complete. [0.690 seconds]
+
+Component update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.03 MB | 
+
+Application bundle generation complete. [0.623 seconds]
+
+Component update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.03 MB | 
+
+Application bundle generation complete. [0.691 seconds]
+
+Component update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.03 MB | 
+
+Application bundle generation complete. [0.496 seconds]
+
+Component update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.03 MB | 
+
+Application bundle generation complete. [1.041 seconds]
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.03 MB | 
+
+Application bundle generation complete. [1.861 seconds]
+
+Component update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.03 MB | 
+
+Application bundle generation complete. [1.403 seconds]
+
+Component update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.03 MB | 
+
+Application bundle generation complete. [1.595 seconds]
+
+Component update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.03 MB | 
+
+Application bundle generation complete. [0.617 seconds]
+
+Component update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.03 MB | 
+
+Application bundle generation complete. [0.735 seconds]
+
+Component update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.03 MB | 
+
+Application bundle generation complete. [0.705 seconds]
+
+Component update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.03 MB | 
+
+Application bundle generation complete. [0.735 seconds]
+
+Component update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.03 MB | 
+
+Application bundle generation complete. [0.782 seconds]
+
+Component update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.03 MB | 
+
+Application bundle generation complete. [0.904 seconds]
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.05 MB | 
+
+Application bundle generation complete. [1.028 seconds]
+
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mTS-998113: AttachmentsModalComponent is not used within the template of ReviewSummaryComponent[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/review-summary/review-summary.component.ts:30:4:
+[37m      30 │     [32mAttachmentsModalComponent[37m
+         ╵     [32m~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.657 seconds]
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG9: Property 'showAttachmentsModal' does not exist on type 'ReviewSummaryComponent'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/review-summary/review-summary.component.ts:97:19:
+[37m      97 │       [(visible)]="[32mshowAttachmentsModal[37m"
+         ╵                    [32m~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG9: Property 'showAttachmentsModal' does not exist on type 'ReviewSummaryComponent'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/review-summary/review-summary.component.ts:97:19:
+[37m      97 │       [(visible)]="[32mshowAttachmentsModal[37m"
+         ╵                    [32m~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG9: Property 'selectedAccountName' does not exist on type 'ReviewSummaryComponent'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/review-summary/review-summary.component.ts:98:26:
+[37m      98 │       [registrationName]="[32mselectedAccountName[37m"
+         ╵                           [32m~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG9: Property 'selectedAccountId' does not exist on type 'ReviewSummaryComponent'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/review-summary/review-summary.component.ts:99:19:
+[37m      99 │       [accountId]="[32mselectedAccountId[37m"
+         ╵                    [32m~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG9: Property 'onAttachmentsModalClosed' does not exist on type 'ReviewSummaryComponent'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/review-summary/review-summary.component.ts:100:21:
+[37m      100 │       (modalClosed)="[32monAttachmentsModalClosed[37m()">
+          ╵                      [32m~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.566 seconds]
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG9: Property 'onAttachmentsModalClosed' does not exist on type 'ReviewSummaryComponent'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/review-summary/review-summary.component.ts:100:21:
+[37m      100 │       (modalClosed)="[32monAttachmentsModalClosed[37m()">
+          ╵                      [32m~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.538 seconds]
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG9: Property 'onAttachmentsModalClosed' does not exist on type 'ReviewSummaryComponent'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/review-summary/review-summary.component.ts:100:21:
+[37m      100 │       (modalClosed)="[32monAttachmentsModalClosed[37m()">
+          ╵                      [32m~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names         |  Raw size
+main.js             | main          |   1.05 MB | 
+styles.css          | styles        | 709.98 kB | 
+polyfills.js        | polyfills     |  89.77 kB | 
+
+                    | Initial total |   1.85 MB
+
+Application bundle generation complete. [0.600 seconds]
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [1.142 seconds]
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG8: Value of type 'EventEmitter<void>' is not callable. Did you mean to include 'new'?[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/components/new-entry-page/new-entry-page.component.ts:118:52:
+[37m      118 │ ...   <button class="btn-open-account" (click)="[32mopenAccountModal[37m()">
+          ╵                                                 [32m~~~~~~~~~~~~~~~~[0m
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.918 seconds]
+
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mTS-998113: NewEntryPageComponent is not used within the template of AppComponent[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.component.ts:40:4:
+[37m      40 │     [32mNewEntryPageComponent[37m,
+         ╵     [32m~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mTS-998113: BetaModalComponent is not used within the template of AppComponent[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.component.ts:41:4:
+[37m      41 │     [32mBetaModalComponent[37m
+         ╵     [32m~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG8: Value of type 'EventEmitter<void>' is not callable. Did you mean to include 'new'?[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/components/new-entry-page/new-entry-page.component.ts:118:52:
+[37m      118 │ ...   <button class="btn-open-account" (click)="[32mopenAccountModal[37m()">
+          ╵                                                 [32m~~~~~~~~~~~~~~~~[0m
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.846 seconds]
+
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mTS-998113: NewEntryPageComponent is not used within the template of AppComponent[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.component.ts:40:4:
+[37m      40 │     [32mNewEntryPageComponent[37m,
+         ╵     [32m~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mTS-998113: BetaModalComponent is not used within the template of AppComponent[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.component.ts:41:4:
+[37m      41 │     [32mBetaModalComponent[37m
+         ╵     [32m~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG8: Value of type 'EventEmitter<void>' is not callable. Did you mean to include 'new'?[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/components/new-entry-page/new-entry-page.component.ts:118:52:
+[37m      118 │ ...   <button class="btn-open-account" (click)="[32mopenAccountModal[37m()">
+          ╵                                                 [32m~~~~~~~~~~~~~~~~[0m
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.993 seconds]
+
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mTS-998113: NewEntryPageComponent is not used within the template of AppComponent[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.component.ts:40:4:
+[37m      40 │     [32mNewEntryPageComponent[37m,
+         ╵     [32m~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mTS-998113: BetaModalComponent is not used within the template of AppComponent[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.component.ts:41:4:
+[37m      41 │     [32mBetaModalComponent[37m
+         ╵     [32m~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG8: Value of type 'EventEmitter<void>' is not callable. Did you mean to include 'new'?[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/components/new-entry-page/new-entry-page.component.ts:118:52:
+[37m      118 │ ...   <button class="btn-open-account" (click)="[32mopenAccountModal[37m()">
+          ╵                                                 [32m~~~~~~~~~~~~~~~~[0m
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [1.110 seconds]
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG8: Value of type 'EventEmitter<void>' is not callable. Did you mean to include 'new'?[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/components/new-entry-page/new-entry-page.component.ts:118:52:
+[37m      118 │ ...   <button class="btn-open-account" (click)="[32mopenAccountModal[37m()">
+          ╵                                                 [32m~~~~~~~~~~~~~~~~[0m
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [1.257 seconds]
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG8: Value of type 'EventEmitter<void>' is not callable. Did you mean to include 'new'?[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/components/new-entry-page/new-entry-page.component.ts:118:52:
+[37m      118 │ ...   <button class="btn-open-account" (click)="[32mopenAccountModal[37m()">
+          ╵                                                 [32m~~~~~~~~~~~~~~~~[0m
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names         |  Raw size
+main.js             | main          |   1.10 MB | 
+styles.css          | styles        | 709.98 kB | 
+polyfills.js        | polyfills     |  89.77 kB | 
+
+                    | Initial total |   1.90 MB
+
+Application bundle generation complete. [1.150 seconds]
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.10 MB | 
+
+Application bundle generation complete. [0.957 seconds]
+
+Component update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.10 MB | 
+
+Application bundle generation complete. [0.777 seconds]
+
+Component update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.10 MB | 
+
+Application bundle generation complete. [0.601 seconds]
+
+Component update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.10 MB | 
+
+Application bundle generation complete. [0.640 seconds]
+
+Component update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.10 MB | 
+
+Application bundle generation complete. [0.634 seconds]
+
+Component update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [1.109 seconds]
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG9: Property 'goBackToEntryPage' does not exist on type 'AppComponent'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.component.html:156:23:
+[37m      156 │             (onClick)="[32mgoBackToEntryPage[37m()"
+          ╵                        [32m~~~~~~~~~~~~~~~~~[0m
+
+  Error occurs in the template of component AppComponent.
+
+    src/app/app.component.ts:44:15:
+[37m      44 │   templateUrl: [32m'./app.component.html'[37m,
+         ╵                [32m~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [1.237 seconds]
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG9: Property 'goBackToEntryPage' does not exist on type 'AppComponent'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.component.html:156:23:
+[37m      156 │             (onClick)="[32mgoBackToEntryPage[37m()"
+          ╵                        [32m~~~~~~~~~~~~~~~~~[0m
+
+  Error occurs in the template of component AppComponent.
+
+    src/app/app.component.ts:45:15:
+[37m      45 │   templateUrl: [32m'./app.component.html'[37m,
+         ╵                [32m~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.962 seconds]
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG9: Property 'goBackToEntryPage' does not exist on type 'AppComponent'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.component.html:156:23:
+[37m      156 │             (onClick)="[32mgoBackToEntryPage[37m()"
+          ╵                        [32m~~~~~~~~~~~~~~~~~[0m
+
+  Error occurs in the template of component AppComponent.
+
+    src/app/app.component.ts:46:15:
+[37m      46 │   templateUrl: [32m'./app.component.html'[37m,
+         ╵                [32m~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names         |  Raw size
+main.js             | main          |   1.10 MB | 
+styles.css          | styles        | 709.98 kB | 
+polyfills.js        | polyfills     |  89.77 kB | 
+
+                    | Initial total |   1.90 MB
+
+Application bundle generation complete. [1.098 seconds]
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.10 MB | 
+
+Application bundle generation complete. [1.471 seconds]
+
+Component update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.10 MB | 
+
+Application bundle generation complete. [0.801 seconds]
+
+Component update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.10 MB | 
+
+Application bundle generation complete. [0.790 seconds]
+
+Component update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.11 MB | 
+
+Application bundle generation complete. [0.819 seconds]
+
+Component update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.11 MB | 
+
+Application bundle generation complete. [0.786 seconds]
+
+Component update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.11 MB | 
+
+Application bundle generation complete. [0.738 seconds]
+
+Component update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.11 MB | 
+
+Application bundle generation complete. [1.375 seconds]
+
+Component update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.11 MB | 
+
+Application bundle generation complete. [1.166 seconds]
+
+Component update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.10 MB | 
+
+Application bundle generation complete. [1.179 seconds]
+
+Component update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.11 MB | 
+
+Application bundle generation complete. [1.250 seconds]
+
+Component update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.11 MB | 
+
+Application bundle generation complete. [1.380 seconds]
+
+Component update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.11 MB | 
+
+Application bundle generation complete. [1.572 seconds]
+
+Component update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.11 MB | 
+
+Application bundle generation complete. [2.239 seconds]
+
+Component update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.11 MB | 
+
+Application bundle generation complete. [1.447 seconds]
+
+Component update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.11 MB | 
+
+Application bundle generation complete. [1.154 seconds]
+
+Component update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.11 MB | 
+
+Application bundle generation complete. [1.331 seconds]
+
+Component update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.11 MB | 
+
+Application bundle generation complete. [0.751 seconds]
+
+Component update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.11 MB | 
+
+Application bundle generation complete. [0.578 seconds]
+
+Component update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.11 MB | 
+
+Application bundle generation complete. [1.013 seconds]
+
+Component update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.11 MB | 
+
+Application bundle generation complete. [0.888 seconds]
+
+Component update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.11 MB | 
+
+Application bundle generation complete. [1.080 seconds]
+
+Component update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.11 MB | 
+
+Application bundle generation complete. [2.256 seconds]
+
+Component update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.11 MB | 
+
+Application bundle generation complete. [0.642 seconds]
+
+Component update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.11 MB | 
+
+Application bundle generation complete. [0.669 seconds]
+
+Component update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.11 MB | 
+
+Application bundle generation complete. [2.015 seconds]
+
+Component update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.11 MB | 
+
+Application bundle generation complete. [2.182 seconds]
+
+Component update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.11 MB | 
+
+Application bundle generation complete. [1.233 seconds]
+
+Component update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.11 MB | 
+
+Application bundle generation complete. [1.332 seconds]
+
+Component update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.11 MB | 
+
+Application bundle generation complete. [1.220 seconds]
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.11 MB | 
+
+Application bundle generation complete. [1.409 seconds]
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.11 MB | 
+
+Application bundle generation complete. [1.093 seconds]
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.11 MB | 
+
+Application bundle generation complete. [1.055 seconds]
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.622 seconds]
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG9: Property 'shouldShowFirmDetails' does not exist on type 'ScrollableViewComponent'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/scrollable-view/scrollable-view.component.ts:62:52:
+[37m      62 │ ...  *ngIf="section.id === 'firm-details' && [32mshouldShowFirmDetails[37m()"
+         ╵                                              [32m~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.668 seconds]
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG9: Property 'shouldShowFirmDetails' does not exist on type 'ScrollableViewComponent'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/scrollable-view/scrollable-view.component.ts:62:52:
+[37m      62 │ ...  *ngIf="section.id === 'firm-details' && [32mshouldShowFirmDetails[37m()"
+         ╵                                              [32m~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names         |  Raw size
+main.js             | main          |   1.11 MB | 
+styles.css          | styles        | 709.98 kB | 
+polyfills.js        | polyfills     |  89.77 kB | 
+
+                    | Initial total |   1.91 MB
+
+Application bundle generation complete. [0.762 seconds]
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.11 MB | 
+
+Application bundle generation complete. [1.358 seconds]
+
+Component update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [1.784 seconds]
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG9: Property 'shouldShowFirmDetails' does not exist on type 'AccountFormComponent'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/account-form/account-form.component.ts:60:47:
+[37m      60 │ ...     *ngIf="section === 'firm-details' && [32mshouldShowFirmDetails[37m()"
+         ╵                                              [32m~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.642 seconds]
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG9: Property 'shouldShowFirmDetails' does not exist on type 'AccountFormComponent'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/account-form/account-form.component.ts:60:47:
+[37m      60 │ ...     *ngIf="section === 'firm-details' && [32mshouldShowFirmDetails[37m()"
+         ╵                                              [32m~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names         |  Raw size
+main.js             | main          |   1.11 MB | 
+styles.css          | styles        | 709.98 kB | 
+polyfills.js        | polyfills     |  89.77 kB | 
+
+                    | Initial total |   1.91 MB
+
+Application bundle generation complete. [0.698 seconds]
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  1.11 MB | 
+
+Application bundle generation complete. [1.147 seconds]
+
+Component update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [1.410 seconds]
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG8002: Can't bind to 'entityId' since it isn't a known property of 'app-beneficiary-dropdown'.
+1. If 'app-beneficiary-dropdown' is an Angular component and it has 'entityId' input, then verify that it is included in the '@Component.imports' of this component.
+2. If 'app-beneficiary-dropdown' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.
+3. To allow any property add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/beneficiaries/beneficiaries.component.ts:31:14:
+[37m      31 │               [32m[entityId]="entityId"[37m
+         ╵               [32m~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG8002: Can't bind to 'entityId' since it isn't a known property of 'app-trustee-dropdown'.
+1. If 'app-trustee-dropdown' is an Angular component and it has 'entityId' input, then verify that it is included in the '@Component.imports' of this component.
+2. If 'app-trustee-dropdown' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.
+3. To allow any property add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/trustees/trustees.component.ts:31:14:
+[37m      31 │               [32m[entityId]="entityId"[37m
+         ╵               [32m~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.765 seconds]
+
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mTS-998113: TrusteesComponent is not used within the template of ScrollableViewComponent[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/scrollable-view/scrollable-view.component.ts:28:4:
+[37m      28 │     [32mTrusteesComponent[37m,
+         ╵     [32m~~~~~~~~~~~~~~~~~[0m
+
+
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mTS-998113: BeneficiariesComponent is not used within the template of ScrollableViewComponent[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/scrollable-view/scrollable-view.component.ts:29:4:
+[37m      29 │     [32mBeneficiariesComponent[37m
+         ╵     [32m~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG8002: Can't bind to 'entityId' since it isn't a known property of 'app-beneficiary-dropdown'.
+1. If 'app-beneficiary-dropdown' is an Angular component and it has 'entityId' input, then verify that it is included in the '@Component.imports' of this component.
+2. If 'app-beneficiary-dropdown' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.
+3. To allow any property add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/beneficiaries/beneficiaries.component.ts:31:14:
+[37m      31 │               [32m[entityId]="entityId"[37m
+         ╵               [32m~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG8002: Can't bind to 'entityId' since it isn't a known property of 'app-trustee-dropdown'.
+1. If 'app-trustee-dropdown' is an Angular component and it has 'entityId' input, then verify that it is included in the '@Component.imports' of this component.
+2. If 'app-trustee-dropdown' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.
+3. To allow any property add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/trustees/trustees.component.ts:31:14:
+[37m      31 │               [32m[entityId]="entityId"[37m
+         ╵               [32m~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.610 seconds]
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG8002: Can't bind to 'entityId' since it isn't a known property of 'app-beneficiary-dropdown'.
+1. If 'app-beneficiary-dropdown' is an Angular component and it has 'entityId' input, then verify that it is included in the '@Component.imports' of this component.
+2. If 'app-beneficiary-dropdown' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.
+3. To allow any property add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/beneficiaries/beneficiaries.component.ts:31:14:
+[37m      31 │               [32m[entityId]="entityId"[37m
+         ╵               [32m~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG8002: Can't bind to 'entityId' since it isn't a known property of 'app-trustee-dropdown'.
+1. If 'app-trustee-dropdown' is an Angular component and it has 'entityId' input, then verify that it is included in the '@Component.imports' of this component.
+2. If 'app-trustee-dropdown' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.
+3. To allow any property add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/trustees/trustees.component.ts:31:14:
+[37m      31 │               [32m[entityId]="entityId"[37m
+         ╵               [32m~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.850 seconds]
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG8002: Can't bind to 'entityId' since it isn't a known property of 'app-beneficiary-dropdown'.
+1. If 'app-beneficiary-dropdown' is an Angular component and it has 'entityId' input, then verify that it is included in the '@Component.imports' of this component.
+2. If 'app-beneficiary-dropdown' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.
+3. To allow any property add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/beneficiaries/beneficiaries.component.ts:31:14:
+[37m      31 │               [32m[entityId]="entityId"[37m
+         ╵               [32m~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG8002: Can't bind to 'entityId' since it isn't a known property of 'app-trustee-dropdown'.
+1. If 'app-trustee-dropdown' is an Angular component and it has 'entityId' input, then verify that it is included in the '@Component.imports' of this component.
+2. If 'app-trustee-dropdown' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.
+3. To allow any property add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/trustees/trustees.component.ts:31:14:
+[37m      31 │               [32m[entityId]="entityId"[37m
+         ╵               [32m~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.637 seconds]
+
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mTS-998113: TrusteesComponent is not used within the template of AccountFormComponent[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/account-form/account-form.component.ts:43:4:
+[37m      43 │     [32mTrusteesComponent[37m,
+         ╵     [32m~~~~~~~~~~~~~~~~~[0m
+
+
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mTS-998113: BeneficiariesComponent is not used within the template of AccountFormComponent[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/account-form/account-form.component.ts:44:4:
+[37m      44 │     [32mBeneficiariesComponent[37m
+         ╵     [32m~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG8002: Can't bind to 'entityId' since it isn't a known property of 'app-beneficiary-dropdown'.
+1. If 'app-beneficiary-dropdown' is an Angular component and it has 'entityId' input, then verify that it is included in the '@Component.imports' of this component.
+2. If 'app-beneficiary-dropdown' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.
+3. To allow any property add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/beneficiaries/beneficiaries.component.ts:31:14:
+[37m      31 │               [32m[entityId]="entityId"[37m
+         ╵               [32m~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG8002: Can't bind to 'entityId' since it isn't a known property of 'app-trustee-dropdown'.
+1. If 'app-trustee-dropdown' is an Angular component and it has 'entityId' input, then verify that it is included in the '@Component.imports' of this component.
+2. If 'app-trustee-dropdown' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.
+3. To allow any property add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/trustees/trustees.component.ts:31:14:
+[37m      31 │               [32m[entityId]="entityId"[37m
+         ╵               [32m~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.750 seconds]
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG7: This comparison appears to be unintentional because the types 'Section' and '"trustees"' have no overlap.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/account-form/account-form.component.ts:64:17:
+[37m      64 │           *ngIf="[32msection === 'trustees'[37m"
+         ╵                  [32m~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG7: This comparison appears to be unintentional because the types 'Section' and '"beneficiaries"' have no overlap.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/account-form/account-form.component.ts:75:17:
+[37m      75 │           *ngIf="[32msection === 'beneficiaries'[37m"
+         ╵                  [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG8002: Can't bind to 'entityId' since it isn't a known property of 'app-beneficiary-dropdown'.
+1. If 'app-beneficiary-dropdown' is an Angular component and it has 'entityId' input, then verify that it is included in the '@Component.imports' of this component.
+2. If 'app-beneficiary-dropdown' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.
+3. To allow any property add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/beneficiaries/beneficiaries.component.ts:31:14:
+[37m      31 │               [32m[entityId]="entityId"[37m
+         ╵               [32m~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG8002: Can't bind to 'entityId' since it isn't a known property of 'app-trustee-dropdown'.
+1. If 'app-trustee-dropdown' is an Angular component and it has 'entityId' input, then verify that it is included in the '@Component.imports' of this component.
+2. If 'app-trustee-dropdown' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.
+3. To allow any property add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/trustees/trustees.component.ts:31:14:
+[37m      31 │               [32m[entityId]="entityId"[37m
+         ╵               [32m~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [1.162 seconds]
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG7: This comparison appears to be unintentional because the types 'Section' and '"trustees"' have no overlap.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/account-form/account-form.component.ts:64:17:
+[37m      64 │           *ngIf="[32msection === 'trustees'[37m"
+         ╵                  [32m~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG7: This comparison appears to be unintentional because the types 'Section' and '"beneficiaries"' have no overlap.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/account-form/account-form.component.ts:75:17:
+[37m      75 │           *ngIf="[32msection === 'beneficiaries'[37m"
+         ╵                  [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG8002: Can't bind to 'entityId' since it isn't a known property of 'app-beneficiary-dropdown'.
+1. If 'app-beneficiary-dropdown' is an Angular component and it has 'entityId' input, then verify that it is included in the '@Component.imports' of this component.
+2. If 'app-beneficiary-dropdown' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.
+3. To allow any property add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/beneficiaries/beneficiaries.component.ts:31:14:
+[37m      31 │               [32m[entityId]="entityId"[37m
+         ╵               [32m~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG8002: Can't bind to 'entityId' since it isn't a known property of 'app-trustee-dropdown'.
+1. If 'app-trustee-dropdown' is an Angular component and it has 'entityId' input, then verify that it is included in the '@Component.imports' of this component.
+2. If 'app-trustee-dropdown' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.
+3. To allow any property add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/trustees/trustees.component.ts:31:14:
+[37m      31 │               [32m[entityId]="entityId"[37m
+         ╵               [32m~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [1.407 seconds]
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG7: This comparison appears to be unintentional because the types 'Section' and '"trustees"' have no overlap.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/account-form/account-form.component.ts:64:17:
+[37m      64 │           *ngIf="[32msection === 'trustees'[37m"
+         ╵                  [32m~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG7: This comparison appears to be unintentional because the types 'Section' and '"beneficiaries"' have no overlap.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/account-form/account-form.component.ts:75:17:
+[37m      75 │           *ngIf="[32msection === 'beneficiaries'[37m"
+         ╵                  [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG8002: Can't bind to 'entityId' since it isn't a known property of 'app-beneficiary-dropdown'.
+1. If 'app-beneficiary-dropdown' is an Angular component and it has 'entityId' input, then verify that it is included in the '@Component.imports' of this component.
+2. If 'app-beneficiary-dropdown' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.
+3. To allow any property add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/beneficiaries/beneficiaries.component.ts:31:14:
+[37m      31 │               [32m[entityId]="entityId"[37m
+         ╵               [32m~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG8002: Can't bind to 'entityId' since it isn't a known property of 'app-trustee-dropdown'.
+1. If 'app-trustee-dropdown' is an Angular component and it has 'entityId' input, then verify that it is included in the '@Component.imports' of this component.
+2. If 'app-trustee-dropdown' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.
+3. To allow any property add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/trustees/trustees.component.ts:31:14:
+[37m      31 │               [32m[entityId]="entityId"[37m
+         ╵               [32m~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [1.631 seconds]
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG7: This comparison appears to be unintentional because the types 'Section' and '"trustees"' have no overlap.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/account-form/account-form.component.ts:64:17:
+[37m      64 │           *ngIf="[32msection === 'trustees'[37m"
+         ╵                  [32m~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG7: This comparison appears to be unintentional because the types 'Section' and '"beneficiaries"' have no overlap.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/account-form/account-form.component.ts:75:17:
+[37m      75 │           *ngIf="[32msection === 'beneficiaries'[37m"
+         ╵                  [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG8002: Can't bind to 'entityId' since it isn't a known property of 'app-beneficiary-dropdown'.
+1. If 'app-beneficiary-dropdown' is an Angular component and it has 'entityId' input, then verify that it is included in the '@Component.imports' of this component.
+2. If 'app-beneficiary-dropdown' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.
+3. To allow any property add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/beneficiaries/beneficiaries.component.ts:31:14:
+[37m      31 │               [32m[entityId]="entityId"[37m
+         ╵               [32m~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG8002: Can't bind to 'entityId' since it isn't a known property of 'app-trustee-dropdown'.
+1. If 'app-trustee-dropdown' is an Angular component and it has 'entityId' input, then verify that it is included in the '@Component.imports' of this component.
+2. If 'app-trustee-dropdown' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.
+3. To allow any property add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/trustees/trustees.component.ts:31:14:
+[37m      31 │               [32m[entityId]="entityId"[37m
+         ╵               [32m~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [1.490 seconds]
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG7: This comparison appears to be unintentional because the types 'Section' and '"trustees"' have no overlap.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/account-form/account-form.component.ts:64:17:
+[37m      64 │           *ngIf="[32msection === 'trustees'[37m"
+         ╵                  [32m~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG7: This comparison appears to be unintentional because the types 'Section' and '"beneficiaries"' have no overlap.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/account-form/account-form.component.ts:75:17:
+[37m      75 │           *ngIf="[32msection === 'beneficiaries'[37m"
+         ╵                  [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG8002: Can't bind to 'entityId' since it isn't a known property of 'app-beneficiary-dropdown'.
+1. If 'app-beneficiary-dropdown' is an Angular component and it has 'entityId' input, then verify that it is included in the '@Component.imports' of this component.
+2. If 'app-beneficiary-dropdown' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.
+3. To allow any property add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/beneficiaries/beneficiaries.component.ts:31:14:
+[37m      31 │               [32m[entityId]="entityId"[37m
+         ╵               [32m~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG8002: Can't bind to 'entityId' since it isn't a known property of 'app-trustee-dropdown'.
+1. If 'app-trustee-dropdown' is an Angular component and it has 'entityId' input, then verify that it is included in the '@Component.imports' of this component.
+2. If 'app-trustee-dropdown' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.
+3. To allow any property add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/trustees/trustees.component.ts:31:14:
+[37m      31 │               [32m[entityId]="entityId"[37m
+         ╵               [32m~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [1.136 seconds]
+
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mTS-998113: AccountFormComponent is not used within the template of AppComponent[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.component.ts:39:4:
+[37m      39 │     [32mAccountFormComponent[37m,
+         ╵     [32m~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mTS-998113: ReviewSummaryComponent is not used within the template of AppComponent[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.component.ts:40:4:
+[37m      40 │     [32mReviewSummaryComponent[37m,
+         ╵     [32m~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mTS-998113: ScrollableViewComponent is not used within the template of AppComponent[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.component.ts:41:4:
+[37m      41 │     [32mScrollableViewComponent[37m,
+         ╵     [32m~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mTS-998113: NewEntryPageComponent is not used within the template of AppComponent[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.component.ts:42:4:
+[37m      42 │     [32mNewEntryPageComponent[37m,
+         ╵     [32m~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mTS-998113: BetaModalComponent is not used within the template of AppComponent[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.component.ts:43:4:
+[37m      43 │     [32mBetaModalComponent[37m
+         ╵     [32m~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG5002: Unexpected closing tag "div". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.component.html:630:0:
+[37m      630 │ [32m</div>[37m
+          ╵ [32m~~~~~~[0m
+
+  Error occurs in the template of component AppComponent.
+
+    src/app/app.component.ts:46:15:
+[37m      46 │   templateUrl: [32m'./app.component.html'[37m,
+         ╵                [32m~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG7: This comparison appears to be unintentional because the types 'Section' and '"trustees"' have no overlap.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/account-form/account-form.component.ts:64:17:
+[37m      64 │           *ngIf="[32msection === 'trustees'[37m"
+         ╵                  [32m~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG7: This comparison appears to be unintentional because the types 'Section' and '"beneficiaries"' have no overlap.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/account-form/account-form.component.ts:75:17:
+[37m      75 │           *ngIf="[32msection === 'beneficiaries'[37m"
+         ╵                  [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG8002: Can't bind to 'entityId' since it isn't a known property of 'app-beneficiary-dropdown'.
+1. If 'app-beneficiary-dropdown' is an Angular component and it has 'entityId' input, then verify that it is included in the '@Component.imports' of this component.
+2. If 'app-beneficiary-dropdown' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.
+3. To allow any property add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/beneficiaries/beneficiaries.component.ts:31:14:
+[37m      31 │               [32m[entityId]="entityId"[37m
+         ╵               [32m~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG8002: Can't bind to 'entityId' since it isn't a known property of 'app-trustee-dropdown'.
+1. If 'app-trustee-dropdown' is an Angular component and it has 'entityId' input, then verify that it is included in the '@Component.imports' of this component.
+2. If 'app-trustee-dropdown' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.
+3. To allow any property add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/trustees/trustees.component.ts:31:14:
+[37m      31 │               [32m[entityId]="entityId"[37m
+         ╵               [32m~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.596 seconds]
+
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mTS-998113: AccountFormComponent is not used within the template of AppComponent[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.component.ts:39:4:
+[37m      39 │     [32mAccountFormComponent[37m,
+         ╵     [32m~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mTS-998113: ReviewSummaryComponent is not used within the template of AppComponent[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.component.ts:40:4:
+[37m      40 │     [32mReviewSummaryComponent[37m,
+         ╵     [32m~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mTS-998113: ScrollableViewComponent is not used within the template of AppComponent[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.component.ts:41:4:
+[37m      41 │     [32mScrollableViewComponent[37m,
+         ╵     [32m~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mTS-998113: NewEntryPageComponent is not used within the template of AppComponent[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.component.ts:42:4:
+[37m      42 │     [32mNewEntryPageComponent[37m,
+         ╵     [32m~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mTS-998113: BetaModalComponent is not used within the template of AppComponent[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.component.ts:43:4:
+[37m      43 │     [32mBetaModalComponent[37m
+         ╵     [32m~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG5002: Unexpected closing tag "div". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.component.html:630:0:
+[37m      630 │ [32m</div>[37m
+          ╵ [32m~~~~~~[0m
+
+  Error occurs in the template of component AppComponent.
+
+    src/app/app.component.ts:46:15:
+[37m      46 │   templateUrl: [32m'./app.component.html'[37m,
+         ╵                [32m~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG5002: Unexpected closing tag "div". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/components/new-entry-page/new-entry-page.component.ts:144:4:
+[37m      144 │     [32m</div>[37m
+          ╵     [32m~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG7: This comparison appears to be unintentional because the types 'Section' and '"trustees"' have no overlap.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/account-form/account-form.component.ts:64:17:
+[37m      64 │           *ngIf="[32msection === 'trustees'[37m"
+         ╵                  [32m~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG7: This comparison appears to be unintentional because the types 'Section' and '"beneficiaries"' have no overlap.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/account-form/account-form.component.ts:75:17:
+[37m      75 │           *ngIf="[32msection === 'beneficiaries'[37m"
+         ╵                  [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG8002: Can't bind to 'entityId' since it isn't a known property of 'app-beneficiary-dropdown'.
+1. If 'app-beneficiary-dropdown' is an Angular component and it has 'entityId' input, then verify that it is included in the '@Component.imports' of this component.
+2. If 'app-beneficiary-dropdown' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.
+3. To allow any property add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/beneficiaries/beneficiaries.component.ts:31:14:
+[37m      31 │               [32m[entityId]="entityId"[37m
+         ╵               [32m~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG8002: Can't bind to 'entityId' since it isn't a known property of 'app-trustee-dropdown'.
+1. If 'app-trustee-dropdown' is an Angular component and it has 'entityId' input, then verify that it is included in the '@Component.imports' of this component.
+2. If 'app-trustee-dropdown' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.
+3. To allow any property add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/trustees/trustees.component.ts:31:14:
+[37m      31 │               [32m[entityId]="entityId"[37m
+         ╵               [32m~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.541 seconds]
+
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mTS-998113: AccountFormComponent is not used within the template of AppComponent[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.component.ts:39:4:
+[37m      39 │     [32mAccountFormComponent[37m,
+         ╵     [32m~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mTS-998113: ReviewSummaryComponent is not used within the template of AppComponent[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.component.ts:40:4:
+[37m      40 │     [32mReviewSummaryComponent[37m,
+         ╵     [32m~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mTS-998113: ScrollableViewComponent is not used within the template of AppComponent[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.component.ts:41:4:
+[37m      41 │     [32mScrollableViewComponent[37m,
+         ╵     [32m~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mTS-998113: NewEntryPageComponent is not used within the template of AppComponent[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.component.ts:42:4:
+[37m      42 │     [32mNewEntryPageComponent[37m,
+         ╵     [32m~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mTS-998113: BetaModalComponent is not used within the template of AppComponent[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.component.ts:43:4:
+[37m      43 │     [32mBetaModalComponent[37m
+         ╵     [32m~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG5002: Unexpected closing tag "div". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.component.html:630:0:
+[37m      630 │ [32m</div>[37m
+          ╵ [32m~~~~~~[0m
+
+  Error occurs in the template of component AppComponent.
+
+    src/app/app.component.ts:46:15:
+[37m      46 │   templateUrl: [32m'./app.component.html'[37m,
+         ╵                [32m~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG7: This comparison appears to be unintentional because the types 'Section' and '"trustees"' have no overlap.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/account-form/account-form.component.ts:64:17:
+[37m      64 │           *ngIf="[32msection === 'trustees'[37m"
+         ╵                  [32m~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG7: This comparison appears to be unintentional because the types 'Section' and '"beneficiaries"' have no overlap.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/account-form/account-form.component.ts:75:17:
+[37m      75 │           *ngIf="[32msection === 'beneficiaries'[37m"
+         ╵                  [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG8002: Can't bind to 'entityId' since it isn't a known property of 'app-beneficiary-dropdown'.
+1. If 'app-beneficiary-dropdown' is an Angular component and it has 'entityId' input, then verify that it is included in the '@Component.imports' of this component.
+2. If 'app-beneficiary-dropdown' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.
+3. To allow any property add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/beneficiaries/beneficiaries.component.ts:31:14:
+[37m      31 │               [32m[entityId]="entityId"[37m
+         ╵               [32m~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG8002: Can't bind to 'entityId' since it isn't a known property of 'app-trustee-dropdown'.
+1. If 'app-trustee-dropdown' is an Angular component and it has 'entityId' input, then verify that it is included in the '@Component.imports' of this component.
+2. If 'app-trustee-dropdown' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.
+3. To allow any property add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/trustees/trustees.component.ts:31:14:
+[37m      31 │               [32m[entityId]="entityId"[37m
+         ╵               [32m~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.704 seconds]
+
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mTS-998113: AccountFormComponent is not used within the template of AppComponent[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.component.ts:39:4:
+[37m      39 │     [32mAccountFormComponent[37m,
+         ╵     [32m~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mTS-998113: ReviewSummaryComponent is not used within the template of AppComponent[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.component.ts:40:4:
+[37m      40 │     [32mReviewSummaryComponent[37m,
+         ╵     [32m~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mTS-998113: ScrollableViewComponent is not used within the template of AppComponent[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.component.ts:41:4:
+[37m      41 │     [32mScrollableViewComponent[37m,
+         ╵     [32m~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mTS-998113: NewEntryPageComponent is not used within the template of AppComponent[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.component.ts:42:4:
+[37m      42 │     [32mNewEntryPageComponent[37m,
+         ╵     [32m~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mTS-998113: BetaModalComponent is not used within the template of AppComponent[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.component.ts:43:4:
+[37m      43 │     [32mBetaModalComponent[37m
+         ╵     [32m~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG5002: Unexpected closing tag "div". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.component.html:630:0:
+[37m      630 │ [32m</div>[37m
+          ╵ [32m~~~~~~[0m
+
+  Error occurs in the template of component AppComponent.
+
+    src/app/app.component.ts:46:15:
+[37m      46 │   templateUrl: [32m'./app.component.html'[37m,
+         ╵                [32m~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG7: This comparison appears to be unintentional because the types 'Section' and '"trustees"' have no overlap.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/account-form/account-form.component.ts:64:17:
+[37m      64 │           *ngIf="[32msection === 'trustees'[37m"
+         ╵                  [32m~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG7: This comparison appears to be unintentional because the types 'Section' and '"beneficiaries"' have no overlap.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/account-form/account-form.component.ts:75:17:
+[37m      75 │           *ngIf="[32msection === 'beneficiaries'[37m"
+         ╵                  [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG8002: Can't bind to 'entityId' since it isn't a known property of 'app-beneficiary-dropdown'.
+1. If 'app-beneficiary-dropdown' is an Angular component and it has 'entityId' input, then verify that it is included in the '@Component.imports' of this component.
+2. If 'app-beneficiary-dropdown' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.
+3. To allow any property add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/beneficiaries/beneficiaries.component.ts:31:14:
+[37m      31 │               [32m[entityId]="entityId"[37m
+         ╵               [32m~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG8002: Can't bind to 'entityId' since it isn't a known property of 'app-trustee-dropdown'.
+1. If 'app-trustee-dropdown' is an Angular component and it has 'entityId' input, then verify that it is included in the '@Component.imports' of this component.
+2. If 'app-trustee-dropdown' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.
+3. To allow any property add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/trustees/trustees.component.ts:31:14:
+[37m      31 │               [32m[entityId]="entityId"[37m
+         ╵               [32m~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [1.554 seconds]
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG7: This comparison appears to be unintentional because the types 'Section' and '"trustees"' have no overlap.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/account-form/account-form.component.ts:64:17:
+[37m      64 │           *ngIf="[32msection === 'trustees'[37m"
+         ╵                  [32m~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG7: This comparison appears to be unintentional because the types 'Section' and '"beneficiaries"' have no overlap.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/account-form/account-form.component.ts:75:17:
+[37m      75 │           *ngIf="[32msection === 'beneficiaries'[37m"
+         ╵                  [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG8002: Can't bind to 'entityId' since it isn't a known property of 'app-beneficiary-dropdown'.
+1. If 'app-beneficiary-dropdown' is an Angular component and it has 'entityId' input, then verify that it is included in the '@Component.imports' of this component.
+2. If 'app-beneficiary-dropdown' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.
+3. To allow any property add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/beneficiaries/beneficiaries.component.ts:31:14:
+[37m      31 │               [32m[entityId]="entityId"[37m
+         ╵               [32m~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG8002: Can't bind to 'entityId' since it isn't a known property of 'app-trustee-dropdown'.
+1. If 'app-trustee-dropdown' is an Angular component and it has 'entityId' input, then verify that it is included in the '@Component.imports' of this component.
+2. If 'app-trustee-dropdown' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.
+3. To allow any property add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/trustees/trustees.component.ts:31:14:
+[37m      31 │               [32m[entityId]="entityId"[37m
+         ╵               [32m~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [1.636 seconds]
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG7: This comparison appears to be unintentional because the types 'Section' and '"trustees"' have no overlap.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/account-form/account-form.component.ts:64:17:
+[37m      64 │           *ngIf="[32msection === 'trustees'[37m"
+         ╵                  [32m~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG7: This comparison appears to be unintentional because the types 'Section' and '"beneficiaries"' have no overlap.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/account-form/account-form.component.ts:75:17:
+[37m      75 │           *ngIf="[32msection === 'beneficiaries'[37m"
+         ╵                  [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG8002: Can't bind to 'entityId' since it isn't a known property of 'app-beneficiary-dropdown'.
+1. If 'app-beneficiary-dropdown' is an Angular component and it has 'entityId' input, then verify that it is included in the '@Component.imports' of this component.
+2. If 'app-beneficiary-dropdown' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.
+3. To allow any property add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/beneficiaries/beneficiaries.component.ts:31:14:
+[37m      31 │               [32m[entityId]="entityId"[37m
+         ╵               [32m~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG8002: Can't bind to 'entityId' since it isn't a known property of 'app-trustee-dropdown'.
+1. If 'app-trustee-dropdown' is an Angular component and it has 'entityId' input, then verify that it is included in the '@Component.imports' of this component.
+2. If 'app-trustee-dropdown' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.
+3. To allow any property add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/trustees/trustees.component.ts:31:14:
+[37m      31 │               [32m[entityId]="entityId"[37m
+         ╵               [32m~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [1.340 seconds]
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG7: This comparison appears to be unintentional because the types 'Section' and '"trustees"' have no overlap.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/account-form/account-form.component.ts:64:17:
+[37m      64 │           *ngIf="[32msection === 'trustees'[37m"
+         ╵                  [32m~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG7: This comparison appears to be unintentional because the types 'Section' and '"beneficiaries"' have no overlap.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/account-form/account-form.component.ts:75:17:
+[37m      75 │           *ngIf="[32msection === 'beneficiaries'[37m"
+         ╵                  [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG8002: Can't bind to 'entityId' since it isn't a known property of 'app-beneficiary-dropdown'.
+1. If 'app-beneficiary-dropdown' is an Angular component and it has 'entityId' input, then verify that it is included in the '@Component.imports' of this component.
+2. If 'app-beneficiary-dropdown' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.
+3. To allow any property add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/beneficiaries/beneficiaries.component.ts:31:14:
+[37m      31 │               [32m[entityId]="entityId"[37m
+         ╵               [32m~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG8002: Can't bind to 'entityId' since it isn't a known property of 'app-trustee-dropdown'.
+1. If 'app-trustee-dropdown' is an Angular component and it has 'entityId' input, then verify that it is included in the '@Component.imports' of this component.
+2. If 'app-trustee-dropdown' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.
+3. To allow any property add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/trustees/trustees.component.ts:31:14:
+[37m      31 │               [32m[entityId]="entityId"[37m
+         ╵               [32m~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.703 seconds]
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG7: This comparison appears to be unintentional because the types 'Section' and '"trustees"' have no overlap.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/account-form/account-form.component.ts:64:17:
+[37m      64 │           *ngIf="[32msection === 'trustees'[37m"
+         ╵                  [32m~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG7: This comparison appears to be unintentional because the types 'Section' and '"beneficiaries"' have no overlap.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/account-form/account-form.component.ts:75:17:
+[37m      75 │           *ngIf="[32msection === 'beneficiaries'[37m"
+         ╵                  [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG8002: Can't bind to 'entityId' since it isn't a known property of 'app-beneficiary-dropdown'.
+1. If 'app-beneficiary-dropdown' is an Angular component and it has 'entityId' input, then verify that it is included in the '@Component.imports' of this component.
+2. If 'app-beneficiary-dropdown' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.
+3. To allow any property add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/beneficiaries/beneficiaries.component.ts:31:14:
+[37m      31 │               [32m[entityId]="entityId"[37m
+         ╵               [32m~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG8002: Can't bind to 'entityId' since it isn't a known property of 'app-trustee-dropdown'.
+1. If 'app-trustee-dropdown' is an Angular component and it has 'entityId' input, then verify that it is included in the '@Component.imports' of this component.
+2. If 'app-trustee-dropdown' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.
+3. To allow any property add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/trustees/trustees.component.ts:31:14:
+[37m      31 │               [32m[entityId]="entityId"[37m
+         ╵               [32m~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [1.310 seconds]
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG7: This comparison appears to be unintentional because the types 'Section' and '"trustees"' have no overlap.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/account-form/account-form.component.ts:64:17:
+[37m      64 │           *ngIf="[32msection === 'trustees'[37m"
+         ╵                  [32m~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG7: This comparison appears to be unintentional because the types 'Section' and '"beneficiaries"' have no overlap.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/account-form/account-form.component.ts:75:17:
+[37m      75 │           *ngIf="[32msection === 'beneficiaries'[37m"
+         ╵                  [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG8002: Can't bind to 'entityId' since it isn't a known property of 'app-beneficiary-dropdown'.
+1. If 'app-beneficiary-dropdown' is an Angular component and it has 'entityId' input, then verify that it is included in the '@Component.imports' of this component.
+2. If 'app-beneficiary-dropdown' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.
+3. To allow any property add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/beneficiaries/beneficiaries.component.ts:31:14:
+[37m      31 │               [32m[entityId]="entityId"[37m
+         ╵               [32m~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG8002: Can't bind to 'entityId' since it isn't a known property of 'app-trustee-dropdown'.
+1. If 'app-trustee-dropdown' is an Angular component and it has 'entityId' input, then verify that it is included in the '@Component.imports' of this component.
+2. If 'app-trustee-dropdown' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.
+3. To allow any property add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/trustees/trustees.component.ts:31:14:
+[37m      31 │               [32m[entityId]="entityId"[37m
+         ╵               [32m~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [1.435 seconds]
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG7: This comparison appears to be unintentional because the types 'Section' and '"trustees"' have no overlap.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/account-form/account-form.component.ts:64:17:
+[37m      64 │           *ngIf="[32msection === 'trustees'[37m"
+         ╵                  [32m~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG7: This comparison appears to be unintentional because the types 'Section' and '"beneficiaries"' have no overlap.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/account-form/account-form.component.ts:75:17:
+[37m      75 │           *ngIf="[32msection === 'beneficiaries'[37m"
+         ╵                  [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG8002: Can't bind to 'entityId' since it isn't a known property of 'app-beneficiary-dropdown'.
+1. If 'app-beneficiary-dropdown' is an Angular component and it has 'entityId' input, then verify that it is included in the '@Component.imports' of this component.
+2. If 'app-beneficiary-dropdown' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.
+3. To allow any property add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/beneficiaries/beneficiaries.component.ts:31:14:
+[37m      31 │               [32m[entityId]="entityId"[37m
+         ╵               [32m~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG8002: Can't bind to 'entityId' since it isn't a known property of 'app-trustee-dropdown'.
+1. If 'app-trustee-dropdown' is an Angular component and it has 'entityId' input, then verify that it is included in the '@Component.imports' of this component.
+2. If 'app-trustee-dropdown' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.
+3. To allow any property add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/trustees/trustees.component.ts:31:14:
+[37m      31 │               [32m[entityId]="entityId"[37m
+         ╵               [32m~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [1.373 seconds]
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG7: This comparison appears to be unintentional because the types 'Section' and '"trustees"' have no overlap.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/account-form/account-form.component.ts:64:17:
+[37m      64 │           *ngIf="[32msection === 'trustees'[37m"
+         ╵                  [32m~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG7: This comparison appears to be unintentional because the types 'Section' and '"beneficiaries"' have no overlap.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/account-form/account-form.component.ts:75:17:
+[37m      75 │           *ngIf="[32msection === 'beneficiaries'[37m"
+         ╵                  [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG8002: Can't bind to 'entityId' since it isn't a known property of 'app-beneficiary-dropdown'.
+1. If 'app-beneficiary-dropdown' is an Angular component and it has 'entityId' input, then verify that it is included in the '@Component.imports' of this component.
+2. If 'app-beneficiary-dropdown' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.
+3. To allow any property add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/beneficiaries/beneficiaries.component.ts:31:14:
+[37m      31 │               [32m[entityId]="entityId"[37m
+         ╵               [32m~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG8002: Can't bind to 'entityId' since it isn't a known property of 'app-trustee-dropdown'.
+1. If 'app-trustee-dropdown' is an Angular component and it has 'entityId' input, then verify that it is included in the '@Component.imports' of this component.
+2. If 'app-trustee-dropdown' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.
+3. To allow any property add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/trustees/trustees.component.ts:31:14:
+[37m      31 │               [32m[entityId]="entityId"[37m
+         ╵               [32m~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [1.121 seconds]
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG7: This comparison appears to be unintentional because the types 'Section' and '"trustees"' have no overlap.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/account-form/account-form.component.ts:64:17:
+[37m      64 │           *ngIf="[32msection === 'trustees'[37m"
+         ╵                  [32m~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG7: This comparison appears to be unintentional because the types 'Section' and '"beneficiaries"' have no overlap.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/account-form/account-form.component.ts:75:17:
+[37m      75 │           *ngIf="[32msection === 'beneficiaries'[37m"
+         ╵                  [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG8002: Can't bind to 'entityId' since it isn't a known property of 'app-beneficiary-dropdown'.
+1. If 'app-beneficiary-dropdown' is an Angular component and it has 'entityId' input, then verify that it is included in the '@Component.imports' of this component.
+2. If 'app-beneficiary-dropdown' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.
+3. To allow any property add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/beneficiaries/beneficiaries.component.ts:31:14:
+[37m      31 │               [32m[entityId]="entityId"[37m
+         ╵               [32m~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG8002: Can't bind to 'entityId' since it isn't a known property of 'app-trustee-dropdown'.
+1. If 'app-trustee-dropdown' is an Angular component and it has 'entityId' input, then verify that it is included in the '@Component.imports' of this component.
+2. If 'app-trustee-dropdown' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.
+3. To allow any property add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/trustees/trustees.component.ts:31:14:
+[37m      31 │               [32m[entityId]="entityId"[37m
+         ╵               [32m~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [1.141 seconds]
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG7: This comparison appears to be unintentional because the types 'Section' and '"trustees"' have no overlap.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/account-form/account-form.component.ts:64:17:
+[37m      64 │           *ngIf="[32msection === 'trustees'[37m"
+         ╵                  [32m~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG7: This comparison appears to be unintentional because the types 'Section' and '"beneficiaries"' have no overlap.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/account-form/account-form.component.ts:75:17:
+[37m      75 │           *ngIf="[32msection === 'beneficiaries'[37m"
+         ╵                  [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG8002: Can't bind to 'entityId' since it isn't a known property of 'app-beneficiary-dropdown'.
+1. If 'app-beneficiary-dropdown' is an Angular component and it has 'entityId' input, then verify that it is included in the '@Component.imports' of this component.
+2. If 'app-beneficiary-dropdown' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.
+3. To allow any property add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/beneficiaries/beneficiaries.component.ts:31:14:
+[37m      31 │               [32m[entityId]="entityId"[37m
+         ╵               [32m~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG8002: Can't bind to 'entityId' since it isn't a known property of 'app-trustee-dropdown'.
+1. If 'app-trustee-dropdown' is an Angular component and it has 'entityId' input, then verify that it is included in the '@Component.imports' of this component.
+2. If 'app-trustee-dropdown' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.
+3. To allow any property add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/trustees/trustees.component.ts:31:14:
+[37m      31 │               [32m[entityId]="entityId"[37m
+         ╵               [32m~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.734 seconds]
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG7: This comparison appears to be unintentional because the types 'Section' and '"trustees"' have no overlap.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/account-form/account-form.component.ts:64:17:
+[37m      64 │           *ngIf="[32msection === 'trustees'[37m"
+         ╵                  [32m~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG7: This comparison appears to be unintentional because the types 'Section' and '"beneficiaries"' have no overlap.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/account-form/account-form.component.ts:75:17:
+[37m      75 │           *ngIf="[32msection === 'beneficiaries'[37m"
+         ╵                  [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG8002: Can't bind to 'entityId' since it isn't a known property of 'app-beneficiary-dropdown'.
+1. If 'app-beneficiary-dropdown' is an Angular component and it has 'entityId' input, then verify that it is included in the '@Component.imports' of this component.
+2. If 'app-beneficiary-dropdown' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.
+3. To allow any property add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/beneficiaries/beneficiaries.component.ts:31:14:
+[37m      31 │               [32m[entityId]="entityId"[37m
+         ╵               [32m~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG8002: Can't bind to 'entityId' since it isn't a known property of 'app-trustee-dropdown'.
+1. If 'app-trustee-dropdown' is an Angular component and it has 'entityId' input, then verify that it is included in the '@Component.imports' of this component.
+2. If 'app-trustee-dropdown' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.
+3. To allow any property add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/trustees/trustees.component.ts:31:14:
+[37m      31 │               [32m[entityId]="entityId"[37m
+         ╵               [32m~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.556 seconds]
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG7: This comparison appears to be unintentional because the types 'Section' and '"trustees"' have no overlap.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/account-form/account-form.component.ts:64:17:
+[37m      64 │           *ngIf="[32msection === 'trustees'[37m"
+         ╵                  [32m~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG7: This comparison appears to be unintentional because the types 'Section' and '"beneficiaries"' have no overlap.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/account-form/account-form.component.ts:75:17:
+[37m      75 │           *ngIf="[32msection === 'beneficiaries'[37m"
+         ╵                  [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG8002: Can't bind to 'entityId' since it isn't a known property of 'app-beneficiary-dropdown'.
+1. If 'app-beneficiary-dropdown' is an Angular component and it has 'entityId' input, then verify that it is included in the '@Component.imports' of this component.
+2. If 'app-beneficiary-dropdown' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.
+3. To allow any property add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/beneficiaries/beneficiaries.component.ts:31:14:
+[37m      31 │               [32m[entityId]="entityId"[37m
+         ╵               [32m~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG8002: Can't bind to 'entityId' since it isn't a known property of 'app-trustee-dropdown'.
+1. If 'app-trustee-dropdown' is an Angular component and it has 'entityId' input, then verify that it is included in the '@Component.imports' of this component.
+2. If 'app-trustee-dropdown' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.
+3. To allow any property add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/trustees/trustees.component.ts:31:14:
+[37m      31 │               [32m[entityId]="entityId"[37m
+         ╵               [32m~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.743 seconds]
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG7: This comparison appears to be unintentional because the types 'Section' and '"trustees"' have no overlap.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/account-form/account-form.component.ts:64:17:
+[37m      64 │           *ngIf="[32msection === 'trustees'[37m"
+         ╵                  [32m~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG7: This comparison appears to be unintentional because the types 'Section' and '"beneficiaries"' have no overlap.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/account-form/account-form.component.ts:75:17:
+[37m      75 │           *ngIf="[32msection === 'beneficiaries'[37m"
+         ╵                  [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG8002: Can't bind to 'entityId' since it isn't a known property of 'app-beneficiary-dropdown'.
+1. If 'app-beneficiary-dropdown' is an Angular component and it has 'entityId' input, then verify that it is included in the '@Component.imports' of this component.
+2. If 'app-beneficiary-dropdown' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.
+3. To allow any property add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/beneficiaries/beneficiaries.component.ts:31:14:
+[37m      31 │               [32m[entityId]="entityId"[37m
+         ╵               [32m~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG8002: Can't bind to 'entityId' since it isn't a known property of 'app-trustee-dropdown'.
+1. If 'app-trustee-dropdown' is an Angular component and it has 'entityId' input, then verify that it is included in the '@Component.imports' of this component.
+2. If 'app-trustee-dropdown' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.
+3. To allow any property add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/account-setup/components/trustees/trustees.component.ts:31:14:
+[37m      31 │               [32m[entityId]="entityId"[37m
+         ╵               [32m~~~~~~~~~~~~~~~~~~~~~[0m
+
+

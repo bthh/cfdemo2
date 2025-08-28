@@ -1,0 +1,195 @@
+.address-dropdown-container {
+  .field {
+    margin-bottom: 0.5rem;
+    
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .small-label {
+    display: block;
+    margin-bottom: 0.25rem;
+    font-weight: 500;
+    color: var(--text-color);
+    font-size: 0.75rem;
+  }
+
+  .field-label {
+    display: block;
+    margin-bottom: 0.25rem;
+    font-weight: 500;
+    color: var(--text-color);
+    font-size: 0.75rem;
+  }
+
+  // Compact input fields
+  ::ng-deep .p-inputtext {
+    height: 2.25rem !important;
+    font-size: 0.875rem !important;
+    padding: 0.375rem 0.5rem !important;
+  }
+
+  // Comprehensive z-index fix for AutoComplete dropdowns
+  ::ng-deep .p-autocomplete {
+    position: relative !important;
+    z-index: 10 !important;
+  }
+
+  // Apply extreme z-index to all AutoComplete panels globally
+  ::ng-deep .p-autocomplete-panel {
+    z-index: 2147483647 !important; // Maximum z-index value
+    position: absolute !important;
+    transform: translateZ(0) !important; // Force hardware acceleration
+  }
+
+  // Special handling for the state field (first in group) to appear above country
+  .field-group .field:first-child {
+    position: relative !important;
+    z-index: 100 !important;
+    
+    ::ng-deep .p-autocomplete {
+      z-index: 100 !important;
+    }
+    
+    ::ng-deep .p-autocomplete-panel {
+      z-index: 2147483647 !important; // Maximum z-index
+      position: absolute !important;
+      transform: translateZ(1px) !important; // Higher layer
+    }
+  }
+
+  // Ensure country field doesn't interfere
+  .field-group .field:last-child {
+    position: relative !important;
+    z-index: 50 !important;
+    
+    ::ng-deep .p-autocomplete-panel {
+      z-index: 2147483646 !important; // One less than state
+    }
+  }
+
+  // Ensure the field-group container doesn't create stacking context issues
+  .field-group {
+    position: relative !important;
+    z-index: 1 !important;
+  }
+
+  // Override any parent stacking contexts
+  .manual-address-fields {
+    position: relative !important;
+    z-index: 1 !important;
+  }
+
+  .field-group {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+
+    .field {
+      margin-bottom: 0;
+    }
+  }
+
+  // Special styling for address row (80%/20% split)
+  .address-row {
+    .address-main {
+      flex: 0 0 80% !important;
+    }
+    
+    .address-secondary {
+      flex: 0 0 18% !important; // 18% + 2% gap = 20%
+    }
+  }
+
+
+  .manual-address-fields {
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--surface-border);
+  }
+
+  .address-dropdown {
+    .p-dropdown-label {
+      font-weight: normal;
+    }
+  }
+
+  .flex-1 {
+    flex: 1;
+  }
+
+  .ml-2 {
+    margin-left: 0.5rem;
+  }
+
+  // Address input row layout
+  .address-input-row {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    
+    .flex-1 {
+      flex: 1;
+    }
+  }
+
+  // Style the Enter New Address button with consistent blue color
+  ::ng-deep .enter-new-address-btn.p-button {
+    background-color: #3B82F6 !important; // Consistent blue-500
+    border-color: #3B82F6 !important;
+    color: white !important;
+    font-size: 0.875rem !important;
+    padding: 0.5rem 0.75rem !important;
+    white-space: nowrap !important;
+    
+    &:hover:not(:disabled) {
+      background-color: #2563EB !important; // blue-600
+      border-color: #2563EB !important;
+    }
+    
+    &:focus {
+      box-shadow: 0 0 0 2px #DBEAFE !important; // blue-200 
+      background-color: #3B82F6 !important;
+      border-color: #3B82F6 !important;
+    }
+
+    &:active {
+      background-color: #1D4ED8 !important; // blue-700
+      border-color: #1D4ED8 !important;
+    }
+  }
+
+  // Style the Save Address button with consistent blue color
+  ::ng-deep .save-address-btn.p-button {
+    background-color: #3B82F6 !important; // Consistent blue-500
+    border-color: #3B82F6 !important;
+    color: white !important;
+    font-size: 0.875rem !important;
+    margin-top: 0.5rem !important;
+    
+    &:hover:not(:disabled) {
+      background-color: #2563EB !important; // blue-600
+      border-color: #2563EB !important;
+    }
+    
+    &:focus:not(:disabled) {
+      box-shadow: 0 0 0 2px #DBEAFE !important; // blue-200
+      background-color: #3B82F6 !important;
+      border-color: #3B82F6 !important;
+    }
+
+    &:active:not(:disabled) {
+      background-color: #1D4ED8 !important; // blue-700
+      border-color: #1D4ED8 !important;
+    }
+    
+    &:disabled {
+      background-color: #D1D5DB !important; // gray-300
+      border-color: #D1D5DB !important;
+      color: #9CA3AF !important; // gray-400
+      cursor: not-allowed !important;
+      opacity: 0.6 !important;
+    }
+  }
+}

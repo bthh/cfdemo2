@@ -1,0 +1,653 @@
+<div class="app">
+  <p-toast #toast position="top-center" styleClass="header-toast"></p-toast>
+  
+  <!-- New Entry Page - Default Landing -->
+  <app-new-entry-page 
+    *ngIf="showNewEntryPage"
+    (openAccountModal)="onOpenAccountModal()">
+  </app-new-entry-page>
+
+  <!-- Beta Modal -->
+  <app-beta-modal
+    [(visible)]="showBetaModal"
+    (tryBetaExperience)="onTryBetaExperience()"
+    (continueWithLegacy)="onContinueWithLegacy()"
+    (modalClosed)="onBetaModalClosed()">
+  </app-beta-modal>
+
+  <!-- Existing App Content (hidden when new entry page is shown) -->
+  <div *ngIf="!showNewEntryPage">
+    <!-- Parent Logo -->
+    <div class="parent-logo">
+      <h1>WHITE LABEL</h1>
+    </div>
+
+  <!-- Parent Sidebar -->
+    <div class="parent-sidebar">
+      <div class="parent-nav-item active">
+        <i class="fa-solid fa-table-cells-large"></i>
+        Dashboard
+      </div>
+      <div class="parent-nav-item">
+        <i class="fa-solid fa-users"></i>
+        Clients
+      </div>
+      <div class="parent-nav-item">
+        <i class="fa-solid fa-briefcase"></i>
+        Accounts
+      </div>
+      <div class="parent-nav-item">
+        <i class="fa-solid fa-chart-line"></i>
+        Portfolio
+      </div>
+      <div class="parent-nav-item">
+        <i class="fa-solid fa-file-lines"></i>
+        Reports
+      </div>
+      <div class="parent-nav-item">
+        <i class="fa-solid fa-gear"></i>
+        Settings
+      </div>
+      <div class="parent-nav-item">
+        <i class="fa-solid fa-circle-question"></i>
+        Support
+      </div>
+      <div class="parent-nav-item">
+        <i class="fa-solid fa-book"></i>
+        Resources
+      </div>
+    </div>
+
+    <!-- Parent Header -->
+    <div class="parent-header">
+      <div class="search-container">
+        <i class="fa-solid fa-magnifying-glass search-icon"></i>
+        <input 
+          type="text" 
+          class="search-input" 
+          placeholder="Search clients..."
+        />
+      </div>
+      <div class="profile-section">
+        <span>Valued Advisor</span>
+        <div class="profile-dropdown-container">
+          <div class="profile-icon" (click)="toggleProfileMenu($event)" [class.active]="showProfileMenu">
+            <i class="fa-regular fa-user"></i>
+          </div>
+          <div class="profile-dropdown" *ngIf="showProfileMenu" (click)="$event.stopPropagation()">
+            <div class="profile-menu-item">
+              <div class="scrollable-pages-toggle">
+                <span class="toggle-label">Scrollable Pages</span>
+                <p-inputSwitch
+                  [(ngModel)]="scrollablePagesMode"
+                  styleClass="profile-toggle">
+                </p-inputSwitch>
+              </div>
+            </div>
+            <div class="profile-menu-item">
+              <div class="scrollable-pages-toggle">
+                <span class="toggle-label">Quick Review</span>
+                <p-inputSwitch
+                  [(ngModel)]="isReviewMode"
+                  styleClass="profile-toggle">
+                </p-inputSwitch>
+              </div>
+            </div>
+            <div class="profile-menu-item">
+              <div class="scrollable-pages-toggle">
+                <span class="toggle-label">Reg Groups</span>
+                <p-inputSwitch
+                  [(ngModel)]="registrationGroupMode"
+                  (ngModelChange)="onRegistrationGroupModeChange($event)"
+                  styleClass="profile-toggle">
+                </p-inputSwitch>
+              </div>
+            </div>
+            <div class="profile-menu-item">
+              <div class="scrollable-pages-toggle">
+                <span class="toggle-label">Copy Dropdowns</span>
+                <p-inputSwitch
+                  [(ngModel)]="copyDropdownsMode"
+                  styleClass="profile-toggle">
+                </p-inputSwitch>
+              </div>
+            </div>
+            <div class="profile-menu-item">
+              <div class="scrollable-pages-toggle">
+                <span class="toggle-label">Owner Firm Details</span>
+                <p-inputSwitch
+                  [(ngModel)]="ownerFirmDetailsMode"
+                  styleClass="profile-toggle">
+                </p-inputSwitch>
+              </div>
+            </div>
+            <div class="profile-menu-item">
+              <div class="scrollable-pages-toggle">
+                <span class="toggle-label">Broker Dealer Info</span>
+                <p-inputSwitch
+                  [(ngModel)]="brokerDealerInfoMode"
+                  styleClass="profile-toggle">
+                </p-inputSwitch>
+              </div>
+            </div>
+            <div class="profile-menu-item">
+              <div class="scrollable-pages-toggle">
+                <span class="toggle-label">Brinker Funding</span>
+                <p-inputSwitch
+                  [(ngModel)]="brinkerFundingMode"
+                  styleClass="profile-toggle">
+                </p-inputSwitch>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <!-- Main Content Area -->
+  <div class="main-content-area">
+    <!-- Enhanced Account Setup Header -->
+    <div class="enterprise-header">
+      <div class="enterprise-header-content">
+        <div class="flex align-items-center gap-4">
+          <p-button 
+            icon="pi pi-arrow-left" 
+            severity="info"
+            (onClick)="goBackToEntryPage()"
+            styleClass="back-button"
+            pTooltip="Back to Proposal"
+            tooltipPosition="bottom">
+          </p-button>
+          <p-button 
+            icon="pi pi-bars" 
+            [text]="true"
+            severity="secondary"
+            (onClick)="showSidebar()"
+            styleClass="lg:hidden">
+          </p-button>
+          <div class="header-title-section">
+            <h1 class="enterprise-title">New Account Setup</h1>
+            <div class="enterprise-subtitle">Smith Family Portfolio</div>
+            <div class="experience-text">Like this experience?</div>
+          </div>
+        </div>
+        
+
+        <div class="header-actions">
+          <div class="button-row">
+            <p-button 
+              label="Finish Later" 
+              icon="pi pi-clock"
+              severity="secondary"
+              (onClick)="finishLater()"
+              styleClass="nav-button finish-later-button">
+            </p-button>
+            
+            <p-button 
+              label="Review & E-Sign" 
+              icon="pi pi-clipboard"
+              severity="info"
+              (onClick)="showReviewSummary()"
+              styleClass="nav-button">
+            </p-button>
+          </div>
+          
+          <div class="last-saved-info">
+            Last saved: {{getLastSavedTime()}}
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="flex" style="height: calc(100vh - 160px)">
+      <!-- Desktop Sidebar -->
+      <div 
+        class="hidden lg:block sidebar-container" 
+        [style.width.px]="sidebarWidth">
+        <div class="household-title">
+          Smith Household
+        </div>
+        <div class="p-2">
+          <!-- Normal View -->
+          <ng-container *ngIf="!registrationGroupMode">
+            <!-- Members -->
+            <div class="mb-2">
+              <div class="section-group-header">
+                <i class="pi pi-users"></i>
+                Owner Information
+              </div>
+              <!-- Members with only one section - Non-expandable -->
+              <div *ngFor="let member of memberData; let i = index"
+                   [ngStyle]="member.sections.length <= 1 ? {} : {display: 'none'}">
+                <div class="member-simple-item"
+                     [class.active]="currentMember === member.id"
+                     (click)="handleSectionNavigation('owner-details', member.id, '')">
+                  <div class="flex align-items-center gap-2">
+                    <i [class]="member.icon + ' entity-icon'"></i>
+                    <div class="entity-header-info">
+                      <div class="entity-name">{{member.name}}</div>
+                      <div class="entity-role" *ngIf="registrationGroupMode">{{member.role}}</div>
+                    </div>
+                  </div>
+                  <i [class]="getCompletionIcon(isEntityComplete('members', member.id)) + ' text-' + getCompletionSeverity(isEntityComplete('members', member.id)) + ' completion-icon'"></i>
+                </div>
+              </div>
+
+              <!-- Members with multiple sections - Expandable accordion -->
+              <p-accordion 
+                [multiple]="!scrollablePagesMode" 
+                [activeIndex]="expandedMemberTabs"
+                (onTabChange)="onMemberTabChange($event)">
+                <p-accordionTab 
+                  *ngFor="let member of getMembersWithMultipleSections(); let i = index">
+                  <ng-template pTemplate="header">
+                    <div class="flex align-items-center justify-content-between w-full" 
+                         (click)="onMemberHeaderClick(member.id)">
+                      <div class="flex align-items-center gap-2">
+                        <i [class]="member.icon + ' entity-icon'"></i>
+                        <div class="entity-header-info">
+                          <div class="entity-name">{{member.name}}</div>
+                          <div class="entity-role" *ngIf="registrationGroupMode">{{member.role}}</div>
+                        </div>
+                      </div>
+                      <i [class]="getCompletionIcon(isEntityComplete('members', member.id)) + ' text-' + getCompletionSeverity(isEntityComplete('members', member.id)) + ' completion-icon'"></i>
+                    </div>
+                  </ng-template>
+                  <div
+                    *ngFor="let section of member.sections"
+                    [class]="'section-nav-item ' + (currentSection === section.id && currentMember === member.id ? 'active' : '')"
+                    (click)="handleSectionNavigation(castToSection(section.id), member.id, '')">
+                    <div class="section-nav-content">
+                      <i [class]="section.icon + ' section-nav-icon'"></i>
+                      <span class="section-nav-text">{{section.name}}</span>
+                    </div>
+                    <i [class]="getCompletionIcon(getSectionCompletion('members', member.id, section.id)) + ' text-' + getCompletionSeverity(getSectionCompletion('members', member.id, section.id)) + ' completion-icon'"></i>
+                  </div>
+                </p-accordionTab>
+              </p-accordion>
+            </div>
+
+            <!-- Account Types -->
+            <div>
+              <div class="section-group-header">
+                <i class="pi pi-briefcase"></i>
+                Account Information
+              </div>
+              <p-accordion 
+                [multiple]="!scrollablePagesMode" 
+                [activeIndex]="expandedAccountTabs"
+                (onTabChange)="onAccountTabChange($event)">
+                <p-accordionTab 
+                  *ngFor="let account of accountData">
+                  <ng-template pTemplate="header">
+                    <div class="flex align-items-center justify-content-between w-full" 
+                         (click)="onAccountHeaderClick(account.id)">
+                      <div class="flex align-items-center gap-2">
+                        <i [class]="account.icon + ' entity-icon'"></i>
+                        <div class="entity-header-info">
+                          <div class="entity-name">{{account.name}}</div>
+                          <div class="entity-role">{{account.owners}}</div>
+                        </div>
+                      </div>
+                      <i [class]="getCompletionIcon(isEntityComplete('accounts', account.id)) + ' text-' + getCompletionSeverity(isEntityComplete('accounts', account.id)) + ' completion-icon'"></i>
+                    </div>
+                  </ng-template>
+                  <div
+                    *ngFor="let section of account.sections"
+                    [class]="'section-nav-item ' + (currentSection === section.id && currentAccount === account.id ? 'active' : '')"
+                    (click)="handleSectionNavigation(castToSection(section.id), '', account.id)">
+                    <div class="section-nav-content">
+                      <i [class]="section.icon + ' section-nav-icon'"></i>
+                      <span class="section-nav-text">{{section.name}}</span>
+                    </div>
+                    <i [class]="getCompletionIcon(getSectionCompletion('accounts', account.id, section.id)) + ' text-' + getCompletionSeverity(getSectionCompletion('accounts', account.id, section.id)) + ' completion-icon'"></i>
+                  </div>
+                </p-accordionTab>
+              </p-accordion>
+            </div>
+          </ng-container>
+
+          <!-- Registration Group View -->
+          <ng-container *ngIf="registrationGroupMode">
+            <p-accordion 
+              [multiple]="false" 
+              [activeIndex]="expandedRegistrationGroup"
+              (onTabChange)="onRegistrationGroupTabChange($event)">
+              <p-accordionTab *ngFor="let registration of registrationGroups; let i = index; trackBy: trackByRegistrationId">
+                <ng-template pTemplate="header">
+                  <div class="registration-group-header-content">
+                    <span class="registration-group-title">{{registration.name}}</span>
+                    <i [class]="getCompletionIcon(isRegistrationComplete(registration.id)) + ' text-' + getCompletionSeverity(isRegistrationComplete(registration.id)) + ' registration-completion-icon'"></i>
+                  </div>
+                </ng-template>
+                
+                <!-- Members in this registration -->
+                <div *ngIf="registration.members.length > 0" class="registration-section">
+                  <div>
+                    <div *ngFor="let member of registration.members" class="registration-entity">
+                      <div class="registration-entity-header" 
+                           [class.clickable]="member.sections.length > 1"
+                           [class.active]="currentMember === member.id && currentSection === 'owner-details'"
+                           (click)="member.sections.length > 1 ? handleOwnerHeaderClick($event, member.id, registration.id) : handleSectionNavigation('owner-details', member.id, '')">
+                        <i *ngIf="member.sections.length > 1"
+                           [class]="expandedOwnerSections[member.id] ? 'pi pi-chevron-down' : 'pi pi-chevron-right'"
+                           class="toggle-icon"
+                           (click)="toggleOwnerSection(member.id); $event.stopPropagation()"></i>
+                        <i [class]="getMemberIcon(member.id) + ' entity-icon'"></i>
+                        <div class="entity-header-info">
+                          <span class="entity-name">{{member.name}}</span>
+                          <div class="entity-role">{{getMemberRoleForRegistration(member.id, registration.id)}}</div>
+                        </div>
+                        <i [class]="getCompletionIcon(isEntityComplete('members', member.id)) + ' text-' + getCompletionSeverity(isEntityComplete('members', member.id)) + ' completion-icon'"></i>
+                      </div>
+                      
+                      <div *ngIf="expandedOwnerSections[member.id] && member.sections.length > 1" class="nested-sections">
+                        <div *ngFor="let sectionId of member.sections" 
+                             [class]="'section-nav-item ' + (currentSection === sectionId && currentMember === member.id ? 'active' : '')"
+                             (click)="handleSectionNavigation(castToSection(sectionId), member.id, '')">
+                          <div class="section-nav-content">
+                            <i [class]="getSectionIcon(sectionId) + ' section-nav-icon'"></i>
+                            <span class="section-nav-text">{{getSectionName(sectionId)}}</span>
+                          </div>
+                          <i [class]="getCompletionIcon(getSectionCompletion('members', member.id, sectionId)) + ' text-' + getCompletionSeverity(getSectionCompletion('members', member.id, sectionId)) + ' completion-icon'"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+                <!-- Accounts in this registration -->
+                <div *ngIf="registration.accounts.length > 0" class="registration-section">
+                  <div *ngFor="let account of registration.accounts" class="registration-entity">
+                    <div class="registration-entity-header clickable" (click)="handleAccountHeaderClick($event, account.id, registration.id)">
+                      <i [class]="expandedAccountSections[account.id] ? 'pi pi-chevron-down' : 'pi pi-chevron-right'"
+                         class="toggle-icon"
+                         (click)="toggleAccountSection(account.id); $event.stopPropagation()"></i>
+                      <i [class]="getAccountIcon(account.id) + ' entity-icon'"></i>
+                      <span class="entity-name">{{account.name}} <span *ngIf="getCustodianName(account.id)" class="custodian-name">({{getCustodianName(account.id)}})</span></span>
+                      <i [class]="getCompletionIcon(isEntityComplete('accounts', account.id)) + ' text-' + getCompletionSeverity(isEntityComplete('accounts', account.id)) + ' completion-icon'"></i>
+                    </div>
+                    
+                    <div *ngIf="expandedAccountSections[account.id]" class="nested-sections">
+                      <div *ngFor="let sectionId of account.sections" 
+                           [class]="'section-nav-item ' + (currentSection === sectionId && currentAccount === account.id ? 'active' : '')"
+                           (click)="handleSectionNavigation(castToSection(sectionId), '', account.id)">
+                        <div class="section-nav-content">
+                          <i [class]="getSectionIcon(sectionId) + ' section-nav-icon'"></i>
+                          <span class="section-nav-text">{{getSectionName(sectionId)}}</span>
+                        </div>
+                        <i [class]="getCompletionIcon(getSectionCompletion('accounts', account.id, sectionId)) + ' text-' + getCompletionSeverity(getSectionCompletion('accounts', account.id, sectionId)) + ' completion-icon'"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </p-accordionTab>
+            </p-accordion>
+            
+            <!-- Review & E-sign Button for Registration Group Mode -->
+            <div *ngIf="registrationGroupMode" class="sidebar-bottom-action">
+              <p-button 
+                label="Review & E-Sign" 
+                icon="pi pi-clipboard"
+                severity="info"
+                (onClick)="showReviewSummary()"
+                styleClass="review-esign-sidebar-button">
+              </p-button>
+            </div>
+          </ng-container>
+        </div>
+        
+        <!-- Resize Handle -->
+        <div 
+          class="sidebar-resize-handle"
+          (mousedown)="handleMouseDown()"
+          [style]="{
+            position: 'absolute',
+            right: 0,
+            top: 0,
+            bottom: 0,
+            width: '4px',
+            cursor: 'col-resize',
+            'background-color': isResizing ? '#3b82f6' : 'transparent',
+            transition: 'background-color 0.2s ease'
+          }">
+        </div>
+      </div>
+
+      <!-- Mobile Sidebar -->
+      <p-sidebar 
+        [(visible)]="sidebarVisible" 
+        styleClass="w-full sm:w-20rem">
+        <div class="p-2">
+          <!-- Normal View -->
+          <ng-container *ngIf="!registrationGroupMode">
+            <!-- Household Members -->
+            <div class="mb-2">
+              <div class="section-group-header">
+                <i class="pi pi-users"></i>
+                Smith Household Owner Information
+              </div>
+              <p-accordion 
+                [multiple]="!scrollablePagesMode" 
+                [activeIndex]="expandedMemberTabs"
+                (onTabChange)="onMemberTabChange($event)">
+                <p-accordionTab 
+                  *ngFor="let member of memberData">
+                  <ng-template pTemplate="header">
+                    <div class="flex align-items-center justify-content-between w-full">
+                      <div class="flex align-items-center gap-2">
+                        <i [class]="member.icon + ' entity-icon'"></i>
+                        <div class="entity-header-info">
+                          <div class="entity-name">{{member.name}}</div>
+                          <div class="entity-role" *ngIf="registrationGroupMode">{{member.role}}</div>
+                        </div>
+                      </div>
+                      <i [class]="getCompletionIcon(isEntityComplete('members', member.id)) + ' text-' + getCompletionSeverity(isEntityComplete('members', member.id)) + ' completion-icon'"></i>
+                    </div>
+                  </ng-template>
+                  <div
+                    *ngFor="let section of member.sections"
+                    [class]="'section-nav-item ' + (currentSection === section.id && currentMember === member.id ? 'active' : '')"
+                    (click)="handleMobileSectionNavigation(castToSection(section.id), member.id, '')">
+                    <div class="section-nav-content">
+                      <i [class]="section.icon + ' section-nav-icon'"></i>
+                      <span class="section-nav-text">{{section.name}}</span>
+                    </div>
+                    <i [class]="getCompletionIcon(getSectionCompletion('members', member.id, section.id)) + ' text-' + getCompletionSeverity(getSectionCompletion('members', member.id, section.id)) + ' completion-icon'"></i>
+                  </div>
+                </p-accordionTab>
+              </p-accordion>
+            </div>
+
+            <!-- Account Types -->
+            <div>
+              <div class="section-group-header">
+                <i class="pi pi-briefcase"></i>
+                Account Information
+              </div>
+              <p-accordion 
+                [multiple]="!scrollablePagesMode" 
+                [activeIndex]="expandedAccountTabs"
+                (onTabChange)="onAccountTabChange($event)">
+                <p-accordionTab 
+                  *ngFor="let account of accountData">
+                  <ng-template pTemplate="header">
+                    <div class="flex align-items-center justify-content-between w-full">
+                      <div class="flex align-items-center gap-2">
+                        <i [class]="account.icon + ' entity-icon'"></i>
+                        <div class="entity-header-info">
+                          <div class="entity-name">{{account.name}}</div>
+                          <div class="entity-role">{{account.owners}}</div>
+                        </div>
+                      </div>
+                      <i [class]="getCompletionIcon(isEntityComplete('accounts', account.id)) + ' text-' + getCompletionSeverity(isEntityComplete('accounts', account.id)) + ' completion-icon'"></i>
+                    </div>
+                  </ng-template>
+                  <div
+                    *ngFor="let section of account.sections"
+                    [class]="'section-nav-item ' + (currentSection === section.id && currentAccount === account.id ? 'active' : '')"
+                    (click)="handleMobileSectionNavigation(castToSection(section.id), '', account.id)">
+                    <div class="section-nav-content">
+                      <i [class]="section.icon + ' section-nav-icon'"></i>
+                      <span class="section-nav-text">{{section.name}}</span>
+                    </div>
+                    <i [class]="getCompletionIcon(getSectionCompletion('accounts', account.id, section.id)) + ' text-' + getCompletionSeverity(getSectionCompletion('accounts', account.id, section.id)) + ' completion-icon'"></i>
+                  </div>
+                </p-accordionTab>
+              </p-accordion>
+            </div>
+          </ng-container>
+
+          <!-- Registration Group View -->
+          <ng-container *ngIf="registrationGroupMode">
+            <p-accordion 
+              [multiple]="false" 
+              [activeIndex]="expandedRegistrationGroup"
+              (onTabChange)="onRegistrationGroupTabChange($event)">
+              <p-accordionTab *ngFor="let registration of registrationGroups; let i = index; trackBy: trackByRegistrationId">
+                <ng-template pTemplate="header">
+                  <div class="registration-group-header-content">
+                    <span class="registration-group-title">{{registration.name}}</span>
+                    <i [class]="getCompletionIcon(isRegistrationComplete(registration.id)) + ' text-' + getCompletionSeverity(isRegistrationComplete(registration.id)) + ' registration-completion-icon'"></i>
+                  </div>
+                </ng-template>
+                
+                <!-- Members in this registration -->
+                <div *ngIf="registration.members.length > 0" class="registration-section">
+                  <div>
+                    <div *ngFor="let member of registration.members" class="registration-entity">
+                      <div class="registration-entity-header" 
+                           [class.clickable]="member.sections.length > 1"
+                           [class.active]="currentMember === member.id && currentSection === 'owner-details'"
+                           (click)="member.sections.length > 1 ? handleOwnerHeaderClick($event, member.id, registration.id) : handleSectionNavigation('owner-details', member.id, '')">
+                        <i *ngIf="member.sections.length > 1"
+                           [class]="expandedOwnerSections[member.id] ? 'pi pi-chevron-down' : 'pi pi-chevron-right'"
+                           class="toggle-icon"
+                           (click)="toggleOwnerSection(member.id); $event.stopPropagation()"></i>
+                        <i [class]="getMemberIcon(member.id) + ' entity-icon'"></i>
+                        <div class="entity-header-info">
+                          <span class="entity-name">{{member.name}}</span>
+                          <div class="entity-role">{{getMemberRoleForRegistration(member.id, registration.id)}}</div>
+                        </div>
+                        <i [class]="getCompletionIcon(isEntityComplete('members', member.id)) + ' text-' + getCompletionSeverity(isEntityComplete('members', member.id)) + ' completion-icon'"></i>
+                      </div>
+                      
+                      <div *ngIf="expandedOwnerSections[member.id] && member.sections.length > 1" class="nested-sections">
+                        <div *ngFor="let sectionId of member.sections" 
+                             [class]="'section-nav-item ' + (currentSection === sectionId && currentMember === member.id ? 'active' : '')"
+                             (click)="handleMobileSectionNavigation(castToSection(sectionId), member.id, '')">
+                          <div class="section-nav-content">
+                            <i [class]="getSectionIcon(sectionId) + ' section-nav-icon'"></i>
+                            <span class="section-nav-text">{{getSectionName(sectionId)}}</span>
+                          </div>
+                          <i [class]="getCompletionIcon(getSectionCompletion('members', member.id, sectionId)) + ' text-' + getCompletionSeverity(getSectionCompletion('members', member.id, sectionId)) + ' completion-icon'"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+                <!-- Accounts in this registration -->
+                <div *ngIf="registration.accounts.length > 0" class="registration-section">
+                  <div *ngFor="let account of registration.accounts" class="registration-entity">
+                    <div class="registration-entity-header clickable" (click)="handleAccountHeaderClick($event, account.id, registration.id)">
+                      <i [class]="expandedAccountSections[account.id] ? 'pi pi-chevron-down' : 'pi pi-chevron-right'"
+                         class="toggle-icon"
+                         (click)="toggleAccountSection(account.id); $event.stopPropagation()"></i>
+                      <i [class]="getAccountIcon(account.id) + ' entity-icon'"></i>
+                      <span class="entity-name">{{account.name}} <span *ngIf="getCustodianName(account.id)" class="custodian-name">({{getCustodianName(account.id)}})</span></span>
+                      <i [class]="getCompletionIcon(isEntityComplete('accounts', account.id)) + ' text-' + getCompletionSeverity(isEntityComplete('accounts', account.id)) + ' completion-icon'"></i>
+                    </div>
+                    
+                    <div *ngIf="expandedAccountSections[account.id]" class="nested-sections">
+                      <div *ngFor="let sectionId of account.sections" 
+                           [class]="'section-nav-item ' + (currentSection === sectionId && currentAccount === account.id ? 'active' : '')"
+                           (click)="handleMobileSectionNavigation(castToSection(sectionId), '', account.id)">
+                        <div class="section-nav-content">
+                          <i [class]="getSectionIcon(sectionId) + ' section-nav-icon'"></i>
+                          <span class="section-nav-text">{{getSectionName(sectionId)}}</span>
+                        </div>
+                        <i [class]="getCompletionIcon(getSectionCompletion('accounts', account.id, sectionId)) + ' text-' + getCompletionSeverity(getSectionCompletion('accounts', account.id, sectionId)) + ' completion-icon'"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </p-accordionTab>
+            </p-accordion>
+            
+            <!-- Review & E-sign Button for Registration Group Mode (Mobile) -->
+            <div *ngIf="registrationGroupMode" class="sidebar-bottom-action">
+              <p-button 
+                label="Review & E-Sign" 
+                icon="pi pi-clipboard"
+                severity="info"
+                (onClick)="showReviewSummary()"
+                styleClass="review-esign-sidebar-button">
+              </p-button>
+            </div>
+          </ng-container>
+        </div>
+      </p-sidebar>
+
+      <!-- Main Content -->
+      <div class="flex-1 p-3">
+          
+        <!-- Review Summary Mode -->
+        <div *ngIf="showReviewSummaryMode">
+          <app-review-summary
+            [formData]="formData"
+            [completionStatus]="completionStatus"
+            (editAccount)="onEditAccount($event)"
+            (editAccountWithSection)="onEditAccountWithSection($event)"
+            (editAccountQuickReview)="onEditAccountQuickReview($event)"
+            (submitForESign)="onSubmitForESign($event)"
+            (submitAllReady)="onSubmitAllReady($event)">
+          </app-review-summary>
+        </div>
+
+        <!-- Scrollable View Mode -->
+        <app-scrollable-view *ngIf="!showReviewSummaryMode && scrollablePagesMode"
+          [formData]="formData"
+          [completionStatus]="completionStatus"
+          [currentMember]="currentMember"
+          [currentAccount]="currentAccount"
+          [isReviewMode]="isReviewMode"
+          [copyDropdownsMode]="copyDropdownsMode"
+          [brinkerFundingMode]="brinkerFundingMode"
+          [registrationName]="getCurrentRegistrationName()"
+          [highlightMissingFields]="highlightMissingFields"
+          [ownerFirmDetailsMode]="ownerFirmDetailsMode"
+          [brokerDealerInfoMode]="brokerDealerInfoMode"
+          (formDataChange)="onFormDataChange($event)"
+          (sectionChange)="onScrollableSectionChange($event)"
+          (disableQuickReview)="onDisableQuickReview()">
+        </app-scrollable-view>
+
+        <!-- Regular Form Mode -->
+        <app-account-form *ngIf="!showReviewSummaryMode && !scrollablePagesMode"
+          [section]="currentSection"
+          [memberId]="currentMember"
+          [accountId]="currentAccount"
+          [isReviewMode]="isReviewMode"
+          [formData]="formData"
+          [completionStatus]="completionStatus"
+          [copyDropdownsMode]="copyDropdownsMode"
+          [brinkerFundingMode]="brinkerFundingMode"
+          [registrationName]="getCurrentRegistrationName()"
+          [highlightMissingFields]="highlightMissingFields"
+          [ownerFirmDetailsMode]="ownerFirmDetailsMode"
+          [brokerDealerInfoMode]="brokerDealerInfoMode"
+          (formDataChange)="onFormDataChange($event)"
+          (completionStatusChange)="onCompletionStatusChange($event)"
+          (previous)="handlePreviousSection()"
+          (next)="handleNextSection()"
+          (disableQuickReview)="onDisableQuickReview()"
+          [canGoPrevious]="canGoPrevious()"
+          [canGoNext]="canGoNext()">
+        </app-account-form>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

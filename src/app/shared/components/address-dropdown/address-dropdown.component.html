@@ -1,0 +1,162 @@
+<div class="address-dropdown-container">
+  <!-- Address Selection AutoComplete -->  
+  <div class="field">
+    <label class="field-label small-label">{{label}}</label>
+    <div class="address-input-row">
+      <p-autoComplete
+        [(ngModel)]="selectedAddress"
+        [suggestions]="filteredAddresses"
+        (completeMethod)="filterAddresses($event)"
+        (onSelect)="onAddressSelect($event)"
+        (onBlur)="onAddressInputBlur()"
+        field="label"
+        [placeholder]="'Type to search or select address'"
+        [dropdown]="true"
+        [forceSelection]="false"
+        [disabled]="disabled"
+        styleClass="w-full compact-autocomplete flex-1">
+      </p-autoComplete>
+      <!-- Manual entry trigger button - inline with dropdown -->
+      <p-button 
+        *ngIf="!showManualEntry"
+        label="Enter New Address" 
+        icon="fa-solid fa-plus"
+        size="small"
+        severity="primary"
+        (onClick)="toggleManualEntry()"
+        styleClass="p-button-sm enter-new-address-btn ml-2">
+      </p-button>
+    </div>
+  </div>
+
+  <!-- Manual Address Entry Fields (shown when "Enter New" is selected or existing data) -->
+  <div *ngIf="showManualEntry" class="manual-address-fields">
+    <div class="field-group address-row">
+      <div class="field address-main">
+        <label [for]="addressFieldName" class="field-label">Address Line 1 *</label>
+        <input 
+          pInputText 
+          [id]="addressFieldName"
+          [formControlName]="addressFieldName"
+          [disabled]="disabled"
+          class="w-full"
+          placeholder="Enter street address" />
+      </div>
+
+      <div class="field address-secondary">
+        <label [for]="address2FieldName" class="field-label">Address Line 2</label>
+        <input 
+          pInputText 
+          [id]="address2FieldName"
+          [formControlName]="address2FieldName"
+          [disabled]="disabled"
+          class="w-full"
+          placeholder="Apt, suite, unit, etc. (optional)" />
+      </div>
+    </div>
+
+    <div class="field-group">
+      <div class="field flex-1">
+        <label [for]="cityFieldName" class="field-label">City *</label>
+        <input 
+          pInputText 
+          [id]="cityFieldName"
+          [formControlName]="cityFieldName"
+          [disabled]="disabled"
+          class="w-full"
+          placeholder="Enter city" />
+      </div>
+
+      <div class="field flex-1 ml-2">
+        <label [for]="stateFieldName" class="field-label">State *</label>
+        <p-autoComplete
+          [id]="stateFieldName"
+          [suggestions]="filteredStates"
+          (completeMethod)="filterStates($event)"
+          [formControlName]="stateFieldName"
+          [disabled]="disabled"
+          field="label"
+          optionLabel="label"
+          optionValue="value"
+          placeholder="Select state"
+          [dropdown]="true"
+          [forceSelection]="true"
+          class="w-full">
+        </p-autoComplete>
+      </div>
+    </div>
+
+    <div class="field-group">
+      <div class="field flex-1">
+        <label [for]="zipCodeFieldName" class="field-label">ZIP Code *</label>
+        <input 
+          pInputText 
+          [id]="zipCodeFieldName"
+          [formControlName]="zipCodeFieldName"
+          [disabled]="disabled"
+          class="w-full"
+          placeholder="Enter ZIP code" />
+      </div>
+
+      <div class="field flex-1 ml-2">
+        <label [for]="countryFieldName" class="field-label">Country *</label>
+        <p-autoComplete
+          [id]="countryFieldName"
+          [suggestions]="filteredCountries"
+          (completeMethod)="filterCountries($event)"
+          [formControlName]="countryFieldName"
+          [disabled]="disabled"
+          field="label"
+          optionLabel="label"
+          optionValue="value"
+          placeholder="Select country"
+          [dropdown]="true"
+          [forceSelection]="true"
+          class="w-full">
+        </p-autoComplete>
+      </div>
+    </div>
+
+    <!-- Save Address Button -->
+    <div class="field" *ngIf="showManualEntry">
+      <!-- Enhanced Debug Info -->
+      <div class="debug-info" style="background: #f0f0f0; padding: 0.5rem; margin-bottom: 0.5rem; font-size: 0.75rem;">
+        <strong>Debug:</strong> Valid: {{debugValidation.isValid}} | Disabled: {{debugValidation.disabled}} | Button Enabled: {{debugValidation.buttonShouldBeEnabled}}
+        <br><strong>Address Prefix:</strong> "{{addressPrefix}}"
+        <br><strong>Generated Field Names:</strong>
+        <br>• Address: "{{addressFieldName}}" (exists: {{!!formGroup.get(addressFieldName)}})
+        <br>• City: "{{cityFieldName}}" (exists: {{!!formGroup.get(cityFieldName)}})
+        <br>• State: "{{stateFieldName}}" (exists: {{!!formGroup.get(stateFieldName)}})
+        <br>• ZIP: "{{zipCodeFieldName}}" (exists: {{!!formGroup.get(zipCodeFieldName)}})
+        <br>• Country: "{{countryFieldName}}" (exists: {{!!formGroup.get(countryFieldName)}})
+        <br><strong>Field Values:</strong>
+        <br>• Address: "{{formGroup.get(addressFieldName)?.value}}"
+        <br>• City: "{{formGroup.get(cityFieldName)?.value}}"
+        <br>• State: "{{formGroup.get(stateFieldName)?.value}}"
+        <br>• ZIP: "{{formGroup.get(zipCodeFieldName)?.value}}"
+        <br>• Country: "{{formGroup.get(countryFieldName)?.value}}"
+        <br><strong>All Form Controls:</strong> {{Object.keys(formGroup.controls).join(', ')}}
+      </div>
+      
+      <p-button 
+        label="Save Address"
+        icon="pi pi-save"
+        size="small"
+        severity="primary"
+        (onClick)="onSaveCurrentAddress()"
+        [disabled]="disabled || !isAddressValid()"
+        styleClass="save-address-btn">
+      </p-button>
+      
+      <!-- Temporary test button for debugging -->
+      <p-button 
+        label="Test Validation"
+        icon="pi pi-cog"
+        size="small"
+        severity="secondary"
+        (onClick)="testValidation()"
+        styleClass="p-button-sm ml-2">
+      </p-button>
+    </div>
+  </div>
+</div>

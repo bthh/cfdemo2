@@ -1,0 +1,18 @@
+<div class="compact-dropdown-container">
+  <div class="field">
+    <label *ngIf="label" class="field-label">{{label}}<span *ngIf="required" class="required-asterisk"> *</span></label>
+    <p-autoComplete
+      [(ngModel)]="selectedOption"
+      [suggestions]="filteredOptions"
+      (completeMethod)="filterOptions($event)"
+      (onSelect)="onOptionSelect($event)"
+      [field]="optionLabel"
+      [placeholder]="placeholder"
+      [dropdown]="true"
+      [forceSelection]="false"
+      [disabled]="disabled"
+      [showClear]="showClear"
+      [styleClass]="'w-full compact-autocomplete ' + styleClass">
+    </p-autoComplete>
+  </div>
+</div>

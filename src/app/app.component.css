@@ -1,0 +1,1540 @@
+/* App Component Styles - Exact replica of V2 */
+/* Global App Styles */
+.app {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Parent Application Layout */
+.parent-logo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 60px;
+  background: #f8fafc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  border-right: 1px solid #e5e7eb;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.parent-logo h1 {
+  color: #374151;
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin: 0;
+  letter-spacing: 0.5px;
+}
+
+.parent-sidebar {
+  position: fixed;
+  top: 60px;
+  left: 0;
+  width: 200px;
+  height: calc(100vh - 60px);
+  background: #f8fafc;
+  border-right: 1px solid #e5e7eb;
+  overflow-y: auto;
+  z-index: 999;
+}
+
+.parent-header {
+  position: fixed;
+  top: 0;
+  left: 200px;
+  right: 0;
+  height: 60px;
+  background: white;
+  border-bottom: 1px solid #e5e7eb;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1.5rem;
+  z-index: 1000;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.main-content-area {
+  margin-left: 200px;
+  margin-top: 160px;
+  height: calc(100vh - 160px);
+  overflow-y: auto;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  scrollbar-width: thin;
+  scrollbar-color: #cbd5e1 transparent;
+  position: relative;
+  background: #f8f9fa;
+}
+
+/* Account form area - adjust for fixed secondary sidebar */
+.main-content-area .flex {
+  padding-left: 0;
+}
+
+/* Form content area positioning - scrollable content */
+.flex-1 {
+  margin-left: 326px !important; /* 320px sidebar + 6px margin total */
+  width: calc(100% - 326px) !important;
+  margin-top: 0 !important; /* Reset to avoid content cutoff */
+  padding-top: 1rem !important; /* Add padding instead of negative margin */
+  overflow-y: auto;
+  overflow-x: hidden;
+  max-height: calc(100vh - 160px);
+  scroll-behavior: smooth;
+}
+
+/* Remove top padding from account form to close gap with header */
+.account-form .p-2 {
+  padding-top: 0 !important;
+}
+
+/* Remove top margin from first card to eliminate internal gap */
+.account-form .p-2 > :first-child {
+  margin-top: 0 !important;
+}
+
+/* Fix content card positioning to prevent visual cutoff */
+app-owner-details :host :deep(.p-card:first-child),
+app-firm-details :host :deep(.p-card:first-child),
+app-account-setup :host :deep(.p-card:first-child),
+app-funding :host :deep(.p-card:first-child) {
+  margin-top: 0 !important; /* Reset negative margin that was causing cutoff */
+}
+
+.main-content-area::-webkit-scrollbar {
+  width: 6px;
+}
+
+.main-content-area::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.main-content-area::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 3px;
+}
+
+.main-content-area::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* Parent Sidebar Navigation */
+.parent-nav-item {
+  display: flex;
+  align-items: center;
+  padding: 0.875rem 1.5rem;
+  color: #6b7280;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  border-left: 3px solid transparent;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.parent-nav-item:hover {
+  background: #e5e7eb;
+  color: #374151;
+  border-left-color: #3b82f6;
+}
+
+.parent-nav-item.active {
+  background: #e5e7eb;
+  color: #1f2937;
+  border-left-color: #3b82f6;
+  font-weight: 600;
+}
+
+.parent-nav-item i {
+  margin-right: 0.75rem;
+  font-size: 1rem;
+  width: 1.25rem;
+  text-align: center;
+}
+
+/* Parent Header Components */
+.search-container {
+  flex: 1;
+  max-width: 400px;
+  position: relative;
+}
+
+.search-input {
+  width: 100%;
+  padding: 0.5rem 0.75rem 0.5rem 2.25rem;
+  border: 1px solid #d1d5db;
+  border-radius: 20px;
+  font-size: 0.875rem;
+  background: #f9fafb;
+  transition: all 0.2s ease;
+}
+
+.search-input:focus {
+  outline: none;
+  border-color: #3b82f6;
+  background: white;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
+
+.search-icon {
+  position: absolute;
+  left: 0.75rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #6b7280;
+  font-size: 0.875rem;
+}
+
+.profile-section {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  color: #374151;
+  font-weight: 500;
+}
+
+.profile-dropdown-container {
+  position: relative;
+}
+
+.profile-icon {
+  width: 32px;
+  height: 32px;
+  background: #3b82f6;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.875rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.profile-icon:hover,
+.profile-icon.active {
+  background: #2563eb;
+  transform: scale(1.05);
+}
+
+.profile-dropdown {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  margin-top: 0.5rem;
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  z-index: 9999;
+  min-width: 200px;
+  max-height: 400px;
+  overflow-y: auto;
+  animation: dropdownSlide 0.2s ease-out;
+}
+
+@keyframes dropdownSlide {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.profile-menu-item {
+  padding: 1rem;
+  border-bottom: 1px solid #f3f4f6;
+  background: white;
+  display: block !important;
+  visibility: visible !important;
+}
+
+.profile-menu-item:last-child {
+  border-bottom: none;
+}
+
+.scrollable-pages-toggle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.toggle-label {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #374151;
+}
+
+.profile-toggle {
+  transform: scale(0.8);
+}
+
+/* Top-level household header */
+.household-title {
+  padding: 1rem 1.5rem 0.75rem 1.5rem; /* Reduced vertical padding */
+  font-size: 1rem;
+  font-weight: 700;
+  color: #111827;
+  text-align: left;
+  border-bottom: 2px solid #0A8DFF;
+  margin-bottom: 0.5rem; /* Reduced from 1rem for tighter spacing */
+  background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+  border-radius: 12px 12px 0 0;
+  position: relative;
+}
+
+/* Enhanced Sidebar Styling */
+.p-sidebar .p-sidebar-content {
+  padding: 0;
+  background: #fafafa;
+}
+
+/* Professional Sidebar Container with Formatted Box */
+.sidebar-container {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  margin: 8px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  overflow-y: auto;
+  overflow-x: hidden;
+  position: fixed;
+  top: 160px;
+  left: 200px;
+  height: calc(100vh - 172px); /* Adjusted to match restored top position */
+  z-index: 998;
+  scroll-behavior: smooth;
+  scrollbar-width: thin;
+  scrollbar-color: #cbd5e1 transparent;
+}
+
+/* Custom scrollbar styling for webkit browsers */
+.sidebar-container::-webkit-scrollbar {
+  width: 6px;
+}
+
+.sidebar-container::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.sidebar-container::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 3px;
+}
+
+.sidebar-container::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* Ensure proper spacing at bottom of sidebar content when scrolling */
+.sidebar-container .p-2 {
+  padding-bottom: 0.5rem; /* Reduced from 1rem */
+}
+
+/* Sidebar resize handle styling */
+.sidebar-resize-handle {
+  opacity: 0;
+  transition: opacity 0.2s ease, background-color 0.2s ease;
+}
+
+.sidebar-container:hover .sidebar-resize-handle {
+  opacity: 1;
+  background-color: #e5e7eb !important;
+}
+
+.sidebar-resize-handle:hover {
+  background-color: #3b82f6 !important;
+  opacity: 1;
+}
+
+.sidebar-resize-handle:active {
+  background-color: #2563eb !important;
+}
+
+.sidebar-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, #3b82f6 0%, #2563eb 50%, #1d4ed8 100%);
+}
+
+/* Auto-save toast custom positioning */
+.p-toast.p-component {
+  z-index: 1100;
+}
+
+/* Header toast positioning - centered and smaller */
+.header-toast.p-toast {
+  position: fixed !important;
+  top: 80px !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  z-index: 1200 !important;
+  width: auto !important;
+  max-width: 300px !important;
+}
+
+.header-toast .p-toast-message {
+  padding: 0.5rem 1rem !important;
+  border-radius: 20px !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15) !important;
+  backdrop-filter: blur(8px) !important;
+  background: rgba(255, 255, 255, 0.95) !important;
+  border: 1px solid rgba(34, 197, 94, 0.2) !important;
+}
+
+.header-toast .p-toast-message-content {
+  padding: 0 !important;
+  gap: 0.5rem !important;
+}
+
+.header-toast .p-toast-message-text {
+  margin: 0 !important;
+}
+
+.header-toast .p-toast-summary {
+  font-size: 0.875rem !important;
+  font-weight: 500 !important;
+  margin: 0 !important;
+}
+
+.header-toast .p-toast-detail {
+  font-size: 0.75rem !important;
+  opacity: 0.8 !important;
+  margin: 0 !important;
+}
+
+.header-toast .p-toast-icon-close {
+  display: none !important;
+}
+
+/* Enterprise Header Styling */
+.enterprise-header {
+  background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);
+  border-bottom: 2px solid var(--enterprise-gray-200);
+  box-shadow: var(--shadow-lg);
+  backdrop-filter: blur(8px);
+  position: fixed;
+  top: 60px;
+  left: 200px;
+  right: 0;
+  z-index: 999;
+}
+
+.enterprise-header::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, var(--enterprise-primary) 0%, var(--enterprise-primary-600) 50%, var(--enterprise-primary-dark) 100%);
+}
+
+.enterprise-header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--space-3) var(--space-8);
+  gap: var(--space-6);
+  flex-wrap: wrap;
+}
+
+.header-title-section {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+}
+
+.enterprise-title {
+  font-size: var(--text-2xl);
+  font-weight: var(--font-bold);
+  color: var(--enterprise-gray-900);
+  margin: 0;
+  line-height: 1.2;
+  letter-spacing: -0.025em;
+}
+
+.enterprise-subtitle {
+  font-size: var(--text-sm);
+  color: var(--enterprise-gray-600);
+  font-weight: var(--font-medium);
+}
+
+.experience-text {
+  font-size: var(--text-sm);
+  color: #3b82f6;
+  font-weight: var(--font-medium);
+  margin-top: 0.25rem;
+}
+
+.header-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.75rem;
+}
+
+.button-row {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.finish-later-button {
+  background-color: #f3f4f6 !important;
+  color: #374151 !important;
+  border-color: #d1d5db !important;
+}
+
+.finish-later-button:hover {
+  background-color: #e5e7eb !important;
+  border-color: #9ca3af !important;
+}
+
+.last-saved-info {
+  font-size: 0.75rem;
+  color: #6b7280;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.demo-badge {
+  background: var(--enterprise-primary) !important;
+  font-weight: var(--font-semibold) !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.05em !important;
+  font-size: var(--text-xs) !important;
+  padding: var(--space-1) var(--space-3) !important;
+  border-radius: var(--radius-button) !important;
+  box-shadow: var(--shadow-sm) !important;
+  color: white !important;
+}
+
+/* Progress Section */
+.progress-section {
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+}
+
+.progress-info {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  min-width: 200px;
+}
+
+.progress-text {
+  font-size: var(--text-sm);
+  font-weight: var(--font-medium);
+  color: var(--enterprise-gray-700);
+}
+
+.progress-bar-container {
+  height: 8px;
+  background: var(--enterprise-gray-200);
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.progress-bar {
+  height: 100%;
+  background: linear-gradient(90deg, #10b981 0%, #059669 100%);
+  transition: width 0.4s ease;
+  border-radius: var(--radius-xl);
+  position: relative;
+  box-shadow: 0 2px 6px rgba(16, 185, 129, 0.3);
+}
+
+.progress-bar::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 50%;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.3) 0%, transparent 100%);
+  border-radius: var(--radius-xl) var(--radius-xl) 0 0;
+}
+
+/* Header Actions */
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+}
+
+.nav-button {
+  padding: var(--space-3) var(--space-5) !important;
+  font-size: var(--text-sm) !important;
+  font-weight: var(--font-medium) !important;
+  border-radius: var(--radius-md) !important;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+  box-shadow: var(--shadow-sm) !important;
+}
+
+.nav-button:hover {
+  transform: translateY(-1px) !important;
+  box-shadow: var(--shadow-md) !important;
+}
+
+.nav-button:disabled {
+  opacity: 0.5 !important;
+  transform: none !important;
+  box-shadow: none !important;
+}
+
+.nav-button-primary {
+  background: var(--enterprise-primary) !important;
+  border-color: var(--enterprise-primary) !important;
+}
+
+.nav-button-primary:hover:not(:disabled) {
+  background: var(--enterprise-primary-dark) !important;
+  border-color: var(--enterprise-primary-dark) !important;
+}
+
+.review-mode-section {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  padding: var(--space-3) var(--space-4);
+  background: var(--enterprise-gray-50);
+  border: 1px solid var(--enterprise-gray-200);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+}
+
+.review-label {
+  font-size: var(--text-sm);
+  font-weight: var(--font-medium);
+  color: var(--enterprise-gray-700);
+  white-space: nowrap;
+}
+
+.review-mode-toggle {
+  transform: scale(0.9);
+}
+
+/* Enhanced Back Button */
+.back-button {
+  background: var(--enterprise-gray-100) !important;
+  border-color: var(--enterprise-gray-300) !important;
+  color: var(--enterprise-gray-700) !important;
+  font-weight: var(--font-medium) !important;
+}
+
+.back-button:hover {
+  background: var(--enterprise-gray-200) !important;
+  border-color: var(--enterprise-gray-400) !important;
+  color: var(--enterprise-gray-900) !important;
+}
+
+/* Responsive Header */
+@media (max-width: 1024px) {
+  .enterprise-header-content {
+    flex-direction: column;
+    align-items: stretch;
+    gap: var(--space-4);
+  }
+  
+  .progress-section {
+    order: -1;
+  }
+  
+  .header-actions {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 768px) {
+  .enterprise-header-content {
+    padding: var(--space-4);
+  }
+  
+  .progress-info {
+    min-width: auto;
+  }
+  
+  .header-actions {
+    gap: var(--space-2);
+  }
+  
+  .nav-button {
+    padding: var(--space-2) var(--space-4) !important;
+    font-size: var(--text-xs) !important;
+  }
+}
+
+/* Registration Group View Styles */
+.registration-group-header {
+  background: linear-gradient(135deg, var(--enterprise-primary) 0%, var(--enterprise-primary-600) 100%);
+  color: white;
+  padding: 0.75rem 1rem;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  margin-bottom: 0.25rem; /* Reduced spacing */
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.registration-section {
+  margin-bottom: 0.25rem; /* Reduced from 1rem to 0.25rem */
+  position: relative;
+  z-index: 1; /* Ensure proper layering */
+}
+
+.registration-subsection-header {
+  background: var(--surface-100);
+  color: var(--text-color);
+  padding: 0.5rem 0.75rem;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 0.8rem;
+  margin-bottom: 0.25rem; /* Reduced spacing */
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  border-left: 3px solid var(--primary-color);
+}
+
+.registration-entity {
+  margin-bottom: 0.25rem; /* Reduced from 1rem to 0.25rem */
+  border-left: 2px solid var(--surface-200);
+  padding-left: 0.5rem;
+  position: relative;
+  isolation: isolate; /* Create new stacking context to prevent icon overlap */
+}
+
+.registration-entity-header {
+  display: flex !important;
+  align-items: center !important; /* Ensure vertical centering */
+  gap: 0.5rem;
+  padding: 0.75rem 1rem !important; /* Increased padding for better visual balance */
+  background: var(--surface-50);
+  border: 1px solid transparent; /* Base border for active state */
+  border-radius: 4px;
+  font-weight: 500;
+  margin-bottom: 0.125rem; /* Further reduced spacing */
+  transition: all 0.2s ease;
+  position: relative;
+  z-index: 1; /* Keep header above nested content within this context */
+  min-height: 3rem !important; /* Increased height for better icon alignment */
+  cursor: pointer; /* Make all entity headers appear clickable */
+}
+
+/* Hover state for all registration entity headers */
+.registration-entity-header:hover:not(.active) {
+  background: var(--surface-100);
+  border-color: #e2e8f0;
+  transform: translateX(2px);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+}
+
+.registration-entity-header .entity-name {
+  flex: 1;
+  font-size: 0.85rem;
+  padding: 0.25rem 0.5rem;
+  border-radius: 3px;
+  transition: background-color 0.2s ease;
+}
+
+/* In registration group mode, the entire header is clickable for navigation */
+.clickable .entity-name {
+  cursor: inherit;
+}
+
+.custodian-name {
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: #6b7280;
+  margin-left: 0.25rem;
+}
+
+.registration-entity-header .completion-icon {
+  font-size: 1.1rem !important; /* Slightly larger for better visibility */
+  margin-left: auto !important;
+  margin-right: 2rem !important; /* Further increased margin to handle longer text */
+  flex-shrink: 0 !important;
+  min-width: 24px !important; /* Increased size */
+  height: 24px !important; /* Increased size */
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  position: relative !important;
+  vertical-align: middle !important;
+  align-self: center !important; /* Ensure perfect vertical centering within flex container */
+}
+
+.registration-entity-header .toggle-icon {
+  margin-right: 0.5rem;
+  margin-left: 0;
+  flex-shrink: 0;
+  font-size: 0.875rem;
+  min-width: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+/* Registration Group Accordion Header Styles */
+.registration-group-header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 0.5rem 0;
+  width: 100%;
+}
+
+.registration-group-title {
+  color: var(--text-color);
+  flex: 1;
+  text-align: left; /* Changed from center to left alignment */
+  letter-spacing: 0.02em;
+  margin-left: 0.5rem; /* Increase spacing from the expandable caret */
+  padding-left: 0.25rem; /* Add minimal padding for readability */
+}
+
+.registration-completion-icon {
+  font-size: 1rem;
+  margin-left: 1.25rem; /* Increased further to prevent text overlap */
+  margin-right: 1rem; /* Add spacing from right border */
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+/* Registration group header completion icon colors */
+.registration-completion-icon.text-success {
+  color: #22c55e !important; /* Green for completed */
+}
+
+.registration-completion-icon.text-danger {
+  color: #ef4444 !important; /* Red for incomplete */
+}
+
+/* Nested collapsible functionality styles */
+.clickable {
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.clickable:hover {
+  background: var(--surface-100);
+}
+
+.toggle-icon {
+  margin-left: auto;
+  font-size: 0.75rem;
+  color: var(--text-color-secondary);
+  transition: transform 0.2s ease;
+}
+
+.nested-sections {
+  margin-left: 0.5rem; /* Reduced from 1rem to 0.5rem */
+  margin-top: 0.25rem; /* Reduced from 0.5rem to 0.25rem */
+  border-left: 2px solid var(--surface-200);
+  padding: 0.125rem 0.5rem; /* Further reduced padding */
+  position: relative;
+  background: var(--surface-0);
+  border-radius: 4px;
+  margin-bottom: 0.25rem; /* Reduced from 0.5rem to 0.25rem */
+  overflow: hidden; /* Ensure content stays contained */
+  contain: layout style; /* Improve containment */
+}
+
+/* Enhanced styling for nested section items in registration group mode */
+.nested-sections .section-nav-item {
+  min-height: 2.5rem !important; /* Increased height for better icon alignment */
+  padding: 0.5rem 0.75rem !important; /* Reduced padding to save space */
+  margin: 0.125rem 0 !important; /* Reduced margin for tighter spacing */
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important; /* Ensure proper spacing between content and icon */
+  width: 100% !important; /* Ensure full width */
+}
+
+/* Enhanced text handling for nested sections */
+.nested-sections .section-nav-item .section-nav-text {
+  white-space: nowrap !important; /* Prevent text wrapping */
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  flex: 1 !important;
+  min-width: 0 !important; /* Allow text to shrink */
+}
+
+.nested-sections .section-nav-item .section-nav-content {
+  flex: 1 !important;
+  min-width: 0 !important; /* Allow content to shrink */
+  display: flex !important;
+  align-items: center !important;
+  gap: 0.5rem !important; /* Reduced gap to save space */
+}
+
+/* Enhanced completion icons for nested sections */
+.nested-sections .section-nav-item .completion-icon {
+  font-size: 1.1rem !important; /* Slightly larger for better visibility */
+  min-width: 24px !important; /* Increased size to match header icons */
+  height: 24px !important; /* Increased size to match header icons */
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  position: relative !important;
+  margin-right: 1.5rem !important; /* Reduced margin due to less indentation space */
+  margin-left: 0.25rem !important; /* Reduced left margin */
+  vertical-align: middle !important;
+  align-self: center !important; /* Ensure perfect vertical centering */
+}
+
+/* Extra margin for active state nested sections to handle bold text + transforms */
+.nested-sections .section-nav-item.active .completion-icon {
+  margin-right: 2rem !important; /* Reduced margin for active state due to less indentation space */
+  margin-left: 0.5rem !important; /* Reduced left margin */
+}
+
+/* Ensure all completion icons are properly styled and visible */
+.completion-icon.text-success {
+  color: #22c55e !important; /* Green for completed */
+}
+
+.completion-icon.text-danger {
+  color: #ef4444 !important; /* Red for incomplete */
+}
+
+/* Fix any potential overlay issues in registration group mode */
+.registration-group-mode .registration-entity,
+.registration-group-mode .nested-sections,
+.registration-group-mode .section-nav-item {
+  position: relative;
+  z-index: auto; /* Let normal stacking order work */
+}
+
+.registration-group-mode .completion-icon {
+  position: relative !important;
+  visibility: visible !important;
+  display: flex !important;
+  flex-shrink: 0 !important; /* Prevent icon from shrinking */
+  align-self: center !important; /* Center icon vertically */
+  align-items: center !important; /* Additional vertical centering */
+  justify-content: center !important; /* Center icon content */
+  min-width: 24px !important; /* Ensure consistent size */
+  height: 24px !important; /* Ensure consistent size */
+}
+
+/* Ensure registration group mode uses same colors as non-registration mode */
+.registration-group-mode .entity-icon {
+  color: #0A8DFF !important; /* Same blue as non-reg mode */
+}
+
+.registration-group-mode .completion-icon.text-success {
+  color: #22c55e !important; /* Same green as non-reg mode */
+}
+
+.registration-group-mode .completion-icon.text-danger {
+  color: #ef4444 !important; /* Same red as non-reg mode */
+}
+
+.registration-group-mode .toggle-icon {
+  color: #6b7280 !important; /* Consistent gray for expand/collapse icons */
+}
+
+.registration-group-mode .section-nav-icon {
+  color: var(--text-color-secondary) !important; /* Same as non-reg mode */
+}
+
+.registration-group-mode .section-nav-item.active .section-nav-icon {
+  color: var(--primary-600) !important; /* Same active color as non-reg mode */
+}
+
+/* Active state for registration entity headers */
+.registration-entity-header.active {
+  background: linear-gradient(135deg, #ebf4ff 0%, #dbeafe 100%);
+  border-color: #0A8DFF;
+  transform: translateX(2px);
+  box-shadow: 0 2px 8px rgba(10, 141, 255, 0.15);
+}
+
+.registration-entity-header.active:hover {
+  background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%);
+  transform: translateX(3px); /* Slightly more movement on active hover */
+}
+
+.registration-entity-header.active .entity-name {
+  color: var(--primary-700);
+  font-weight: 600;
+}
+
+.registration-subsection-header.clickable {
+  border-radius: 4px;
+  transition: background-color 0.2s ease;
+}
+
+.registration-subsection-header.clickable:hover {
+  background: var(--surface-200);
+}
+
+.registration-subsection-header .toggle-icon {
+  margin-left: auto;
+  font-size: 0.75rem;
+  color: var(--text-color-secondary);
+}
+
+/* Enhanced PrimeNG accordion styles */
+::ng-deep .p-accordion .p-accordion-tab {
+  margin-bottom: 0.0625rem; /* Further reduced for much tighter spacing */
+}
+
+::ng-deep .p-accordion .p-accordion-tab .p-accordion-header .p-accordion-header-link {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  margin-bottom: 0.0625rem; /* Further reduced spacing */
+  padding: 0.5rem 0.25rem 0.5rem 0.5rem !important; /* Reduced left padding to move text closer to caret */
+  min-height: 2.25rem; /* Reduced height for more compact layout */
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  transition: all 0.2s ease;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  overflow: hidden !important;
+}
+
+::ng-deep .p-accordion .p-accordion-tab .p-accordion-header .p-accordion-header-link:not(.p-disabled):hover {
+  background: #f8fafc;
+  border-color: #0A8DFF;
+  box-shadow: 0 2px 8px rgba(10, 141, 255, 0.1);
+  transform: translateY(-1px);
+}
+
+::ng-deep .p-accordion .p-accordion-tab .p-accordion-header.p-highlight .p-accordion-header-link {
+  background: linear-gradient(135deg, #ebf4ff 0%, #dbeafe 100%);
+  border-color: #0A8DFF;
+  box-shadow: 0 2px 12px rgba(10, 141, 255, 0.15);
+}
+
+::ng-deep .p-accordion .p-accordion-tab .p-accordion-content {
+  border: none;
+  padding: 0.25rem 0 0.5rem 0; /* Reduced padding for tighter content spacing */
+  background: transparent;
+}
+
+/* Accordion content spacing - target elements inside accordion content */
+::ng-deep .p-accordion .p-accordion-content .registration-section {
+  margin-bottom: 0.125rem !important; /* Reduced spacing inside accordion */
+}
+
+::ng-deep .p-accordion .p-accordion-content .registration-entity {
+  margin-bottom: 0.125rem !important; /* Reduced spacing inside accordion */
+}
+
+::ng-deep .p-accordion .p-accordion-content .registration-entity-header {
+  margin-bottom: 0.0625rem !important; /* Tighter spacing inside accordion */
+  padding: 0.5rem 0.75rem !important; /* Reduced padding inside accordion */
+  min-height: 2.5rem !important; /* Reduced height inside accordion */
+}
+
+::ng-deep .p-accordion .p-accordion-content .nested-sections {
+  margin-top: 0.125rem !important; /* Reduced spacing inside accordion */
+  margin-bottom: 0.125rem !important; /* Reduced spacing inside accordion */
+  padding: 0.125rem 0.375rem !important; /* Further reduced padding inside accordion */
+}
+
+::ng-deep .p-accordion .p-accordion-content .section-nav-item {
+  margin: 0.0625rem 0.5rem !important; /* Tighter margins inside accordion */
+  padding: 0.5rem 0.75rem !important; /* Reduced padding inside accordion */
+  min-height: 2rem !important; /* Reduced height inside accordion */
+}
+
+::ng-deep .p-accordion .p-accordion-content .member-simple-item {
+  margin-bottom: 0.125rem !important; /* Reduced spacing inside accordion */
+  padding: 0.5rem 0.75rem !important; /* Reduced padding inside accordion */
+}
+
+/* Section Navigation Item Styles */
+/* Section Group Headers */
+.section-group-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.375rem 1.25rem 0.125rem 1.25rem; /* Reduced vertical padding */
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: #6b7280;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.125rem; /* Reduced for tighter spacing */
+}
+
+.section-group-header i {
+  font-size: 0.875rem;
+  color: #9ca3af;
+}
+
+/* Entity Header Styling (for accordion headers) */
+.entity-header-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.0625rem;
+  flex: 1;
+  min-width: 0; /* Allow flex item to shrink below content size */
+  overflow: hidden; /* Hide overflow */
+}
+
+/* Ensure the left side container with icon and text doesn't overflow */
+.flex.align-items-center.gap-2 {
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+}
+
+/* Specific fix for accordion header content spacing */
+::ng-deep .p-accordion .p-accordion-tab .p-accordion-header .p-accordion-header-link .flex.align-items-center.justify-content-between.w-full {
+  width: 100% !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  gap: 0.5rem !important;
+}
+
+::ng-deep .p-accordion .p-accordion-tab .p-accordion-header .p-accordion-header-link .flex.align-items-center.gap-2 {
+  flex: 1 !important;
+  min-width: 0 !important;
+  overflow: hidden !important;
+  max-width: calc(100% - 2rem) !important;
+  gap: 0.25rem !important; /* Reduced gap between caret and text */
+  margin-left: 0 !important; /* Remove any left margin */
+  padding-left: 0 !important; /* Remove any left padding */
+}
+
+/* Ensure completion icons in accordion headers are properly positioned */
+::ng-deep .p-accordion .p-accordion-tab .p-accordion-header .p-accordion-header-link .completion-icon {
+  flex-shrink: 0 !important;
+  margin-left: 1.25rem !important; /* Increased further to prevent text overlap */
+  margin-right: 0 !important;
+  min-width: 20px !important;
+  width: 20px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  vertical-align: middle !important;
+}
+
+.entity-name {
+  font-size: 0.825rem;
+  font-weight: 600;
+  color: #111827;
+  line-height: 1.3;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.entity-role {
+  font-size: 0.675rem;
+  font-weight: 500;
+  color: #6b7280;
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.entity-icon {
+  font-size: 1rem;
+  color: #0A8DFF;
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  margin-left: 0.5rem;
+  justify-content: center;
+  min-width: 20px;
+  height: 20px;
+  line-height: 1;
+}
+
+/* Simple member item (non-expandable) */
+.member-simple-item {
+  display: flex;
+  align-items: center;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 0.25rem; /* Reduced spacing */
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  background: #ffffff;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.member-simple-item > .flex {
+  flex: 1;
+  min-width: 0;
+}
+
+.member-simple-item .completion-icon {
+  margin-right: 1.25rem; /* Increased further to prevent text overlap */
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.member-simple-item:hover {
+  background: #f8fafc;
+  border-color: #0A8DFF;
+  box-shadow: 0 2px 8px rgba(10, 141, 255, 0.1);
+  transform: translateY(-1px);
+}
+
+.member-simple-item.active {
+  background: linear-gradient(135deg, #ebf4ff 0%, #dbeafe 100%);
+  border-color: #0A8DFF;
+  box-shadow: 0 2px 12px rgba(10, 141, 255, 0.15);
+}
+
+.section-nav-item {
+  display: flex;
+  align-items: center; /* Ensure vertical centering */
+  justify-content: space-between;
+  padding: 0.75rem 1rem; /* Slightly increased padding for better visual balance */
+  margin: 0.0625rem 1rem; /* Further reduced margin */
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border: 1px solid transparent;
+  background: transparent;
+  position: relative;
+  min-height: 2.5rem; /* Ensure consistent height for proper icon alignment */
+}
+
+.section-nav-item:hover {
+  background: #f8fafc;
+  border-color: #e2e8f0;
+  transform: translateX(2px);
+}
+
+.section-nav-item.active {
+  background: linear-gradient(135deg, #ebf4ff 0%, #dbeafe 100%);
+  border-color: #0A8DFF;
+  color: #1e40af;
+  font-weight: 600;
+  box-shadow: 0 2px 8px rgba(10, 141, 255, 0.15);
+}
+
+.section-nav-item.active:hover {
+  background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%);
+  transform: translateX(3px);
+}
+
+.section-nav-item.active::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background: #0A8DFF;
+  border-radius: 0 2px 2px 0;
+}
+
+.section-nav-content {
+  display: flex;
+  align-items: center; /* Ensure content is vertically centered */
+  gap: 0.75rem;
+  flex: 1;
+  min-height: 1.5rem; /* Ensure consistent height */
+}
+
+.section-nav-icon {
+  font-size: 1rem;
+  color: var(--text-color-secondary);
+  width: 1.25rem;
+  text-align: center;
+  margin-left: 0.75rem;
+}
+
+.section-nav-item.active .section-nav-icon {
+  color: var(--primary-600);
+}
+
+.section-nav-text {
+  font-size: 0.875rem;
+  color: var(--text-color);
+  font-weight: 500;
+}
+
+.section-nav-item.active .section-nav-text {
+  color: var(--primary-700);
+  font-weight: 600;
+}
+
+.completion-icon {
+  font-size: 1rem; /* Increased from 0.875rem for better visibility */
+  margin-right: 1.25rem; /* Increased further to prevent overlap with longer text */
+  flex-shrink: 0;
+  display: flex; /* Changed from inline-flex to flex for better alignment */
+  align-items: center;
+  justify-content: center;
+  min-width: 20px;
+  height: 20px;
+  line-height: 1;
+  position: relative;
+  z-index: 1; /* Ensure proper layering */
+  vertical-align: middle; /* Additional vertical alignment */
+}
+
+/* Remove all indentation from sidebar titles in registration group mode */
+::ng-deep .p-accordion .p-accordion-header .registration-group-title {
+  text-align: left !important;
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+}
+
+::ng-deep .p-accordion .p-accordion-content .registration-entity-header .entity-name {
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+  text-align: left !important;
+}
+
+::ng-deep .p-accordion .p-accordion-content .section-nav-item .section-nav-text {
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+  text-align: left !important;
+}
+
+::ng-deep .p-accordion .p-accordion-content .section-nav-content {
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+  text-align: left !important;
+}
+
+::ng-deep .p-accordion .p-accordion-content .section-nav-icon {
+  margin-left: 0 !important;
+}
+
+::ng-deep .p-accordion .p-accordion-content .nested-sections {
+  margin-left: 0 !important;
+  padding-left: 0.25rem !important; /* Minimal padding for readability */
+}
+
+::ng-deep .p-accordion .p-accordion-content .member-simple-item .entity-name {
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+  text-align: left !important;
+}
+
+::ng-deep .p-accordion .p-accordion-content .registration-entity {
+  padding-left: 0 !important;
+  border-left: none !important; /* Remove left border that creates visual indentation */
+  margin-left: 0 !important;
+}
+
+/* Ensure both member and account entities are aligned at same level */
+::ng-deep .p-accordion .p-accordion-content .registration-section {
+  padding-left: 0 !important;
+  margin-left: 0 !important;
+}
+
+::ng-deep .p-accordion .p-accordion-content .registration-section > div {
+  padding-left: 0 !important;
+  margin-left: 0 !important;
+}
+
+/* Least invasive approach: Ensure parent containers support vertical centering */
+::ng-deep .p-accordion .p-accordion-content .registration-entity-header {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+}
+
+::ng-deep .p-accordion .p-accordion-content .completion-icon {
+  align-self: center !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  line-height: 1 !important;
+}
+
+/* Target nested section completion icons specifically */
+::ng-deep .p-accordion .p-accordion-content .section-nav-item {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+}
+
+::ng-deep .p-accordion .p-accordion-content .section-nav-item .completion-icon {
+  align-self: center !important;
+  margin-top: auto !important;
+  margin-bottom: auto !important;
+  vertical-align: middle !important;
+  
+  /* Handle Font Awesome baseline issues */
+  top: 0 !important;
+  transform: translateY(0) !important;
+}
+
+/* Target owner-level completion icons (John Smith, Mary Smith, Smith Trust) */
+::ng-deep .p-accordion .p-accordion-content .registration-entity-header .completion-icon {
+  align-self: center !important;
+  margin-top: auto !important;
+  margin-bottom: auto !important;
+  vertical-align: middle !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  line-height: 1 !important;
+  top: 0 !important;
+  transform: translateY(0) !important;
+}
+
+/* Target main accordion tab completion icons (Account Setup tab level) */
+::ng-deep .p-accordion .p-accordion-header .registration-completion-icon {
+  align-self: center !important;
+  margin-top: auto !important;
+  margin-bottom: auto !important;
+  margin-right: 1rem !important; /* Add spacing from right border */
+  vertical-align: middle !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  line-height: 1 !important;
+  top: 0 !important;
+  transform: translateY(0) !important;
+}
+
+/* Ensure parent containers are set up for proper centering */
+::ng-deep .p-accordion .p-accordion-header .registration-group-header-content {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+}
+
+/* Target PrimeNG accordion toggle icon to increase spacing */
+::ng-deep .p-accordion .p-accordion-tab .p-accordion-header .p-accordion-header-link .p-accordion-toggle-icon {
+  margin-right: 0.75rem !important; /* Increased margin between caret and text */
+  margin-left: 0 !important;
+  padding: 0 !important;
+}
+
+/* Alternative selector for PrimeNG accordion caret icon */
+::ng-deep .p-accordion .p-accordion-header-link::before,
+::ng-deep .p-accordion .p-accordion-header-link .pi {
+  margin-right: 0.75rem !important; /* Ensure consistent spacing after caret */
+}
+
+/* Main content container - seamless flow */
+.main-content-container {
+  background: white;
+  min-height: 100%;
+  border-top: none;
+}
+
+/* Back button styling */
+::ng-deep .back-button .p-button {
+  background: #3b82f6 !important;
+  border-color: #3b82f6 !important;
+  color: white !important;
+  padding: 0.5rem !important;
+  border-radius: 6px !important;
+  transition: all 0.2s ease !important;
+}
+
+::ng-deep .back-button .p-button:hover {
+  background: #2563eb !important;
+  border-color: #2563eb !important;
+  transform: translateX(-2px) !important;
+}
+
+/* Sidebar Bottom Action Button */
+.sidebar-bottom-action {
+  padding: 1rem;
+  border-top: 1px solid #e5e7eb;
+  margin-top: auto;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+::ng-deep .review-esign-sidebar-button {
+  width: 100% !important;
+}
+
+::ng-deep .review-esign-sidebar-button .p-button,
+::ng-deep .sidebar-bottom-action .p-button {
+  width: 100% !important;
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: center !important;
+  align-items: center !important;
+  font-weight: 600 !important;
+  padding: 0.75rem 1rem !important;
+  font-size: 0.9rem !important;
+  border-radius: 6px !important;
+  gap: 0.5rem !important;
+}
+
+/* Create a centered wrapper for icon + text together */
+::ng-deep .review-esign-sidebar-button .p-button::before,
+::ng-deep .sidebar-bottom-action .p-button::before {
+  content: '' !important;
+  flex: 1 !important;
+}
+
+::ng-deep .review-esign-sidebar-button .p-button::after,
+::ng-deep .sidebar-bottom-action .p-button::after {
+  content: '' !important;
+  flex: 1 !important;
+}
+
+/* Icon and text as a centered unit */
+::ng-deep .review-esign-sidebar-button .p-button-icon,
+::ng-deep .sidebar-bottom-action .p-button-icon {
+  margin: 0 !important;
+  font-size: 1rem !important;
+  position: static !important;
+  flex: none !important;
+}
+
+::ng-deep .review-esign-sidebar-button .p-button-label,
+::ng-deep .sidebar-bottom-action .p-button-label {
+  margin: 0 !important;
+  line-height: 1 !important;
+  white-space: nowrap !important;
+  position: static !important;
+  flex: none !important;
+}
+
+/* Override any PrimeNG positioning */
+::ng-deep .review-esign-sidebar-button .p-button > *,
+::ng-deep .sidebar-bottom-action .p-button > * {
+  position: static !important;
+  float: none !important;
+}
+
