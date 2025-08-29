@@ -1,0 +1,6 @@
+@import './border/border.css';
+@import './color/color.css';
+@import './motion/motion.css';
+@import './shadow/shadow.css';
+@import './typography/typography.css';
+@import './typography/typography-extended.css';

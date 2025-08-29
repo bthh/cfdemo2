@@ -1,0 +1,32 @@
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+:root {
+  --text-display: 600 2.5rem/1.2 Inter, sans-serif;
+  --text-title-lg: 600 2rem/1.25 Inter, sans-serif;
+  --text-title-md: 600 1.25rem/1.33 Inter, sans-serif;
+  --text-title-sm: 600 1rem/1.5 Inter, sans-serif;
+  --text-body-lg-regular: 500 1rem/1.5 Inter, sans-serif;
+  --text-body-lg-bold: 600 1rem/1.5 Inter, sans-serif;
+  --text-body-lg-light: 300 1rem/1.5 Inter, sans-serif;
+  --text-body-md-regular: 500 0.875rem/1.428571 Inter, sans-serif;
+  --text-body-md-bold: 600 0.875rem/1.428571 Inter, sans-serif;
+  --text-body-md-light: 300 0.875rem/1.428571 Inter, sans-serif;
+  --text-body-sm-regular: 500 0.75rem/1.33 Inter, sans-serif;
+  --text-body-sm-bold: 600 0.75rem/1.33 Inter, sans-serif;
+  --text-body-sm-light: 300 0.75rem/1.33 Inter, sans-serif;
+  --text-body-xs-regular: 500 0.625rem/1.33 Inter, sans-serif;
+  --text-body-xs-bold: 600 0.625rem/1.33 Inter, sans-serif;
+  --text-body-xs-light: 300 0.625rem/1.33 Inter, sans-serif;
+  --text-caption-regular: 400 0.75rem/1.33 Inter, sans-serif;
+  --text-caption-bold: 600 0.75rem/1.33 Inter, sans-serif;
+  --text-button: 500 0.875rem/1.5 Inter, sans-serif;
+  --text-button-sm: 500 0.75rem/1.33 Inter, sans-serif;
+  --text-label: 500 0.75rem/1.33 Inter, sans-serif;
+--text-body-md: var(--text-body-md-regular);
+--text-body-lg: var(--text-body-lg-regular);
+--text-body-sm: var(--text-body-sm-regular);
+--text-body-xs: var(--text-body-xs-regular);
+--text-caption: var(--text-caption-regular);
+}

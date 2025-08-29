@@ -112,7 +112,7 @@ import { InputSwitchModule } from 'primeng/inputswitch';
           <div class="step-circle">
             <i class="fa-solid fa-check"></i>
           </div>
-          <span class="step-label">Proposed Accounts</span>
+          <span class="step-label">Account(s) Completion</span>
         </div>
         <div class="step current">
           <div class="step-circle">6</div>

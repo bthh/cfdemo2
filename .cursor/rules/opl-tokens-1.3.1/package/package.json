@@ -1,0 +1,46 @@
+{
+  "name": "@orion-advisor-tech/opl-tokens",
+  "version": "1.3.1",
+  "description": "Typography, dimension, and color tokens for Orion's product language",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Orion-Advisor-Tech/opl-tokens.git"
+  },
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    "./css": "./dist/css/index.css",
+    "./tailwind": "./dist/tailwind/index.css"
+  },
+  "type": "module",
+  "keywords": [
+    "primitives",
+    "colors",
+    "spacing",
+    "typography",
+    "variables",
+    "design-system"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "node -e \"try{require('fs').rmSync('dist',{recursive:true,force:true})}catch(e){}\"",
+    "prebuild": "npm run clean",
+    "build:tokens": "node style-dictionary/build/index.js",
+    "build": "node style-dictionary/build/index.js",
+    "watch": "chokidar \"style-dictionary/tokens/**/*.tokens.json\" -c \"node style-dictionary/build/index.js\"",
+    "prepare": "npm run build"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "author": "Orion <austin.davis@orion.com>",
+  "license": "ISC",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "devDependencies": {
+    "chokidar-cli": "^3.0.0",
+    "style-dictionary": "^5.0.0"
+  }
+}

@@ -1,0 +1,42 @@
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+@theme inline {
+  --text-display: var(--text-4xl);
+  --text-title-lg: var(--text-3xl);
+  --text-title-md: var(--text-xl);
+  --text-title-sm: var(--text-lg);
+  --text-body-lg-regular: var(--text-lg);
+  --text-body-lg-bold: var(--text-lg);
+  --text-body-lg-light: var(--text-lg);
+  --text-body-md-regular: var(--text-md);
+  --text-body-md-bold: var(--text-md);
+  --text-body-md-light: var(--text-md);
+  --text-body-sm-regular: var(--text-sm);
+  --text-body-sm-bold: var(--text-sm);
+  --text-body-sm-light: var(--text-sm);
+  --text-body-xs-regular: var(--text-xs);
+  --text-body-xs-bold: var(--text-xs);
+  --text-body-xs-light: var(--text-xs);
+  --text-caption-regular: var(--text-sm);
+  --text-caption-bold: var(--text-sm);
+  --text-button: var(--text-md);
+  --text-button-sm: var(--text-sm);
+  --text-label: var(--text-sm);
+  --text-body-md: var(--text-body-md-regular);
+  --text-body-lg: var(--text-body-lg-regular);
+  --text-body-sm: var(--text-body-sm-regular);
+  --text-body-xs: var(--text-body-xs-regular);
+  --text-caption: var(--text-caption-regular);
+  --text-body-md--line-height: calc(1.428571 * var(--text-body-md));
+  --text-body-md--font-weight: var(--font-weight-medium);
+  --text-body-lg--line-height: calc(1.5 * var(--text-body-lg));
+  --text-body-lg--font-weight: var(--font-weight-medium);
+  --text-body-sm--line-height: calc(1.33 * var(--text-body-sm));
+  --text-body-sm--font-weight: var(--font-weight-medium);
+  --text-body-xs--line-height: calc(1.33 * var(--text-body-xs));
+  --text-body-xs--font-weight: var(--font-weight-medium);
+  --text-caption--line-height: calc(1.33 * var(--text-caption));
+  --text-caption--font-weight: var(--font-weight-regular);
+}

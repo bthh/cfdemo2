@@ -75,7 +75,7 @@ interface Signer {
                       class="form-control">
                   </div>
                 </div>
-                <div *ngIf="signer.registrations?.length" class="registrations">
+                <div *ngIf="signer.registrations?.length && accounts.length > 0" class="registrations">
                   <span class="reg-label">Registrations:</span>
                   <span class="reg-item" *ngFor="let r of signer.registrations">{{r}}</span>
                 </div>

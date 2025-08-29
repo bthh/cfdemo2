@@ -94,6 +94,16 @@
               </div>
             </div>
             <div class="profile-menu-item">
+              <div class="summary-screen-dropdown">
+                <span class="dropdown-label">Summary Screen</span>
+                <select [(ngModel)]="summaryScreenMode" class="profile-select">
+                  <option value="original">Original</option>
+                  <option value="current">Current</option>
+                  <option value="alternate">Alternate</option>
+                </select>
+              </div>
+            </div>
+            <div class="profile-menu-item">
               <div class="scrollable-pages-toggle">
                 <span class="toggle-label">Reg Groups</span>
                 <p-inputSwitch
@@ -305,6 +315,24 @@
                 </p-accordionTab>
               </p-accordion>
             </div>
+            
+            <!-- Progress Indicator for Normal View -->
+            <div class="progress-indicator-section">
+              <div class="progress-indicator">
+                <p-knob 
+                  [(ngModel)]="overallCompletionPercentage" 
+                  [size]="80"
+                  [strokeWidth]="8"
+                  valueColor="var(--color-blue-4, #009bf1)"
+                  rangeColor="#E5E7EB"
+                  [readonly]="true">
+                </p-knob>
+                <div class="progress-text">
+                  <div class="progress-label">Proposed Accounts</div>
+                  <div class="progress-percentage">{{overallCompletionPercentage}}% Complete</div>
+                </div>
+              </div>
+            </div>
           </ng-container>
 
           <!-- Registration Group View -->
@@ -393,6 +421,24 @@
                 (onClick)="showReviewSummary()"
                 styleClass="review-esign-sidebar-button">
               </p-button>
+            </div>
+            
+            <!-- Progress Indicator for Registration Group Mode Desktop -->
+            <div class="progress-indicator-section">
+              <div class="progress-indicator">
+                <p-knob 
+                  [(ngModel)]="overallCompletionPercentage" 
+                  [size]="80"
+                  [strokeWidth]="8"
+                  valueColor="var(--color-blue-4, #009bf1)"
+                  rangeColor="#E5E7EB"
+                  [readonly]="true">
+                </p-knob>
+                <div class="progress-text">
+                  <div class="progress-label">Proposed Accounts</div>
+                  <div class="progress-percentage">{{overallCompletionPercentage}}% Complete</div>
+                </div>
+              </div>
             </div>
           </ng-container>
         </div>
@@ -496,6 +542,24 @@
                 </p-accordionTab>
               </p-accordion>
             </div>
+            
+            <!-- Progress Indicator for Normal View -->
+            <div class="progress-indicator-section">
+              <div class="progress-indicator">
+                <p-knob 
+                  [(ngModel)]="overallCompletionPercentage" 
+                  [size]="80"
+                  [strokeWidth]="8"
+                  valueColor="var(--color-blue-4, #009bf1)"
+                  rangeColor="#E5E7EB"
+                  [readonly]="true">
+                </p-knob>
+                <div class="progress-text">
+                  <div class="progress-label">Proposed Accounts</div>
+                  <div class="progress-percentage">{{overallCompletionPercentage}}% Complete</div>
+                </div>
+              </div>
+            </div>
           </ng-container>
 
           <!-- Registration Group View -->
@@ -585,6 +649,24 @@
                 styleClass="review-esign-sidebar-button">
               </p-button>
             </div>
+            
+            <!-- Progress Indicator for Registration Group Mode -->
+            <div class="progress-indicator-section">
+              <div class="progress-indicator">
+                <p-knob 
+                  [(ngModel)]="overallCompletionPercentage" 
+                  [size]="80"
+                  [strokeWidth]="8"
+                  valueColor="var(--color-blue-4, #009bf1)"
+                  rangeColor="#E5E7EB"
+                  [readonly]="true">
+                </p-knob>
+                <div class="progress-text">
+                  <div class="progress-label">Proposed Accounts</div>
+                  <div class="progress-percentage">{{overallCompletionPercentage}}% Complete</div>
+                </div>
+              </div>
+            </div>
           </ng-container>
         </div>
       </p-sidebar>
@@ -594,7 +676,18 @@
           
         <!-- Review Summary Mode -->
         <div *ngIf="showReviewSummaryMode">
+          <app-review-summary-original
+            *ngIf="summaryScreenMode === 'original'"
+            [formData]="formData"
+            [completionStatus]="completionStatus"
+            (editAccount)="onEditAccount($event)"
+            (editAccountWithSection)="onEditAccountWithSection($event)"
+            (editAccountQuickReview)="onEditAccountQuickReview($event)"
+            (submitForESign)="onSubmitForESign($event)">
+          </app-review-summary-original>
+          
           <app-review-summary
+            *ngIf="summaryScreenMode === 'current'"
             [formData]="formData"
             [completionStatus]="completionStatus"
             (editAccount)="onEditAccount($event)"
@@ -603,6 +696,16 @@
             (submitForESign)="onSubmitForESign($event)"
             (submitAllReady)="onSubmitAllReady($event)">
           </app-review-summary>
+          
+          <app-review-summary-alternate
+            *ngIf="summaryScreenMode === 'alternate'"
+            [formData]="formData"
+            [completionStatus]="completionStatus"
+            (editAccount)="onEditAccount($event)"
+            (editAccountWithSection)="onEditAccountWithSection($event)"
+            (editAccountQuickReview)="onEditAccountQuickReview($event)"
+            (submitForESign)="onSubmitForESign($event)">
+          </app-review-summary-alternate>
         </div>
 
         <!-- Scrollable View Mode -->

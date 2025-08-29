@@ -41,3 +41,6 @@ testem.log
 .DS_Store
 Thumbs.db
 Documents/CursorUserSetup-x64-1.4.2.exe
+
+# Local Netlify folder
+.netlify

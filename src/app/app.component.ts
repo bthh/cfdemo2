@@ -12,12 +12,15 @@ import { SidebarModule } from 'primeng/sidebar';
 import { CardModule } from 'primeng/card';
 import { AccordionModule } from 'primeng/accordion';
 import { TooltipModule } from 'primeng/tooltip';
+import { KnobModule } from 'primeng/knob';
 import { Toast } from 'primeng/toast';
 
 // Local Imports
 import { FormData, CompletionStatus, Section } from './shared/models/types';
 import { AccountFormComponent } from './features/account-setup/components/account-form/account-form.component';
 import { ReviewSummaryComponent } from './features/account-setup/components/review-summary/review-summary.component';
+import { ReviewSummaryAlternateComponent } from './features/account-setup/components/review-summary-alternate/review-summary-alternate.component';
+import { ReviewSummaryOriginalComponent } from './features/account-setup/components/review-summary-original/review-summary-original.component';
 import { ScrollableViewComponent } from './features/account-setup/components/scrollable-view/scrollable-view.component';
 import { NewEntryPageComponent } from './components/new-entry-page/new-entry-page.component';
 import { BetaModalComponent } from './shared/components/beta-modal/beta-modal.component';
@@ -36,8 +39,11 @@ import { BetaModalComponent } from './shared/components/beta-modal/beta-modal.co
     CardModule,
     AccordionModule,
     TooltipModule,
+    KnobModule,
     AccountFormComponent,
     ReviewSummaryComponent,
+    ReviewSummaryAlternateComponent,
+    ReviewSummaryOriginalComponent,
     ScrollableViewComponent,
     NewEntryPageComponent,
     BetaModalComponent
@@ -75,6 +81,8 @@ export class AppComponent {
   ownerFirmDetailsMode = false;
   brokerDealerInfoMode = false;
   brinkerFundingMode = true;
+  summaryScreenMode: 'original' | 'current' | 'alternate' = 'current'; // Dropdown for summary screen selection
+  overallCompletionPercentage = 75; // Dynamic completion percentage for progress indicator
   highlightMissingFields = false; // Highlight missing required fields when navigating via incomplete button
   expandedRegistrationGroup: number = 0; // Start with first registration expanded only
   currentRegistrationContext: string = ''; // Track which registration the user is currently focused on
@@ -1358,6 +1366,34 @@ export class AppComponent {
     });
 
     this.completionStatus = newCompletionStatus;
+    this.updateOverallCompletionPercentage();
+  }
+
+  private updateOverallCompletionPercentage() {
+    let totalSections = 0;
+    let completedSections = 0;
+
+    // Count member sections
+    Object.keys(this.completionStatus.members).forEach(memberId => {
+      Object.keys(this.completionStatus.members[memberId]).forEach(sectionId => {
+        totalSections++;
+        if (this.completionStatus.members[memberId][sectionId]) {
+          completedSections++;
+        }
+      });
+    });
+
+    // Count account sections
+    Object.keys(this.completionStatus.accounts).forEach(accountId => {
+      Object.keys(this.completionStatus.accounts[accountId]).forEach(sectionId => {
+        totalSections++;
+        if (this.completionStatus.accounts[accountId][sectionId]) {
+          completedSections++;
+        }
+      });
+    });
+
+    this.overallCompletionPercentage = totalSections > 0 ? Math.round((completedSections / totalSections) * 100) : 0;
   }
 
 

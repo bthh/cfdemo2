@@ -282,6 +282,36 @@ app-funding :host :deep(.p-card:first-child) {
   transform: scale(0.8);
 }
 
+.summary-screen-dropdown {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.dropdown-label {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #374151;
+}
+
+.profile-select {
+  padding: 0.25rem 0.5rem;
+  border: 1px solid #d1d5db;
+  border-radius: 4px;
+  font-size: 0.875rem;
+  background: white;
+  color: #374151;
+  cursor: pointer;
+  min-width: 100px;
+}
+
+.profile-select:focus {
+  outline: none;
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
+
 /* Top-level household header */
 .household-title {
   padding: 1rem 1.5rem 0.75rem 1.5rem; /* Reduced vertical padding */
@@ -1536,5 +1566,57 @@ app-funding :host :deep(.p-card:first-child) {
 ::ng-deep .sidebar-bottom-action .p-button > * {
   position: static !important;
   float: none !important;
+}
+
+/* Progress Indicator */
+.progress-indicator-section {
+  padding: 1rem;
+  margin-top: 0.5rem;
+  background: #f8fafc;
+  border-radius: 8px;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.progress-indicator {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.progress-text {
+  flex: 1;
+}
+
+.progress-label {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #374151;
+  margin-bottom: 0.125rem;
+}
+
+.progress-percentage {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--color-blue-5, #006eb6);
+}
+
+:host ::ng-deep .p-knob {
+  flex-shrink: 0;
+}
+
+:host ::ng-deep .p-knob .p-knob-text {
+  font-size: 0.75rem;
+  font-weight: 700;
+  fill: var(--color-blue-5, #006eb6);
+}
+
+:host ::ng-deep .p-knob .p-knob-value {
+  stroke-width: 8;
+}
+
+:host ::ng-deep .p-knob .p-knob-range {
+  stroke-width: 8;
+  stroke: var(--color-gray-3, #d0d0d5);
 }
 

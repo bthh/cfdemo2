@@ -1,0 +1,10 @@
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+@theme inline {
+  --ease-linear: cubic-bezier(0, 0, 1, 1); /** Ideal for non-movement properties, like opacity or background color. */
+  --ease-in: cubic-bezier(0.7, 0.1, 0.75, 0.9); /** Ideal for movement that starts on the page and ends off the page. */
+  --ease-out: cubic-bezier(0.3, 0.8, 0.6, 1); /** Ideal for movement that starts off the page and moves on the page. */
+  --ease-in-out: cubic-bezier(0.6, 0, 0.2, 1); /** Ideal for movement that starts and ends on the page. */
+}

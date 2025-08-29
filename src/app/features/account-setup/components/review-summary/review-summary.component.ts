@@ -8,6 +8,7 @@ import { TooltipModule } from 'primeng/tooltip';
 import { FormData, CompletionStatus, Section } from '../../../../shared/models/types';
 import { AttachmentsModalComponent } from '../../../../shared/components/attachments-modal/attachments-modal.component';
 import { EsignModalComponent } from '../../../../shared/components/esign-modal/esign-modal.component';
+import { PdfPreviewModalComponent } from '../../../../shared/components/pdf-preview-modal/pdf-preview-modal.component';
 
 interface AccountSummary {
   id: string;
@@ -33,7 +34,8 @@ interface AccountSummary {
     CommonModule,
     TooltipModule,
     AttachmentsModalComponent,
-    EsignModalComponent
+    EsignModalComponent,
+    PdfPreviewModalComponent
   ],
   template: `
     <div class="review-summary-section">
@@ -62,18 +64,15 @@ interface AccountSummary {
               <i [class]="account.icon + ' account-icon'"></i>
               <div class="title-texts">
                 <div class="account-title">{{account.name}}</div>
-                <div class="account-meta">{{account.accountType}} | 1 Account | {{account.attachmentsCount}} Attachments</div>
+                <div class="account-meta">{{account.accountType}} | <a class="attachments-link" (click)="onViewAttachments(account.id); $event.stopPropagation()">{{account.attachmentsCount}} Attachments</a></div>
               </div>
             </div>
             <div class="header-actions-icons">
               <button class="icon-btn" (click)="onPaperworkPreview(account.id)" pTooltip="Preview" tooltipPosition="bottom">
                 <i class="fa-regular fa-eye"></i>
               </button>
-              <button class="icon-btn" (click)="onViewAttachments(account.id)" pTooltip="Attachments" tooltipPosition="bottom">
-                <i class="fa-regular fa-paperclip"></i>
-              </button>
-              <button class="icon-btn" [disabled]="!account.canSubmit" (click)="onSubmitForESign(account.id, account.name)" pTooltip="Send for E-Sign" tooltipPosition="bottom">
-                <i class="fa-regular fa-paper-plane"></i>
+              <button *ngIf="account.canSubmit" class="icon-btn" (click)="onEditAccount(account.id)" pTooltip="Edit" tooltipPosition="bottom">
+                <i class="fa-solid fa-pencil"></i>
               </button>
             </div>
           </div>
@@ -81,11 +80,6 @@ interface AccountSummary {
           <!-- Forms Section (only when ready) -->
           <div *ngIf="account.canSubmit" class="forms-section">
             <div class="forms-header">Docusign Forms (167 pages)</div>
-            <div class="forms-list">
-              <a class="form-link" href="javascript:void(0)">
-                {{account.forms[0] || (getCustodianName(account.id) + ' Lorem Ipsum Form')}}
-              </a>
-            </div>
           </div>
 
           <!-- Footer / Status Row -->
@@ -100,6 +94,12 @@ interface AccountSummary {
             </div>
             <div class="footer-actions">
               <button *ngIf="!account.canSubmit" class="btn-go-missing" (click)="onEditAccount(account.id)">Go to Missing Fields</button>
+              <button class="icon-btn footer-icon-btn" (click)="onDownloadPaperwork(account.id)" pTooltip="Download" tooltipPosition="top">
+                <i class="fa-solid fa-download"></i>
+              </button>
+              <button class="icon-btn footer-icon-btn esign-btn" [class.active]="account.canSubmit" [disabled]="!account.canSubmit" (click)="onSubmitForESign(account.id, account.name)" pTooltip="Send for E-Sign" tooltipPosition="top">
+                <i class="fa-regular fa-paper-plane"></i>
+              </button>
             </div>
           </div>
         </div>
@@ -124,6 +124,12 @@ interface AccountSummary {
       (modalClosed)="onEsignModalClosed()"
       (esignSubmitted)="onEsignSubmitted($event)">
     </app-esign-modal>
+
+    <!-- PDF Preview Modal -->
+    <app-pdf-preview-modal
+      [(visible)]="showPdfPreview"
+      [accountName]="selectedAccountName">
+    </app-pdf-preview-modal>
   `,
   styles: [`
     .review-summary-section {
@@ -234,6 +240,17 @@ interface AccountSummary {
       color: #6b7280;
     }
 
+    .attachments-link {
+      color: #0A8DFF;
+      text-decoration: none;
+      cursor: pointer;
+      font-weight: 600;
+    }
+
+    .attachments-link:hover {
+      text-decoration: underline;
+    }
+
     .header-actions-icons {
       display: flex;
       align-items: center;
@@ -274,15 +291,9 @@ interface AccountSummary {
       margin-bottom: 0.5rem;
     }
 
-    .forms-list .form-link {
-      color: #0A8DFF;
+    .forms-list .form-text {
+      color: #374151;
       font-weight: 600;
-      text-decoration: none;
-      cursor: pointer;
-    }
-
-    .forms-list .form-link:hover {
-      text-decoration: underline;
     }
 
     .card-footer {
@@ -319,10 +330,50 @@ interface AccountSummary {
       font-weight: 600;
       cursor: pointer;
       transition: all 0.2s ease;
+      margin-right: auto;
     }
 
     .btn-go-missing:hover {
       background: #087AE6;
+    }
+
+    .footer-icon-btn {
+      width: 36px;
+      height: 36px;
+      border: 1px solid #e2e8f0;
+      background: white;
+      border-radius: 6px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      color: #4a5568;
+    }
+
+    .footer-icon-btn:hover:not(:disabled) {
+      background: #edf2f7;
+      border-color: #cbd5e0;
+    }
+
+    .footer-icon-btn:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+
+    .footer-icon-btn i {
+      font-size: 0.875rem;
+    }
+
+    .esign-btn.active {
+      background: #0A8DFF;
+      color: white;
+      border-color: #0A8DFF;
+    }
+
+    .esign-btn.active:hover {
+      background: #087AE6;
+      border-color: #087AE6;
     }
 
     @media (max-width: 768px) {
@@ -360,6 +411,7 @@ export class ReviewSummaryComponent {
   // Modal state
   showAttachmentsModal = false;
   showEsignModal = false;
+  showPdfPreview = false;
   selectedAccountId = '';
   selectedAccountName = '';
   bulkEsignAccounts: Array<{id: string, name: string}> = [];
@@ -420,7 +472,7 @@ export class ReviewSummaryComponent {
         hasMissingFields,
         nextMissingSection,
         attachmentsCount,
-        forms: [`${this.getCustodianName(account.id)} Lorem Ipsum Form`]
+        forms: [`${this.getCustodianName(account.id)} Form`]
       };
     });
   }
@@ -500,7 +552,14 @@ export class ReviewSummaryComponent {
   private getMissingRequiredFields(accountId: string, accountData: any): string[] {
     const missingFields: string[] = [];
     
-    // Check basic required fields
+    // For trust account, only return 2 missing fields
+    if (accountId === 'trust-account') {
+      missingFields.push('Trust Name');
+      missingFields.push('Trust EIN');
+      return missingFields;
+    }
+    
+    // Check basic required fields for other accounts
     if (!accountData.accountType) missingFields.push('Account Type');
     if (!accountData.investmentObjective) missingFields.push('Investment Objective');
     if (!accountData.riskTolerance) missingFields.push('Risk Tolerance');
@@ -631,8 +690,17 @@ export class ReviewSummaryComponent {
   }
 
   onPaperworkPreview(accountId: string) {
-    // TODO: Implement paperwork preview functionality
-    console.log('Paperwork preview for account:', accountId);
+    const account = this.accountSummaries.find(a => a.id === accountId);
+    if (account) {
+      this.selectedAccountName = account.name;
+      this.selectedAccountId = accountId;
+      this.showPdfPreview = true;
+    }
+  }
+
+  onDownloadPaperwork(accountId: string) {
+    // TODO: Implement paperwork download functionality
+    console.log('Download paperwork for account:', accountId);
   }
 
   onAttachmentsModalClosed() {
