@@ -1,4 +1,4 @@
-import { Component, Input, Output, EventEmitter } from '@angular/core';
+import { Component, Input, Output, EventEmitter, OnInit, OnChanges } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ButtonModule } from 'primeng/button';
 
@@ -357,7 +357,7 @@ interface AccountSummary {
     }
   `]
 })
-export class ReviewSummaryAlternateComponent {
+export class ReviewSummaryAlternateComponent implements OnInit, OnChanges {
   @Input() formData: FormData = {};
   @Input() completionStatus: CompletionStatus = { accounts: {}, members: {} };
   @Input() activeRegistrationId: string = '';
@@ -417,26 +417,19 @@ export class ReviewSummaryAlternateComponent {
       let totalSections = 0;
       let canSubmit = true;
       
-      // Calculate completion based on actual form data
+      // Calculate completion for ALL accounts using the same logic as V2
+      const relevantSections = this.getRelevantSectionsForAccount(account.id);
+      const completion = this.calculateAccountCompletion(account.id, relevantSections);
+      completedSections = completion.completedSections;
+      totalSections = completion.totalSections;
+      completionPercentage = totalSections > 0 ? Math.round((completedSections / totalSections) * 100) : 0;
+      
       const accountFormData = this.formData[account.id] || {};
       const missingFields = this.getMissingRequiredFields(account.id, accountFormData);
       
-      // Only the trust account should be incomplete
-      if (account.id === 'trust-account') {
-        const relevantSections = this.getRelevantSectionsForAccount(account.id);
-        const completion = this.calculateAccountCompletion(account.id, relevantSections);
-        completedSections = completion.completedSections;
-        totalSections = completion.totalSections;
-        completionPercentage = totalSections > 0 ? Math.round((completedSections / totalSections) * 100) : 0;
-        canSubmit = completionPercentage === 100 && missingFields.length === 0; // Both sections complete AND no missing fields
-      } else {
-        // All other accounts are complete
-        const relevantSections = this.getRelevantSectionsForAccount(account.id);
-        completedSections = relevantSections.length;
-        totalSections = relevantSections.length;
-        completionPercentage = 100;
-        canSubmit = true;
-      }
+      canSubmit = completionPercentage === 100 && missingFields.length === 0; // Both sections complete AND no missing fields
+      
+      console.log(`V3 ${account.id} - Sections: ${completedSections}/${totalSections} (${completionPercentage}%), Missing Fields: ${missingFields.length}, canSubmit: ${canSubmit}`);
       const attachmentsCount = account.id === 'traditional-ira-account' ? 0 : 3;
       
       return {
@@ -448,7 +441,7 @@ export class ReviewSummaryAlternateComponent {
         accountType: this.getCustodianName(account.id).toUpperCase(),
         canSubmit,
         hasMissingFields: !canSubmit,
-        nextMissingSection: canSubmit ? null : { entityId: account.id, sectionId: 'account-setup' as Section },
+        nextMissingSection: canSubmit ? null : completion.nextMissingSection,
         attachmentsCount,
         forms: [`${this.getCustodianName(account.id)} Lorem Ipsum Form`]
       };
@@ -459,34 +452,59 @@ export class ReviewSummaryAlternateComponent {
     return account.owners;
   }
 
-  private getRelevantSectionsForAccount(accountId: string): Section[] {
-    const allSections: Section[] = ['account-setup', 'beneficiaries', 'trustees', 'funding'];
+  private getRelevantSectionsForAccount(accountId: string): Array<{entityId: string, sectionId: Section}> {
+    const sections: Array<{entityId: string, sectionId: Section}> = [];
     
-    switch (accountId) {
-      case 'joint-account':
-        return ['account-setup', 'funding'];
-      case 'roth-ira-account':
-      case 'traditional-ira-account':
-        return ['account-setup', 'beneficiaries', 'funding'];
-      case 'trust-account':
-        return ['account-setup', 'beneficiaries', 'trustees', 'funding'];
-      default:
-        return allSections;
+    // Determine which members are relevant for this account
+    if (accountId === 'joint-account') {
+      // John and Mary sections
+      sections.push(
+        { entityId: 'john-smith', sectionId: 'owner-details' },
+        { entityId: 'john-smith', sectionId: 'firm-details' },
+        { entityId: 'mary-smith', sectionId: 'owner-details' },
+        { entityId: 'mary-smith', sectionId: 'firm-details' }
+      );
+    } else if (accountId === 'roth-ira-account') {
+      // Mary sections only
+      sections.push(
+        { entityId: 'mary-smith', sectionId: 'owner-details' },
+        { entityId: 'mary-smith', sectionId: 'firm-details' }
+      );
+    } else if (accountId === 'trust-account') {
+      // Trust sections - for Smith Family Trust, John and Mary are the trustees
+      sections.push(
+        { entityId: 'john-smith', sectionId: 'owner-details' },
+        { entityId: 'mary-smith', sectionId: 'owner-details' }
+      );
+    } else if (accountId === 'traditional-ira-account') {
+      // John Smith sections for Traditional IRA
+      sections.push(
+        { entityId: 'john-smith', sectionId: 'owner-details' },
+        { entityId: 'john-smith', sectionId: 'firm-details' }
+      );
     }
+    
+    // Add account-specific sections  
+    sections.push(
+      { entityId: accountId, sectionId: 'account-setup' },
+      { entityId: accountId, sectionId: 'funding' }
+    );
+    
+    return sections;
   }
 
-  private calculateAccountCompletion(accountId: string, relevantSections: Section[]) {
+  private calculateAccountCompletion(accountId: string, relevantSections: Array<{entityId: string, sectionId: Section}>) {
     let completedSections = 0;
     let hasMissingFields = false;
     let nextMissingSection: { entityId: string, sectionId: Section } | null = null;
 
     relevantSections.forEach(section => {
-      if (this.isSectionComplete(accountId, section)) {
+      if (this.isSectionComplete(section.entityId, section.sectionId)) {
         completedSections++;
       } else {
         hasMissingFields = true;
         if (!nextMissingSection) {
-          nextMissingSection = { entityId: accountId, sectionId: section };
+          nextMissingSection = section;
         }
       }
     });
@@ -500,10 +518,9 @@ export class ReviewSummaryAlternateComponent {
   }
 
   private isSectionComplete(entityId: string, sectionId: Section): boolean {
-    if (entityId === this.activeRegistrationId) {
-      // For the active registration, check the top-level completion status
-      const status = this.completionStatus as any;
-      return status[sectionId] || false;
+    // Check if the section is complete based on completion status
+    if (entityId === 'john-smith' || entityId === 'mary-smith') {
+      return this.completionStatus.members[entityId]?.[sectionId] || false;
     } else {
       return this.completionStatus.accounts[entityId]?.[sectionId] || false;
     }

@@ -1359,11 +1359,22 @@ export class AppComponent {
       const fundingComplete = this.calculateSectionCompletion('accounts', accountId, 'funding');
       const firmComplete = this.calculateSectionCompletion('accounts', accountId, 'firm-details');
       
-      newCompletionStatus.accounts[accountId] = {
+      // Base completion status for all accounts
+      const accountCompletion: any = {
         'account-setup': setupComplete,
         'funding': fundingComplete,
         'firm-details': firmComplete
       };
+      
+      // Add trust-specific sections for trust account
+      if (accountId === 'trust-account') {
+        const beneficiariesComplete = this.calculateSectionCompletion('accounts', accountId, 'beneficiaries');
+        const trusteesComplete = this.calculateSectionCompletion('accounts', accountId, 'trustees');
+        accountCompletion['beneficiaries'] = beneficiariesComplete;
+        accountCompletion['trustees'] = trusteesComplete;
+      }
+      
+      newCompletionStatus.accounts[accountId] = accountCompletion;
     });
 
     this.completionStatus = newCompletionStatus;
