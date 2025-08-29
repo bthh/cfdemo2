@@ -1,4 +1,15 @@
 <div class="app">
+  <!-- SVG Definitions for Progress Knob Gradient -->
+  <svg style="position: absolute; width: 0; height: 0; pointer-events: none;">
+    <defs>
+      <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" style="stop-color:#60A5FA;stop-opacity:1" />
+        <stop offset="50%" style="stop-color:#3B82F6;stop-opacity:1" />
+        <stop offset="100%" style="stop-color:#1D4ED8;stop-opacity:1" />
+      </linearGradient>
+    </defs>
+  </svg>
+
   <p-toast #toast position="top-center" styleClass="header-toast"></p-toast>
   
   <!-- New Entry Page - Default Landing -->
@@ -322,13 +333,17 @@
                 <p-knob 
                   [(ngModel)]="overallCompletionPercentage" 
                   [size]="80"
-                  [strokeWidth]="8"
-                  valueColor="var(--color-blue-4, #009bf1)"
+                  [strokeWidth]="12"
+                  valueColor="url(#gradient)"
                   rangeColor="#E5E7EB"
-                  [readonly]="true">
+                  [readonly]="true"
+                  [showValue]="false">
+                  <ng-template pTemplate="value">
+                    <!-- Empty template to hide the value -->
+                  </ng-template>
                 </p-knob>
                 <div class="progress-text">
-                  <div class="progress-label">Proposed Accounts</div>
+                  <div class="progress-label">New Accounts</div>
                   <div class="progress-percentage">{{overallCompletionPercentage}}% Complete</div>
                 </div>
               </div>
@@ -429,13 +444,17 @@
                 <p-knob 
                   [(ngModel)]="overallCompletionPercentage" 
                   [size]="80"
-                  [strokeWidth]="8"
-                  valueColor="var(--color-blue-4, #009bf1)"
+                  [strokeWidth]="12"
+                  valueColor="url(#gradient)"
                   rangeColor="#E5E7EB"
-                  [readonly]="true">
+                  [readonly]="true"
+                  [showValue]="false">
+                  <ng-template pTemplate="value">
+                    <!-- Empty template to hide the value -->
+                  </ng-template>
                 </p-knob>
                 <div class="progress-text">
-                  <div class="progress-label">Proposed Accounts</div>
+                  <div class="progress-label">New Accounts</div>
                   <div class="progress-percentage">{{overallCompletionPercentage}}% Complete</div>
                 </div>
               </div>
@@ -549,13 +568,17 @@
                 <p-knob 
                   [(ngModel)]="overallCompletionPercentage" 
                   [size]="80"
-                  [strokeWidth]="8"
-                  valueColor="var(--color-blue-4, #009bf1)"
+                  [strokeWidth]="12"
+                  valueColor="url(#gradient)"
                   rangeColor="#E5E7EB"
-                  [readonly]="true">
+                  [readonly]="true"
+                  [showValue]="false">
+                  <ng-template pTemplate="value">
+                    <!-- Empty template to hide the value -->
+                  </ng-template>
                 </p-knob>
                 <div class="progress-text">
-                  <div class="progress-label">Proposed Accounts</div>
+                  <div class="progress-label">New Accounts</div>
                   <div class="progress-percentage">{{overallCompletionPercentage}}% Complete</div>
                 </div>
               </div>
@@ -656,13 +679,17 @@
                 <p-knob 
                   [(ngModel)]="overallCompletionPercentage" 
                   [size]="80"
-                  [strokeWidth]="8"
-                  valueColor="var(--color-blue-4, #009bf1)"
+                  [strokeWidth]="12"
+                  valueColor="url(#gradient)"
                   rangeColor="#E5E7EB"
-                  [readonly]="true">
+                  [readonly]="true"
+                  [showValue]="false">
+                  <ng-template pTemplate="value">
+                    <!-- Empty template to hide the value -->
+                  </ng-template>
                 </p-knob>
                 <div class="progress-text">
-                  <div class="progress-label">Proposed Accounts</div>
+                  <div class="progress-label">New Accounts</div>
                   <div class="progress-percentage">{{overallCompletionPercentage}}% Complete</div>
                 </div>
               </div>

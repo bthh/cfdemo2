@@ -1589,16 +1589,16 @@ app-funding :host :deep(.p-card:first-child) {
 }
 
 .progress-label {
-  font-size: 0.75rem;
+  font-size: 0.9rem;
   font-weight: 600;
   color: #374151;
   margin-bottom: 0.125rem;
 }
 
 .progress-percentage {
-  font-size: 0.875rem;
+  font-size: 1rem;
   font-weight: 600;
-  color: var(--color-blue-5, #006eb6);
+  color: #000000;
 }
 
 :host ::ng-deep .p-knob {
@@ -1606,17 +1606,15 @@ app-funding :host :deep(.p-card:first-child) {
 }
 
 :host ::ng-deep .p-knob .p-knob-text {
-  font-size: 0.75rem;
-  font-weight: 700;
-  fill: var(--color-blue-5, #006eb6);
+  display: none !important;
 }
 
 :host ::ng-deep .p-knob .p-knob-value {
-  stroke-width: 8;
+  stroke-width: 12;
 }
 
 :host ::ng-deep .p-knob .p-knob-range {
-  stroke-width: 8;
-  stroke: var(--color-gray-3, #d0d0d5);
+  stroke-width: 12;
+  stroke: #E5E7EB;
 }
 

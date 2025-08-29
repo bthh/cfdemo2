@@ -1,13 +1,18 @@
 headersOrigin = "config"
-plugins = []
-redirects = []
+redirectsOrigin = "config"
 
 [functions]
 
 [functions."*"]
 
+[[plugins]]
+origin = "default"
+package = "@netlify/angular-runtime"
+
+[plugins.inputs]
+
 [build]
-publish = "/home/bth/ntb/account-setup-v3/cfdemo2/dist/account-setup-v3/browser"
+publish = "C:\\Users\\bhardwick\\V5-test\\dist\\account-setup-v3\\browser"
 publishOrigin = "config"
 commandOrigin = "config"
 command = "npm run build"
@@ -32,3 +37,15 @@ for = "/*"
 
 [headers.values]
 Cache-Control = "public, max-age=0, must-revalidate"
+
+[[redirects]]
+from = "/*"
+to = "/index.html"
+status = 200.0
+force = false
+
+[redirects.query]
+
+[redirects.conditions]
+
+[redirects.headers]
