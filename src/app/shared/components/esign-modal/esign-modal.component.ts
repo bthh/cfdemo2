@@ -92,7 +92,7 @@ interface Signer {
             styleClass="cancel-btn">
           </p-button>
           <p-button 
-            label="Send for E-Signature" 
+            label="Send" 
             severity="success"
             icon="pi pi-send"
             (onClick)="onSubmit()"
