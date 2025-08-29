@@ -425,10 +425,10 @@ export class ReviewSummaryAlternateComponent {
       if (account.id === 'trust-account') {
         const relevantSections = this.getRelevantSectionsForAccount(account.id);
         const completion = this.calculateAccountCompletion(account.id, relevantSections);
-        completedSections = missingFields.length === 0 ? 4 : 3; // 4 if complete, 3 if missing fields
-        totalSections = 4; // trustees, beneficiaries, account-setup, funding
-        completionPercentage = missingFields.length === 0 ? 100 : 75; // 100% if no missing fields
-        canSubmit = missingFields.length === 0; // Can submit if no missing fields
+        completedSections = completion.completedSections;
+        totalSections = completion.totalSections;
+        completionPercentage = totalSections > 0 ? Math.round((completedSections / totalSections) * 100) : 0;
+        canSubmit = completionPercentage === 100 && missingFields.length === 0; // Both sections complete AND no missing fields
       } else {
         // All other accounts are complete
         const relevantSections = this.getRelevantSectionsForAccount(account.id);
