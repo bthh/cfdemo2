@@ -81,6 +81,7 @@ export class AppComponent {
   ownerFirmDetailsMode = false;
   brokerDealerInfoMode = false;
   brinkerFundingMode = true;
+  fundingColumnsMode = false; // Toggle for funding column layout (2 per row for 4 types, ACAT full row)
   summaryScreenMode: 'original' | 'current' | 'alternate' = 'current'; // Dropdown for summary screen selection
   overallCompletionPercentage = 75; // Dynamic completion percentage for progress indicator
   highlightMissingFields = false; // Highlight missing required fields when navigating via incomplete button

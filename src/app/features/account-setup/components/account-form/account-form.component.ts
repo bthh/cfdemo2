@@ -84,6 +84,7 @@ import { FundingComponent } from '../funding/funding.component';
           [entityId]="getCurrentEntityId()"
           [isReviewMode]="isReviewMode"
           [brinkerFundingMode]="brinkerFundingMode"
+          [fundingColumnsMode]="fundingColumnsMode"
           [registrationName]="registrationName"
           (formDataChange)="onFormDataUpdate($event)"
           (disableQuickReview)="onDisableQuickReview()">
@@ -144,6 +145,7 @@ export class AccountFormComponent {
   @Input() canGoNext: boolean = false;
   @Input() copyDropdownsMode: boolean = false;
   @Input() brinkerFundingMode: boolean = false;
+  @Input() fundingColumnsMode: boolean = false;
   @Input() registrationName: string = '';
   @Input() highlightMissingFields: boolean = false;
   @Input() ownerFirmDetailsMode: boolean = false;

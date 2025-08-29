@@ -160,6 +160,15 @@
                 </p-inputSwitch>
               </div>
             </div>
+            <div class="profile-menu-item">
+              <div class="scrollable-pages-toggle">
+                <span class="toggle-label">Funding Columns</span>
+                <p-inputSwitch
+                  [(ngModel)]="fundingColumnsMode"
+                  styleClass="profile-toggle">
+                </p-inputSwitch>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -744,6 +753,7 @@
           [isReviewMode]="isReviewMode"
           [copyDropdownsMode]="copyDropdownsMode"
           [brinkerFundingMode]="brinkerFundingMode"
+          [fundingColumnsMode]="fundingColumnsMode"
           [registrationName]="getCurrentRegistrationName()"
           [highlightMissingFields]="highlightMissingFields"
           [ownerFirmDetailsMode]="ownerFirmDetailsMode"
@@ -763,6 +773,7 @@
           [completionStatus]="completionStatus"
           [copyDropdownsMode]="copyDropdownsMode"
           [brinkerFundingMode]="brinkerFundingMode"
+          [fundingColumnsMode]="fundingColumnsMode"
           [registrationName]="getCurrentRegistrationName()"
           [highlightMissingFields]="highlightMissingFields"
           [ownerFirmDetailsMode]="ownerFirmDetailsMode"

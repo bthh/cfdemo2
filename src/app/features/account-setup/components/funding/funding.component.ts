@@ -56,7 +56,7 @@ interface FundingInstances {
       
               <!-- Edit Mode - Form -->
         <p-card *ngIf="!isReviewMode" header="Funding & Move Money" class="mb-4">
-          <div class="funding-dashboard">
+          <div class="funding-dashboard" [class.funding-columns-layout]="fundingColumnsMode">
             <!-- ACAT Transfers Section -->
             <div class="funding-section-wrapper">
               <div class="section-header">
@@ -104,6 +104,9 @@ interface FundingInstances {
               </div>
             </div>
 
+            <!-- Two-column container for other funding types when in columns mode -->
+            <div class="funding-columns-container" *ngIf="fundingColumnsMode">
+            
             <!-- ACH Transfers Section -->
             <div class="funding-section-wrapper">
               <div class="section-header">
@@ -339,6 +342,247 @@ interface FundingInstances {
                 </div>
               </div>
             </ng-template>
+            
+            </div> <!-- End funding-columns-container -->
+
+            <!-- Regular layout when columns mode is off -->
+            <ng-container *ngIf="!fundingColumnsMode">
+              <!-- ACH Transfers Section -->
+              <div class="funding-section-wrapper">
+                <div class="section-header">
+                  <div class="section-title">{{brinkerFundingMode ? 'One-Time Bank ACH/EFT' : 'ACH Transfers'}}</div>
+                  <div class="section-actions">
+                    <button class="add-existing-btn" (click)="showExistingInstanceModalForType('ach')"><i class="fa-solid fa-clock-rotate-left"></i> Add Existing</button>
+                    <button class="add-new-link" (click)="openModal('ach')"><i class="fa-solid fa-plus"></i> Add New</button>
+                  </div>
+                </div>
+                <div class="funding-simple-section">
+                  <div class="simple-table" *ngIf="fundingInstances.ach.length > 0">
+                    <div class="table-header">
+                      <div class="col-name">Name</div>
+                      <div class="col-amount">Amount</div>
+                      <div class="col-frequency">Frequency</div>
+                      <div class="col-actions"></div>
+                    </div>
+                    <div *ngFor="let instance of fundingInstances.ach" class="table-row">
+                      <div class="col-name">{{instance.name}}</div>
+                      <div class="col-amount">{{formatStoredAmount(instance.amount)}}</div>
+                      <div class="col-frequency">{{instance.frequency || 'One-time'}}</div>
+                      <div class="col-actions">
+                        <button class="icon-btn" (click)="editInstance(instance)" pTooltip="Edit" tooltipPosition="top"><i class="fa-regular fa-pen-to-square"></i></button>
+                        <button class="icon-btn danger" (click)="deleteInstance(instance)" pTooltip="Delete" tooltipPosition="top"><i class="fa-regular fa-trash-can"></i></button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="enterprise-empty-state" *ngIf="fundingInstances.ach.length === 0">
+                    <div class="empty-state-content">
+                      <div class="empty-state-icon">
+                        <i class="fa-regular fa-folder-open"></i>
+                      </div>
+                      <h3 class="empty-state-title">No {{brinkerFundingMode ? 'One-Time Bank ACH/EFT' : 'ACH Transfers'}} Added</h3>
+                      <p class="empty-state-description">Add {{brinkerFundingMode ? 'one-time bank ACH/EFT' : 'ACH transfers'}} for this account</p>
+                      <div class="empty-state-actions">
+                        <p-button 
+                          label="Add New" 
+                          icon="fa-solid fa-plus"
+                          styleClass="empty-state-button"
+                          (onClick)="openModal('ach')">
+                        </p-button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Systematic Contributions Section -->
+              <div class="funding-section-wrapper">
+                <div class="section-header">
+                  <div class="section-title">{{brinkerFundingMode ? 'Standing ACH/EFT' : 'Systematic Contributions'}}</div>
+                  <div class="section-actions">
+                    <button class="add-existing-btn" (click)="showExistingInstanceModalForType('contribution')"><i class="fa-solid fa-clock-rotate-left"></i> Add Existing</button>
+                    <button class="add-new-link" (click)="openModal('contribution')"><i class="fa-solid fa-plus"></i> Add New</button>
+                  </div>
+                </div>
+                <div class="funding-simple-section">
+                  <div class="simple-table" *ngIf="fundingInstances.contribution.length > 0">
+                    <div class="table-header">
+                      <div class="col-name">Name</div>
+                      <div class="col-amount">Amount</div>
+                      <div class="col-frequency">Frequency</div>
+                      <div class="col-actions"></div>
+                    </div>
+                    <div *ngFor="let instance of fundingInstances.contribution" class="table-row">
+                      <div class="col-name">{{instance.name}}</div>
+                      <div class="col-amount">{{formatStoredAmount(instance.amount)}}</div>
+                      <div class="col-frequency">{{instance.frequency || 'Monthly'}}</div>
+                      <div class="col-actions">
+                        <button class="icon-btn" (click)="editInstance(instance)" pTooltip="Edit" tooltipPosition="top"><i class="fa-regular fa-pen-to-square"></i></button>
+                        <button class="icon-btn danger" (click)="deleteInstance(instance)" pTooltip="Delete" tooltipPosition="top"><i class="fa-regular fa-trash-can"></i></button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="enterprise-empty-state" *ngIf="fundingInstances.contribution.length === 0">
+                    <div class="empty-state-content">
+                      <div class="empty-state-icon">
+                        <i class="fa-regular fa-folder-open"></i>
+                      </div>
+                      <h3 class="empty-state-title">No {{brinkerFundingMode ? 'Standing ACH/EFT' : 'Systematic Contributions'}} Added</h3>
+                      <p class="empty-state-description">Add {{brinkerFundingMode ? 'standing ACH/EFT' : 'systematic contributions'}} for this account</p>
+                      <div class="empty-state-actions">
+                        <p-button 
+                          label="Add New" 
+                          icon="fa-solid fa-plus"
+                          styleClass="empty-state-button"
+                          (onClick)="openModal('contribution')">
+                        </p-button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Standing Withdrawal Section -->
+              <div class="funding-section-wrapper">
+                <div class="section-header">
+                  <div class="section-title">Standing Withdrawal</div>
+                  <div class="section-actions">
+                    <button class="add-existing-btn" (click)="showExistingInstanceModalForType('withdrawal')"><i class="fa-solid fa-clock-rotate-left"></i> Add Existing</button>
+                    <button class="add-new-link" (click)="openModal('withdrawal')"><i class="fa-solid fa-plus"></i> Add New</button>
+                  </div>
+                </div>
+                <div class="funding-simple-section">
+                  <div class="simple-table" *ngIf="fundingInstances.withdrawal.length > 0">
+                    <div class="table-header">
+                      <div class="col-name">Name</div>
+                      <div class="col-amount">Amount</div>
+                      <div class="col-frequency">Frequency</div>
+                      <div class="col-actions"></div>
+                    </div>
+                    <div *ngFor="let instance of fundingInstances.withdrawal" class="table-row">
+                      <div class="col-name">{{instance.name}}</div>
+                      <div class="col-amount">{{formatStoredAmount(instance.amount)}}</div>
+                      <div class="col-frequency">{{instance.frequency || 'Monthly'}}</div>
+                      <div class="col-actions">
+                        <button class="icon-btn" (click)="editInstance(instance)" pTooltip="Edit" tooltipPosition="top"><i class="fa-regular fa-pen-to-square"></i></button>
+                        <button class="icon-btn danger" (click)="deleteInstance(instance)" pTooltip="Delete" tooltipPosition="top"><i class="fa-regular fa-trash-can"></i></button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="enterprise-empty-state" *ngIf="fundingInstances.withdrawal.length === 0">
+                    <div class="empty-state-content">
+                      <div class="empty-state-icon">
+                        <i class="fa-regular fa-folder-open"></i>
+                      </div>
+                      <h3 class="empty-state-title">No Standing Withdrawals Added</h3>
+                      <p class="empty-state-description">Add standing withdrawals for this account</p>
+                      <div class="empty-state-actions">
+                        <p-button 
+                          label="Add New" 
+                          icon="fa-solid fa-plus"
+                          styleClass="empty-state-button"
+                          (onClick)="openModal('withdrawal')">
+                        </p-button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 3rd Party Check Section -->
+              <div class="funding-section-wrapper" *ngIf="brinkerFundingMode; else initialAch">
+                <div class="section-header">
+                  <div class="section-title">3rd Party Check</div>
+                  <div class="section-actions">
+                    <button class="add-existing-btn" (click)="showExistingInstanceModalForType('third-party-check')"><i class="fa-solid fa-clock-rotate-left"></i> Add Existing</button>
+                    <button class="add-new-link" (click)="openModal('third-party-check')"><i class="fa-solid fa-plus"></i> Add New</button>
+                  </div>
+                </div>
+                <div class="funding-simple-section">
+                  <div class="simple-table" *ngIf="fundingInstances['third-party-check'].length > 0">
+                    <div class="table-header">
+                      <div class="col-name">Name</div>
+                      <div class="col-amount">Amount</div>
+                      <div class="col-frequency">Frequency</div>
+                      <div class="col-actions"></div>
+                    </div>
+                    <div *ngFor="let instance of fundingInstances['third-party-check']" class="table-row">
+                      <div class="col-name">{{instance.name}}</div>
+                      <div class="col-amount">{{formatStoredAmount(instance.amount)}}</div>
+                      <div class="col-frequency">One-time</div>
+                      <div class="col-actions">
+                        <button class="icon-btn" (click)="editInstance(instance)" pTooltip="Edit" tooltipPosition="top"><i class="fa-regular fa-pen-to-square"></i></button>
+                        <button class="icon-btn danger" (click)="deleteInstance(instance)" pTooltip="Delete" tooltipPosition="top"><i class="fa-regular fa-trash-can"></i></button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="enterprise-empty-state" *ngIf="fundingInstances['third-party-check'].length === 0">
+                    <div class="empty-state-content">
+                      <div class="empty-state-icon">
+                        <i class="fa-regular fa-folder-open"></i>
+                      </div>
+                      <h3 class="empty-state-title">No 3rd Party Checks Added</h3>
+                      <p class="empty-state-description">Add 3rd party checks for this account</p>
+                      <div class="empty-state-actions">
+                        <p-button 
+                          label="Add New" 
+                          icon="fa-solid fa-plus"
+                          styleClass="empty-state-button"
+                          (onClick)="openModal('third-party-check')">
+                        </p-button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <ng-template #initialAch>
+                <!-- Initial ACH Transfer Section -->
+                <div class="funding-section-wrapper">
+                  <div class="section-header">
+                    <div class="section-title">Initial ACH Transfer</div>
+                    <div class="section-actions">
+                      <button class="add-existing-btn" (click)="showExistingInstanceModalForType('initial-ach')"><i class="fa-solid fa-clock-rotate-left"></i> Add Existing</button>
+                      <button class="add-new-link" (click)="openModal('initial-ach')"><i class="fa-solid fa-plus"></i> Add New</button>
+                    </div>
+                  </div>
+                  <div class="funding-simple-section">
+                    <div class="simple-table" *ngIf="fundingInstances['initial-ach'].length > 0">
+                      <div class="table-header">
+                        <div class="col-name">Name</div>
+                        <div class="col-amount">Amount</div>
+                        <div class="col-frequency">Frequency</div>
+                        <div class="col-actions"></div>
+                      </div>
+                      <div *ngFor="let instance of fundingInstances['initial-ach']" class="table-row">
+                        <div class="col-name">{{instance.name}}</div>
+                        <div class="col-amount">{{formatStoredAmount(instance.amount)}}</div>
+                        <div class="col-frequency">One-time</div>
+                        <div class="col-actions">
+                          <button class="icon-btn" (click)="editInstance(instance)" pTooltip="Edit" tooltipPosition="top"><i class="fa-regular fa-pen-to-square"></i></button>
+                          <button class="icon-btn danger" (click)="deleteInstance(instance)" pTooltip="Delete" tooltipPosition="top"><i class="fa-regular fa-trash-can"></i></button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="enterprise-empty-state" *ngIf="fundingInstances['initial-ach'].length === 0">
+                      <div class="empty-state-content">
+                        <div class="empty-state-icon">
+                          <i class="fa-regular fa-folder-open"></i>
+                        </div>
+                        <h3 class="empty-state-title">No Initial ACH Transfers Added</h3>
+                        <p class="empty-state-description">Add initial ACH transfers for this account</p>
+                        <div class="empty-state-actions">
+                          <p-button 
+                            label="Add New" 
+                            icon="fa-solid fa-plus"
+                            styleClass="empty-state-button"
+                            (onClick)="openModal('initial-ach')">
+                          </p-button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </ng-template>
+            </ng-container>
 
           <!-- Modal with existing forms -->
           <p-dialog [(visible)]="showFundingModal" [modal]="true" [draggable]="false" [resizable]="false" styleClass="funding-dialog" [header]="getModalHeader()" (onHide)="cancelForm()">
@@ -855,6 +1099,21 @@ interface FundingInstances {
       /* Container for all funding sections */
     }
 
+    /* Column layout styles */
+    .funding-columns-layout .funding-columns-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.5rem;
+      margin-top: 1.5rem;
+    }
+
+    @media (max-width: 768px) {
+      .funding-columns-layout .funding-columns-container {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+      }
+    }
+
     .funding-buttons-container {
       display: flex;
       gap: 1rem;
@@ -872,10 +1131,8 @@ interface FundingInstances {
       margin-bottom: 0;
     }
 
-    /* Simple sections with dotted border to match beneficiary/trustee */
+    /* Simple sections without dotted border */
     .funding-simple-section {
-      border: 2px dashed #e5e7eb;
-      border-radius: 8px;
       padding: 1.25rem;
       background: white;
     }
@@ -1312,6 +1569,7 @@ export class FundingComponent implements OnInit, OnChanges {
   @Input() entityId: string = '';
   @Input() isReviewMode: boolean = false;
   @Input() brinkerFundingMode: boolean = false;
+  @Input() fundingColumnsMode: boolean = false;
   @Input() registrationName: string = '';
   @Input() highlightMissingFields: boolean = false;
   @Output() formDataChange = new EventEmitter<FormData>();

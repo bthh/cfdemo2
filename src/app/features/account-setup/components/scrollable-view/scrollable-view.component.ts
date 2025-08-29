@@ -90,6 +90,7 @@ import { FundingComponent } from '../funding/funding.component';
             [entityId]="currentEntityData.id"
             [isReviewMode]="isReviewMode"
             [brinkerFundingMode]="brinkerFundingMode"
+            [fundingColumnsMode]="fundingColumnsMode"
             [registrationName]="registrationName"
             [highlightMissingFields]="highlightMissingFields"
             (formDataChange)="onFormDataChange($event)"
@@ -230,6 +231,7 @@ export class ScrollableViewComponent implements OnInit, OnChanges, OnDestroy {
   @Input() isReviewMode: boolean = false;
   @Input() copyDropdownsMode: boolean = false;
   @Input() brinkerFundingMode: boolean = false;
+  @Input() fundingColumnsMode: boolean = false;
   @Input() registrationName: string = '';
   @Input() highlightMissingFields: boolean = false;
   @Input() ownerFirmDetailsMode: boolean = false;
