@@ -420,12 +420,16 @@ export class ReviewSummaryOriginalComponent {
       let canSubmit = true;
       
       // Only the trust account should be incomplete
+      // Calculate completion based on actual form data
+      const accountFormData = this.formData[account.id] || {};
+      const missingFields = this.getMissingRequiredFields(account.id, accountFormData);
+      
       if (account.id === 'trust-account') {
         const relevantSections = this.getRelevantSectionsForAccount(account.id);
-        completedSections = 3; // 3 out of 4 sections complete
+        completedSections = missingFields.length === 0 ? 4 : 3; // 4 if complete, 3 if missing fields
         totalSections = 4; // trustees, beneficiaries, account-setup, funding
-        completionPercentage = 75; // 75% complete
-        canSubmit = false;
+        completionPercentage = missingFields.length === 0 ? 100 : 75; // 100% if no missing fields
+        canSubmit = missingFields.length === 0; // Can submit if no missing fields
       } else {
         // All other accounts are complete
         const relevantSections = this.getRelevantSectionsForAccount(account.id);
@@ -434,9 +438,6 @@ export class ReviewSummaryOriginalComponent {
         completionPercentage = 100;
         canSubmit = true;
       }
-      
-      const accountFormData = this.formData[account.id] || {};
-      const missingFields = this.getMissingRequiredFields(account.id, accountFormData);
       const attachmentsCount = account.id === 'traditional-ira-account' ? 0 : 3;
       
       return {
