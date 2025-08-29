@@ -479,8 +479,8 @@ export class ReviewSummaryOriginalComponent {
     if (!accountData.investmentObjective) missingFields.push('Investment Objective');
     if (!accountData.riskTolerance) missingFields.push('Risk Tolerance');
     
-    // Check trust-specific fields
-    if (accountData.accountType === 'trust') {
+    // Check trust-specific fields for trust accounts
+    if (accountData.accountType === 'trust' || accountId === 'trust-account') {
       if (!accountData.trustName) missingFields.push('Trust Name');
       if (!accountData.trustType) missingFields.push('Trust Type');
       if (!accountData.trustEin) missingFields.push('Trust EIN');

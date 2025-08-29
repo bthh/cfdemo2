@@ -552,20 +552,13 @@ export class ReviewSummaryComponent {
   private getMissingRequiredFields(accountId: string, accountData: any): string[] {
     const missingFields: string[] = [];
     
-    // For trust account, only return 2 missing fields
-    if (accountId === 'trust-account') {
-      missingFields.push('Trust Name');
-      missingFields.push('Trust EIN');
-      return missingFields;
-    }
-    
-    // Check basic required fields for other accounts
+    // Check basic required fields for all accounts
     if (!accountData.accountType) missingFields.push('Account Type');
     if (!accountData.investmentObjective) missingFields.push('Investment Objective');
     if (!accountData.riskTolerance) missingFields.push('Risk Tolerance');
     
-    // Check trust-specific fields
-    if (accountData.accountType === 'trust') {
+    // Check trust-specific fields for trust accounts
+    if (accountData.accountType === 'trust' || accountId === 'trust-account') {
       if (!accountData.trustName) missingFields.push('Trust Name');
       if (!accountData.trustType) missingFields.push('Trust Type');
       if (!accountData.trustEin) missingFields.push('Trust EIN');
